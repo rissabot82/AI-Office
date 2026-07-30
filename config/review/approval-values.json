@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0",
+  "decisions": [
+    {
+      "id": "approved",
+      "description": "The work is accepted without required corrections."
+    },
+    {
+      "id": "approved-with-minor-corrections",
+      "description": "The work is accepted with small corrections that do not change the core result."
+    },
+    {
+      "id": "returned-for-revision",
+      "description": "The work requires changes before approval."
+    },
+    {
+      "id": "rejected",
+      "description": "The work is not suitable for approval."
+    }
+  ],
+  "issue_severities": [
+    "info",
+    "minor",
+    "major",
+    "critical"
+  ],
+  "review_statuses": [
+    "not-reviewed",
+    "in-review",
+    "passed",
+    "passed-with-issues",
+    "failed"
+  ]
+}

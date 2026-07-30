@@ -1,0 +1,13 @@
+﻿{
+  "review_id": "REVIEW-YYYYMMDD-0001",
+  "task_id": "TASK-YYYYMMDD-0001",
+  "reviewer": "chief-of-staff",
+  "reviewed_at": "YYYY-MM-DDTHH:MM:SS",
+  "status": "in-review",
+  "score": 0,
+  "automatic_checks": [],
+  "manual_checks": [],
+  "issues": [],
+  "summary": "",
+  "recommendation": "returned-for-revision"
+}

@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0",
+  "default_reviewer": "chief-of-staff",
+  "require_review_before_approval": true,
+  "require_approval_before_outbox": true,
+  "require_approval_before_completed": true,
+  "allow_minor_issues_for_approval": true,
+  "block_approval_on_major_issues": true,
+  "block_approval_on_critical_issues": true,
+  "minimum_passing_score": 80,
+  "automatic_checks": {
+    "task_json_valid": true,
+    "task_id_present": true,
+    "title_present": true,
+    "description_present": true,
+    "assigned_agent_present": true,
+    "lead_department_present": true,
+    "deliverables_present": true,
+    "completion_criteria_present": true,
+    "approval_status_valid": true,
+    "workspace_location_valid": true
+  },
+  "severity_weights": {
+    "info": 0,
+    "minor": 5,
+    "major": 20,
+    "critical": 50
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "approval_id": "APPROVAL-YYYYMMDD-0001",
+  "task_id": "TASK-YYYYMMDD-0001",
+  "review_id": "REVIEW-YYYYMMDD-0001",
+  "decision": "approved",
+  "approved_by": "Clarissa",
+  "approved_at": "YYYY-MM-DDTHH:MM:SS",
+  "notes": "",
+  "conditions": []
+}

@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "checks": [
+    {
+      "id": "requested-outcome",
+      "name": "Requested outcome satisfied",
+      "category": "completion",
+      "required": true
+    },
+    {
+      "id": "deliverables-complete",
+      "name": "Required deliverables are complete",
+      "category": "completion",
+      "required": true
+    },
+    {
+      "id": "constraints-followed",
+      "name": "Task constraints were followed",
+      "category": "quality",
+      "required": true
+    },
+    {
+      "id": "facts-supported",
+      "name": "Important facts are supported",
+      "category": "accuracy",
+      "required": true
+    },
+    {
+      "id": "assumptions-disclosed",
+      "name": "Material assumptions are disclosed",
+      "category": "accuracy",
+      "required": true
+    },
+    {
+      "id": "security-followed",
+      "name": "Security requirements were followed",
+      "category": "security",
+      "required": true
+    },
+    {
+      "id": "privacy-followed",
+      "name": "Private information was handled appropriately",
+      "category": "privacy",
+      "required": true
+    },
+    {
+      "id": "approval-boundaries",
+      "name": "Approval boundaries were preserved",
+      "category": "governance",
+      "required": true
+    },
+    {
+      "id": "output-location",
+      "name": "Output location is identified",
+      "category": "operations",
+      "required": true
+    },
+    {
+      "id": "limitations-disclosed",
+      "name": "Remaining limitations are disclosed",
+      "category": "quality",
+      "required": false
+    }
+  ]
+}

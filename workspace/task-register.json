@@ -1,17 +1,17 @@
 ﻿{
     "register_version":  "1.0.0",
-    "updated_at":  "2026-07-30T16:47:30",
+    "updated_at":  "2026-07-30T17:08:59",
     "tasks":  [
                   {
                       "task_id":  "TASK-20260730-0001",
                       "title":  "Test the AI Office task system",
-                      "status":  "inbox",
+                      "status":  "approved",
                       "priority":  "normal",
                       "assigned_agent":  "chief-of-staff",
                       "lead_department":  "executive",
                       "due_date":  null,
-                      "workspace_location":  "workspace/inbox/TASK-20260730-0001",
-                      "updated_at":  "2026-07-30T16:47:30"
+                      "workspace_location":  "workspace/approved/TASK-20260730-0001",
+                      "updated_at":  "2026-07-30T17:08:59"
                   }
               ]
 }
