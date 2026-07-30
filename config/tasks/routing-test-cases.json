@@ -1,0 +1,55 @@
+﻿{
+    "version":  "1.0.0",
+    "cases":  [
+                  {
+                      "title":  "Create a Facebook campaign for the August dealership sale",
+                      "description":  "Develop advertising copy, audience strategy, and promotional messaging.",
+                      "expected_agent":  "marketing"
+                  },
+                  {
+                      "title":  "Create a claymation banner concept",
+                      "description":  "Develop an image-generation prompt for a dealership sales event.",
+                      "expected_agent":  "creative"
+                  },
+                  {
+                      "title":  "Fix conversion tracking in Google Tag Manager",
+                      "description":  "Investigate a Meta pixel event firing on every website page.",
+                      "expected_agent":  "analytics"
+                  },
+                  {
+                      "title":  "Build a WordPress landing page",
+                      "description":  "Create accessible HTML and improve local SEO.",
+                      "expected_agent":  "website"
+                  },
+                  {
+                      "title":  "Review monthly household cash flow",
+                      "description":  "Analyze expenses, income, debt payments, and savings targets.",
+                      "expected_agent":  "finance"
+                  },
+                  {
+                      "title":  "Evaluate pricing for a website side project",
+                      "description":  "Develop a pricing recommendation, profitable quote, and project scope for the business opportunity.",
+                      "expected_agent":  "business"
+                  },
+                  {
+                      "title":  "Compare DoorDash and UserTesting earnings",
+                      "description":  "Determine which side hustle provides the best hourly return.",
+                      "expected_agent":  "side-hustles"
+                  },
+                  {
+                      "title":  "Plan an AI-generated YouTube channel",
+                      "description":  "Develop video ideas, scripts, thumbnails, and a publishing schedule.",
+                      "expected_agent":  "youtube"
+                  },
+                  {
+                      "title":  "Organize appointments and reminders",
+                      "description":  "Create a manageable personal schedule for next week.",
+                      "expected_agent":  "personal-assistant"
+                  },
+                  {
+                      "title":  "Plan a new business website and advertising campaign",
+                      "description":  "Coordinate website development, creative work, analytics, and marketing.",
+                      "expected_agent":  "chief-of-staff"
+                  }
+              ]
+}

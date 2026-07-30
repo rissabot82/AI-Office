@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0",
+  "default_agent": "chief-of-staff",
+  "default_department": "executive",
+  "minimum_automatic_score": 3,
+  "minimum_score_margin": 2,
+  "mixed_task_agent": "chief-of-staff",
+  "mixed_task_department": "executive",
+  "weights": {
+    "title_keyword": 4,
+    "description_keyword": 2,
+    "tag_keyword": 3,
+    "note_keyword": 1,
+    "multiword_bonus": 1
+  },
+  "confidence_levels": {
+    "high": {
+      "minimum_score": 8,
+      "minimum_margin": 4
+    },
+    "medium": {
+      "minimum_score": 4,
+      "minimum_margin": 2
+    },
+    "low": {
+      "minimum_score": 1,
+      "minimum_margin": 0
+    }
+  },
+  "rules": {
+    "apply_high_confidence_automatically": false,
+    "send_ties_to_chief_of_staff": true,
+    "require_force_for_low_confidence": true,
+    "record_routing_history": true,
+    "preserve_existing_assignment_without_force": true
+  }
+}
