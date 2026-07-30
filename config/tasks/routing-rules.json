@@ -1,0 +1,122 @@
+﻿{
+  "version": "1.0.0",
+  "default_agent": "chief-of-staff",
+  "rules": [
+    {
+      "keywords": [
+        "advertising",
+        "campaign",
+        "facebook",
+        "meta",
+        "google ads",
+        "email copy",
+        "promotion",
+        "sales event"
+      ],
+      "agent": "marketing",
+      "department": "marketing"
+    },
+    {
+      "keywords": [
+        "image",
+        "graphic",
+        "creative",
+        "design",
+        "claymation",
+        "visual",
+        "banner"
+      ],
+      "agent": "creative",
+      "department": "creative"
+    },
+    {
+      "keywords": [
+        "website",
+        "html",
+        "seo",
+        "landing page",
+        "accessibility",
+        "wordpress",
+        "dealer.com"
+      ],
+      "agent": "website",
+      "department": "website"
+    },
+    {
+      "keywords": [
+        "analytics",
+        "tracking",
+        "conversion",
+        "pixel",
+        "gtm",
+        "ga4",
+        "report",
+        "attribution"
+      ],
+      "agent": "analytics",
+      "department": "analytics"
+    },
+    {
+      "keywords": [
+        "budget",
+        "finance",
+        "cash flow",
+        "expense",
+        "savings",
+        "debt",
+        "income"
+      ],
+      "agent": "finance",
+      "department": "finance"
+    },
+    {
+      "keywords": [
+        "business",
+        "proposal",
+        "pricing",
+        "vendor",
+        "opportunity",
+        "service",
+        "revenue"
+      ],
+      "agent": "business",
+      "department": "business"
+    },
+    {
+      "keywords": [
+        "side hustle",
+        "doordash",
+        "user testing",
+        "userinterviews",
+        "earnings",
+        "gig work"
+      ],
+      "agent": "side-hustles",
+      "department": "side-hustles"
+    },
+    {
+      "keywords": [
+        "youtube",
+        "video",
+        "channel",
+        "script",
+        "thumbnail",
+        "content idea"
+      ],
+      "agent": "youtube",
+      "department": "youtube"
+    },
+    {
+      "keywords": [
+        "reminder",
+        "schedule",
+        "personal task",
+        "appointment",
+        "organize",
+        "daily plan"
+      ],
+      "agent": "personal-assistant",
+      "department": "personal"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0",
+  "priorities": [
+    {
+      "id": "low",
+      "rank": 1,
+      "description": "Useful but not time-sensitive."
+    },
+    {
+      "id": "normal",
+      "rank": 2,
+      "description": "Standard work with no immediate deadline."
+    },
+    {
+      "id": "high",
+      "rank": 3,
+      "description": "Important work requiring prompt attention."
+    },
+    {
+      "id": "urgent",
+      "rank": 4,
+      "description": "Time-critical work with immediate consequences."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "task_id": "TASK-YYYYMMDD-0001",
+  "title": "Task title",
+  "description": "Describe the requested outcome.",
+  "status": "inbox",
+  "priority": "normal",
+  "created_at": "YYYY-MM-DDTHH:MM:SS",
+  "updated_at": "YYYY-MM-DDTHH:MM:SS",
+  "created_by": "Clarissa",
+  "assigned_agent": "chief-of-staff",
+  "supporting_agents": [],
+  "lead_department": "executive",
+  "approval_required": true,
+  "approval_status": "pending",
+  "due_date": null,
+  "workspace_location": "workspace/inbox/TASK-YYYYMMDD-0001",
+  "deliverables": [],
+  "dependencies": [],
+  "tags": [],
+  "notes": [],
+  "history": [
+    {
+      "timestamp": "YYYY-MM-DDTHH:MM:SS",
+      "action": "created",
+      "actor": "Clarissa",
+      "details": "Task created."
+    }
+  ]
+}

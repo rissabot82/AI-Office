@@ -1,0 +1,151 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Task",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_id",
+    "title",
+    "description",
+    "status",
+    "priority",
+    "created_at",
+    "updated_at",
+    "created_by",
+    "assigned_agent",
+    "lead_department",
+    "approval_required",
+    "approval_status",
+    "workspace_location",
+    "deliverables",
+    "dependencies",
+    "tags",
+    "history"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "pattern": "^TASK-[0-9]{8}-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "inbox",
+        "active",
+        "blocked",
+        "review",
+        "approved",
+        "outbox",
+        "completed",
+        "failed",
+        "archived"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "normal",
+        "high",
+        "urgent"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "assigned_agent": {
+      "type": "string"
+    },
+    "supporting_agents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lead_department": {
+      "type": "string"
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "approval_status": {
+      "type": "string",
+      "enum": [
+        "not-required",
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "due_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "workspace_location": {
+      "type": "string"
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "timestamp",
+          "action"
+        ],
+        "properties": {
+          "timestamp": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "actor": {
+            "type": "string"
+          },
+          "details": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

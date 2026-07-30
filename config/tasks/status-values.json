@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "statuses": [
+    {
+      "id": "inbox",
+      "description": "New task awaiting review and assignment.",
+      "workspace_path": "workspace/inbox"
+    },
+    {
+      "id": "active",
+      "description": "Task currently being worked.",
+      "workspace_path": "workspace/active"
+    },
+    {
+      "id": "blocked",
+      "description": "Task cannot continue because information, approval, or another dependency is missing.",
+      "workspace_path": "workspace/active"
+    },
+    {
+      "id": "review",
+      "description": "Task output is awaiting quality review or human review.",
+      "workspace_path": "workspace/review"
+    },
+    {
+      "id": "approved",
+      "description": "Task output has been approved.",
+      "workspace_path": "workspace/approved"
+    },
+    {
+      "id": "outbox",
+      "description": "Task is ready for delivery, publication, sending, or transfer.",
+      "workspace_path": "workspace/outbox"
+    },
+    {
+      "id": "completed",
+      "description": "Task is finished and delivered.",
+      "workspace_path": "workspace/completed"
+    },
+    {
+      "id": "failed",
+      "description": "Task could not be completed.",
+      "workspace_path": "workspace/failed"
+    },
+    {
+      "id": "archived",
+      "description": "Task is no longer active and is retained for historical reference.",
+      "workspace_path": "workspace/archive"
+    }
+  ]
+}
