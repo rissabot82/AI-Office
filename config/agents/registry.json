@@ -1,0 +1,86 @@
+﻿{
+    "registry_version":  "1.0.0",
+    "updated":  "2026-07-30",
+    "agents":  [
+                   {
+                       "id":  "chief-of-staff",
+                       "name":  "Chief of Staff",
+                       "department":  "executive",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/chief-of-staff/manifest.json"
+                   },
+                   {
+                       "id":  "marketing",
+                       "name":  "Marketing Agent",
+                       "department":  "marketing",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/marketing/manifest.json"
+                   },
+                   {
+                       "id":  "creative",
+                       "name":  "Creative Agent",
+                       "department":  "creative",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/creative/manifest.json"
+                   },
+                   {
+                       "id":  "website",
+                       "name":  "Website Agent",
+                       "department":  "website",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/website/manifest.json"
+                   },
+                   {
+                       "id":  "analytics",
+                       "name":  "Analytics Agent",
+                       "department":  "analytics",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/analytics/manifest.json"
+                   },
+                   {
+                       "id":  "finance",
+                       "name":  "Finance Agent",
+                       "department":  "finance",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/finance/manifest.json"
+                   },
+                   {
+                       "id":  "business",
+                       "name":  "Business Agent",
+                       "department":  "business",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/business/manifest.json"
+                   },
+                   {
+                       "id":  "side-hustles",
+                       "name":  "Side Hustles Agent",
+                       "department":  "side-hustles",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/side-hustles/manifest.json"
+                   },
+                   {
+                       "id":  "youtube",
+                       "name":  "YouTube Agent",
+                       "department":  "youtube",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/youtube/manifest.json"
+                   },
+                   {
+                       "id":  "personal-assistant",
+                       "name":  "Personal Assistant Agent",
+                       "department":  "personal",
+                       "version":  "1.0.0",
+                       "status":  "active",
+                       "manifest":  "agents/personal-assistant/manifest.json"
+                   }
+               ]
+}

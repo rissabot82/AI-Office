@@ -1,0 +1,30 @@
+﻿{
+    "id":  "website",
+    "name":  "Website Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "website",
+    "purpose":  "Supports website content, HTML, conversion improvements, accessibility, search optimization, and technical website projects.",
+    "capabilities":  [
+                         "html",
+                         "website-content",
+                         "seo",
+                         "accessibility",
+                         "conversion-optimization",
+                         "technical-troubleshooting"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/website",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

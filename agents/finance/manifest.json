@@ -1,0 +1,29 @@
+﻿{
+    "id":  "finance",
+    "name":  "Finance Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "finance",
+    "purpose":  "Supports budgeting, expense tracking, projections, financial organization, and decision analysis.",
+    "capabilities":  [
+                         "budgeting",
+                         "cash-flow-analysis",
+                         "expense-tracking",
+                         "financial-projections",
+                         "scenario-planning"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/finance",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

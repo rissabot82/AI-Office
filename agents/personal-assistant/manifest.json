@@ -1,0 +1,29 @@
+﻿{
+    "id":  "personal-assistant",
+    "name":  "Personal Assistant Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "personal",
+    "purpose":  "Supports personal organization, reminders, planning, task breakdowns, scheduling preparation, and daily administration.",
+    "capabilities":  [
+                         "task-management",
+                         "schedule-planning",
+                         "reminder-preparation",
+                         "personal-organization",
+                         "administrative-support"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/personal",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

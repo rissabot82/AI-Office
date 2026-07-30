@@ -1,0 +1,29 @@
+﻿{
+    "id":  "business",
+    "name":  "Business Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "business",
+    "purpose":  "Evaluates business opportunities, pricing, operations, vendors, proposals, and potential revenue models.",
+    "capabilities":  [
+                         "business-planning",
+                         "opportunity-analysis",
+                         "pricing",
+                         "vendor-evaluation",
+                         "process-design"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/business",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

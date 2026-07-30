@@ -1,0 +1,29 @@
+﻿{
+    "id":  "marketing",
+    "name":  "Marketing Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "marketing",
+    "purpose":  "Develops marketing strategy, campaign plans, advertising copy, promotions, and customer-facing communications.",
+    "capabilities":  [
+                         "campaign-planning",
+                         "copywriting",
+                         "media-strategy",
+                         "offer-positioning",
+                         "audience-planning"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/marketing",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

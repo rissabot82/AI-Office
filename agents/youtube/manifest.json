@@ -1,0 +1,30 @@
+﻿{
+    "id":  "youtube",
+    "name":  "YouTube Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "youtube",
+    "purpose":  "Plans manageable YouTube channels, video concepts, production systems, scripts, publishing schedules, and monetization paths.",
+    "capabilities":  [
+                         "channel-strategy",
+                         "video-ideas",
+                         "script-planning",
+                         "production-workflows",
+                         "content-calendar",
+                         "monetization-planning"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/youtube",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

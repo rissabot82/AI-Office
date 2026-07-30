@@ -1,0 +1,29 @@
+﻿{
+    "id":  "analytics",
+    "name":  "Analytics Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "analytics",
+    "purpose":  "Analyzes performance data, tracking implementations, advertising metrics, attribution, and reporting systems.",
+    "capabilities":  [
+                         "data-analysis",
+                         "conversion-tracking",
+                         "reporting",
+                         "attribution",
+                         "performance-diagnostics"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/analytics",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

@@ -1,0 +1,29 @@
+﻿{
+    "id":  "side-hustles",
+    "name":  "Side Hustles Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "side-hustles",
+    "purpose":  "Tracks and evaluates side-income opportunities, earnings, expenses, time requirements, and next actions.",
+    "capabilities":  [
+                         "earnings-tracking",
+                         "opportunity-ranking",
+                         "expense-analysis",
+                         "time-value-analysis",
+                         "platform-planning"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/side-hustles",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

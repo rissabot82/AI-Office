@@ -1,0 +1,29 @@
+﻿{
+    "id":  "creative",
+    "name":  "Creative Agent",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "creative",
+    "purpose":  "Creates visual concepts, image-generation prompts, brand directions, layouts, and creative production guidance.",
+    "capabilities":  [
+                         "creative-direction",
+                         "image-prompts",
+                         "brand-consistency",
+                         "layout-planning",
+                         "asset-review"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/creative",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}

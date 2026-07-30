@@ -1,0 +1,29 @@
+﻿{
+    "id":  "chief-of-staff",
+    "name":  "Chief of Staff",
+    "version":  "1.0.0",
+    "status":  "active",
+    "department":  "executive",
+    "purpose":  "Coordinates assignments, selects the correct specialist agents, manages priorities, and prepares final recommendations.",
+    "capabilities":  [
+                         "task-routing",
+                         "priority-management",
+                         "cross-department-coordination",
+                         "quality-control",
+                         "executive-summary"
+                     ],
+    "approval_required":  true,
+    "knowledge_paths":  [
+                            "knowledge",
+                            "knowledge/executive",
+                            "knowledge/projects",
+                            "knowledge/research"
+                        ],
+    "workspace_paths":  [
+                            "workspace/inbox",
+                            "workspace/active",
+                            "workspace/review",
+                            "workspace/approved",
+                            "workspace/outbox"
+                        ]
+}
