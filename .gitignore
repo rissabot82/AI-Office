@@ -1,0 +1,71 @@
+﻿# AI Office local environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+# AI Office operational data
+data/input/*
+data/processed/*
+data/output/*
+data/reference/*
+data/databases/*
+data/exports/*
+data/imports/*
+data/archive/*
+!data/schemas/
+!data/schemas/**
+# AI Office logs
+logs/agents/*
+logs/system/*
+logs/errors/*
+logs/audit/*
+logs/archive/*
+!logs/README.md
+# AI Office workspace
+workspace/inbox/*
+workspace/active/*
+workspace/review/*
+workspace/approved/*
+workspace/outbox/*
+workspace/completed/*
+workspace/failed/*
+workspace/temporary/*
+workspace/archive/*
+!workspace/README.md
+# AI Office backups
+backups/manual/*
+backups/automatic/*
+backups/configuration/*
+backups/databases/*
+backups/archive/*
+!backups/README.md
+# Test output
+tests/results/*
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+~$*
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Node
+node_modules/
+npm-debug.log*
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
