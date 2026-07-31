@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/openclaw-bridge-certification-schema.json",
+  "title": "AI Office OpenClaw Bridge Certification",
+  "type": "object",
+  "required": [
+    "certification_id",
+    "version",
+    "certified_at",
+    "mode",
+    "status",
+    "passed_checks",
+    "failed_checks",
+    "checks"
+  ],
+  "properties": {
+    "certification_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "certified_at": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "passed_checks": {
+      "type": "integer"
+    },
+    "failed_checks": {
+      "type": "integer"
+    },
+    "checks": {
+      "type": "array"
+    }
+  }
+}

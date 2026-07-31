@@ -1,0 +1,18 @@
+﻿{
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "objective": "",
+  "success_criteria": [],
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_status": "pending",
+  "status": "draft",
+  "created_at": "",
+  "updated_at": "",
+  "owner": "chief-of-staff",
+  "workflow_id": "",
+  "conversation_id": "",
+  "correlation_id": "",
+  "steps": [],
+  "history": []
+}

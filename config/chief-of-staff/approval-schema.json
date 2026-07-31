@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-approval-schema.json",
+  "title": "AI Office Chief of Staff Approval",
+  "type": "object",
+  "required": [
+    "approval_id",
+    "plan_id",
+    "status",
+    "decision",
+    "reason",
+    "created_at",
+    "created_by"
+  ]
+}

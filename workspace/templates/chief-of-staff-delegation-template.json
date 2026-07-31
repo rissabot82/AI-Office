@@ -1,0 +1,15 @@
+﻿{
+  "delegation_id": "DLG-YYYYMMDD-HHMMSS-ABC123",
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "assigned_to": "marketing",
+  "status": "queued",
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_status": "not_required",
+  "created_at": "",
+  "updated_at": "",
+  "work_package_id": "WPK-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "",
+  "history": []
+}

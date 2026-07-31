@@ -1,0 +1,70 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/openclaw-bridge-request-schema.json",
+  "title": "AI Office OpenClaw Bridge Request",
+  "type": "object",
+  "required": [
+    "bridge_request_id",
+    "message_id",
+    "correlation_id",
+    "conversation_id",
+    "workflow_id",
+    "requested_by",
+    "target_engine",
+    "action_type",
+    "risk_level",
+    "approval_status",
+    "status",
+    "created_at",
+    "payload",
+    "history"
+  ],
+  "properties": {
+    "bridge_request_id": {
+      "type": "string",
+      "pattern": "^BRQ-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "workflow_id": {
+      "type": "string"
+    },
+    "requested_by": {
+      "type": "string"
+    },
+    "target_engine": {
+      "type": "string"
+    },
+    "action_type": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "approval_status": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

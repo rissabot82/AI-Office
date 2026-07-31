@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-work-package-schema.json",
+  "title": "AI Office Chief of Staff Work Package",
+  "type": "object",
+  "required": [
+    "work_package_id",
+    "plan_id",
+    "department",
+    "title",
+    "objective",
+    "deliverables",
+    "priority",
+    "risk_level",
+    "approval_status",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

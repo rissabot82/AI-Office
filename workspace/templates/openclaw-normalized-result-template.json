@@ -1,0 +1,11 @@
+﻿{
+  "normalized_result_id": "NRR-YYYYMMDD-HHMMSS-ABC123",
+  "execution_id": "EXE-YYYYMMDD-HHMMSS-ABC123",
+  "bridge_request_id": "BRQ-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "status": "completed",
+  "created_at": "",
+  "summary": "",
+  "data": {},
+  "artifacts": []
+}

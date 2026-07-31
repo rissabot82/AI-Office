@@ -1,0 +1,15 @@
+﻿{
+  "work_package_id": "WPK-YYYYMMDD-HHMMSS-ABC123",
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "title": "",
+  "objective": "",
+  "deliverables": [],
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_status": "not_required",
+  "status": "draft",
+  "created_at": "",
+  "updated_at": "",
+  "steps": []
+}

@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/openclaw-bridge-result-schema.json",
+  "title": "AI Office OpenClaw Bridge Result",
+  "type": "object",
+  "required": [
+    "bridge_result_id",
+    "bridge_request_id",
+    "message_id",
+    "status",
+    "started_at",
+    "completed_at",
+    "result",
+    "artifacts",
+    "history"
+  ],
+  "properties": {
+    "bridge_result_id": {
+      "type": "string"
+    },
+    "bridge_request_id": {
+      "type": "string"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "completed_at": {
+      "type": "string"
+    },
+    "result": {
+      "type": "object"
+    },
+    "artifacts": {
+      "type": "array"
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

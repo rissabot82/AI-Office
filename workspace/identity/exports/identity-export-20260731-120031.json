@@ -1,0 +1,116 @@
+﻿{
+    "exported_at":  "2026-07-31T12:00:31.8190724-05:00",
+    "identity":  {
+                     "schema_version":  "1.0.0",
+                     "office_id":  "AIOFFICE-RISSABOT82-001",
+                     "name":  "AI Office",
+                     "formal_name":  "AI Office Executive Operating System",
+                     "version":  "1.1.1",
+                     "codename":  "Identity",
+                     "release_line":  "1.1",
+                     "status":  "active",
+                     "repository":  "E:\\AI\\AI-Office",
+                     "executive_role":  "Chief of Staff",
+                     "execution_engine":  "OpenClaw",
+                     "governance_model":  "Human-supervised AI organization",
+                     "mission":  "AI Office organizes, delegates, executes, and continuously improves professional and personal work through specialized AI departments under the supervision of a Chief of Staff.",
+                     "operating_principles":  [
+                                                  "AI Office owns planning, governance, memory, routing, and accountability.",
+                                                  "OpenClaw performs approved execution work.",
+                                                  "High-impact actions require human approval.",
+                                                  "All meaningful actions should be auditable.",
+                                                  "Agents operate within defined capabilities and departments.",
+                                                  "The repository is the source of truth for system design.",
+                                                  "Runtime state remains separate from source code."
+                                              ],
+                     "owner":  {
+                                   "display_name":  "Clarissa Schmidtberger",
+                                   "github_username":  "rissabot82"
+                               },
+                     "environment":  {
+                                         "platform":  "Windows",
+                                         "repository_path":  "E:\\AI\\AI-Office",
+                                         "timezone":  "America/Chicago",
+                                         "openclaw_gateway":  "ws://localhost:18789"
+                                     },
+                     "created_at":  "2026-07-31T12:00:21.2619838-05:00",
+                     "updated_at":  "2026-07-31T12:00:21.2619838-05:00"
+                 },
+    "capabilities":  {
+                         "schema_version":  "1.0.0",
+                         "office_id":  "AIOFFICE-RISSABOT82-001",
+                         "capability_groups":  {
+                                                   "governance":  [
+                                                                      "approval_gates",
+                                                                      "priority_management",
+                                                                      "risk_escalation",
+                                                                      "audit_logging",
+                                                                      "release_management"
+                                                                  ],
+                                                   "executive_operations":  [
+                                                                                "startup_routine",
+                                                                                "daily_briefing",
+                                                                                "end_of_day_report",
+                                                                                "weekly_report",
+                                                                                "monthly_report",
+                                                                                "office_health_monitoring",
+                                                                                "executive_dashboard"
+                                                                            ],
+                                                   "work_management":  [
+                                                                           "task_creation",
+                                                                           "workflow_routing",
+                                                                           "workflow_automation",
+                                                                           "calendar_management",
+                                                                           "delegation",
+                                                                           "dependency_tracking"
+                                                                       ],
+                                                   "knowledge":  [
+                                                                     "knowledge_storage",
+                                                                     "knowledge_indexing",
+                                                                     "shared_context",
+                                                                     "templates",
+                                                                     "department_reference_material"
+                                                                 ],
+                                                   "collaboration":  [
+                                                                         "agent_registration",
+                                                                         "agent_messaging",
+                                                                         "shared_work_queues",
+                                                                         "delegation",
+                                                                         "conflict_resolution",
+                                                                         "department_coordination"
+                                                                     ],
+                                                   "execution":  [
+                                                                     "openclaw_bridge_planned",
+                                                                     "browser_execution_planned",
+                                                                     "powershell_execution_planned",
+                                                                     "system_action_approval_planned"
+                                                                 ]
+                                               },
+                         "restricted_capabilities":  [
+                                                         "arbitrary_shell_execution",
+                                                         "credential_exposure",
+                                                         "unapproved_git_push",
+                                                         "unapproved_file_deletion",
+                                                         "unapproved_external_publish",
+                                                         "unapproved_financial_transaction",
+                                                         "unapproved_account_changes"
+                                                     ],
+                         "updated_at":  "2026-07-31T12:00:21.2619838-05:00"
+                     },
+    "release":  {
+                    "product":  "AI Office",
+                    "version":  "1.1.1",
+                    "release_name":  "Identity System",
+                    "release_type":  "minor_feature",
+                    "status":  "installed",
+                    "installed_at":  "2026-07-31T12:00:21.2619838-05:00",
+                    "previous_version":  "1.0.0",
+                    "next_planned_milestone":  "1.1.2 Message Bus",
+                    "compatibility":  {
+                                          "windows_powershell":  "5.1+",
+                                          "powershell":  "7.x supported",
+                                          "repository_layout":  "AI Office v1.0",
+                                          "openclaw_gateway":  "2026.6.10"
+                                      }
+                }
+}

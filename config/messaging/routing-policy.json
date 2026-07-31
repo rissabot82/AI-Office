@@ -1,0 +1,28 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.2",
+  "default_route": "inbox",
+  "routes": [
+    {
+      "message_type": "execution_request",
+      "target": "bridge",
+      "queue": "outbox"
+    },
+    {
+      "message_type": "approval_request",
+      "target": "chief-of-staff",
+      "queue": "inbox"
+    },
+    {
+      "message_type": "execution_result",
+      "target": "chief-of-staff",
+      "queue": "inbox"
+    },
+    {
+      "message_type": "error",
+      "target": "chief-of-staff",
+      "queue": "failed"
+    }
+  ],
+  "updated_at": "2026-07-31T12:34:35.3883393-05:00"
+}

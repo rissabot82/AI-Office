@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-review-schema.json",
+  "title": "AI Office Chief of Staff Review",
+  "type": "object",
+  "required": [
+    "review_id",
+    "plan_id",
+    "delegation_id",
+    "message_id",
+    "outcome",
+    "summary",
+    "criteria_results",
+    "created_at",
+    "created_by"
+  ]
+}

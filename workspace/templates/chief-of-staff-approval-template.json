@@ -1,0 +1,9 @@
+﻿{
+  "approval_id": "APR-YYYYMMDD-HHMMSS-ABC123",
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "status": "approved",
+  "decision": "",
+  "reason": "",
+  "created_at": "",
+  "created_by": "Clarissa Schmidtberger"
+}

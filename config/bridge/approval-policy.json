@@ -1,0 +1,58 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.3",
+  "risk_levels": [
+    "low",
+    "medium",
+    "high",
+    "critical"
+  ],
+  "approval_rules": [
+    {
+      "risk_level": "low",
+      "approval_required": false,
+      "examples": [
+        "read device status",
+        "capture non-sensitive screen snapshot",
+        "inspect browser state",
+        "read approved local metadata"
+      ]
+    },
+    {
+      "risk_level": "medium",
+      "approval_required": true,
+      "examples": [
+        "navigate browser to external service",
+        "download file",
+        "create local file",
+        "modify non-sensitive local file"
+      ]
+    },
+    {
+      "risk_level": "high",
+      "approval_required": true,
+      "examples": [
+        "run PowerShell",
+        "submit external form",
+        "publish content",
+        "modify account settings",
+        "upload file"
+      ]
+    },
+    {
+      "risk_level": "critical",
+      "approval_required": true,
+      "examples": [
+        "financial transaction",
+        "delete data",
+        "rotate credentials",
+        "change security settings",
+        "push Git changes",
+        "send external communication"
+      ]
+    }
+  ],
+  "default_risk_level": "high",
+  "deny_when_approval_missing": true,
+  "updated_at": "2026-07-31T13:02:49.9873203-05:00"
+}

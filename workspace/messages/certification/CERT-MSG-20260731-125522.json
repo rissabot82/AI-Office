@@ -1,0 +1,185 @@
+﻿{
+    "certification_id":  "CERT-MSG-20260731-125522",
+    "version":  "1.1.2",
+    "certified_at":  "2026-07-31T12:55:22.8088780-05:00",
+    "status":  "certified",
+    "passed_checks":  35,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\messaging-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\message-schema.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\routing-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\queue-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\processing-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\release-manifest.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\messaging\\certification-schema.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\AIOfficeMessaging.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\New-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Move-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Get-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Receive-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Acknowledge-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Route-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Search-AIOfficeMessages.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Complete-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Fail-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Retry-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Move-AIOfficeMessageToDeadLetter.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Recover-AIOfficeDeadLetterMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Archive-AIOfficeMessage.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Invoke-AIOfficeMessageMaintenance.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Invoke-AIOfficeMessageProcessor.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Retry-AIOfficeFailedMessages.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\New-AIOfficeSampleConversation.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Certify-AIOfficeMessageBus.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\messaging\\Test-AIOfficeMessageBus.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Identity integration",
+                       "passed":  true,
+                       "details":  "Identity System v1.1.1 is present."
+                   },
+                   {
+                       "name":  "Queue exists: inbox",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\inbox"
+                   },
+                   {
+                       "name":  "Queue exists: outbox",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\outbox"
+                   },
+                   {
+                       "name":  "Queue exists: processing",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\processing"
+                   },
+                   {
+                       "name":  "Queue exists: processed",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\processed"
+                   },
+                   {
+                       "name":  "Queue exists: failed",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\failed"
+                   },
+                   {
+                       "name":  "Queue exists: dead-letter",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\dead-letter"
+                   },
+                   {
+                       "name":  "Queue exists: archive",
+                       "passed":  true,
+                       "details":  "E:\\AI\\AI-Office\\workspace\\messages\\archive"
+                   }
+               ]
+}

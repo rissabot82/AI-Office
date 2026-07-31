@@ -1,0 +1,62 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.4",
+  "part": "B",
+  "recipient": "chief-of-staff",
+  "accepted_message_types": [
+    "request",
+    "approval_request",
+    "execution_result",
+    "status",
+    "error",
+    "event",
+    "handoff",
+    "information"
+  ],
+  "classification_rules": [
+    {
+      "classification": "approval",
+      "message_types": ["approval_request"],
+      "default_priority": "high",
+      "default_risk": "high"
+    },
+    {
+      "classification": "execution_result",
+      "message_types": ["execution_result"],
+      "default_priority": "normal",
+      "default_risk": "low"
+    },
+    {
+      "classification": "incident",
+      "message_types": ["error"],
+      "default_priority": "urgent",
+      "default_risk": "high"
+    },
+    {
+      "classification": "status",
+      "message_types": ["status","event","information"],
+      "default_priority": "normal",
+      "default_risk": "low"
+    },
+    {
+      "classification": "work_request",
+      "message_types": ["request","handoff"],
+      "default_priority": "normal",
+      "default_risk": "medium"
+    }
+  ],
+  "planning": {
+    "auto_create_plan_for": [
+      "work_request",
+      "approval",
+      "incident"
+    ],
+    "default_success_criteria": [
+      "Request is reviewed",
+      "Appropriate owner is assigned",
+      "Required approval is recorded",
+      "Completion is reported"
+    ]
+  },
+  "updated_at": "2026-07-31T13:40:30.4075177-05:00"
+}

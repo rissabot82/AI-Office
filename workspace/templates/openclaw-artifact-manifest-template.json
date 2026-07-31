@@ -1,0 +1,8 @@
+﻿{
+  "artifact_manifest_id": "AMF-YYYYMMDD-HHMMSS-ABC123",
+  "execution_id": "EXE-YYYYMMDD-HHMMSS-ABC123",
+  "bridge_request_id": "BRQ-YYYYMMDD-HHMMSS-ABC123",
+  "created_at": "",
+  "artifact_count": 0,
+  "artifacts": []
+}

@@ -1,0 +1,43 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.2",
+  "part": "B",
+  "queue_order": [
+    "critical",
+    "urgent",
+    "high",
+    "normal",
+    "low"
+  ],
+  "queue_transitions": {
+    "inbox": [
+      "processing",
+      "failed",
+      "archive"
+    ],
+    "outbox": [
+      "processing",
+      "failed",
+      "archive"
+    ],
+    "processing": [
+      "processed",
+      "failed",
+      "dead-letter"
+    ],
+    "failed": [
+      "inbox",
+      "outbox",
+      "dead-letter",
+      "archive"
+    ],
+    "processed": [
+      "archive"
+    ],
+    "dead-letter": [
+      "archive"
+    ]
+  },
+  "acknowledgement_status": "acknowledged",
+  "updated_at": ""
+}

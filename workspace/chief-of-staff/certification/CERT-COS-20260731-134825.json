@@ -1,0 +1,125 @@
+﻿{
+    "certification_id":  "CERT-COS-20260731-134825",
+    "version":  "1.1.4",
+    "certified_at":  "2026-07-31T13:48:25.2607368-05:00",
+    "status":  "failed",
+    "passed_checks":  22,
+    "failed_checks":  1,
+    "checks":  [
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\chief-of-staff-identity.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\chief-of-staff-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\inbox-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\delegation-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\review-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\chief-of-staff\\release-manifest.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\AIOfficeChiefOfStaff.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\AIOfficeChiefOfStaffInbox.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\AIOfficeChiefOfStaffDelegation.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\AIOfficeChiefOfStaffReview.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\New-AIOfficeChiefOfStaffPlan.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Invoke-AIOfficeChiefOfStaffInbox.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Invoke-AIOfficeChiefOfStaffDispatch.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Review-AIOfficeChiefOfStaffResult.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Complete-AIOfficeChiefOfStaffPlan.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Invoke-AIOfficeChiefOfStaffClosedLoop.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\New-AIOfficeChiefOfStaffExecutiveReport.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Certify-AIOfficeChiefOfStaff.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Test-AIOfficeChiefOfStaff.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\chief-of-staff\\Publish-AIOfficeChiefOfStaffRelease.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Executive inbox to plan",
+                       "passed":  true,
+                       "details":  "PLAN-20260731-134824-70A844"
+                   },
+                   {
+                       "name":  "Plan to delegation dispatch",
+                       "passed":  true,
+                       "details":  "DLG-20260731-134824-BA53E9 | MSG-20260731-134824-24A4C9"
+                   },
+                   {
+                       "name":  "Offline end-to-end Chief of Staff workflow",
+                       "passed":  false,
+                       "details":  "The term \u0027Get-AIOfficeChiefOfStaffPlan\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+                   }
+               ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "product":  "AI Office",
+    "version":  "1.1.4",
+    "release_name":  "Chief of Staff Integration",
+    "release_type":  "minor_feature",
+    "status":  "part_d_installed",
+    "installed_at":  "2026-07-31T13:48:14.6621197-05:00",
+    "previous_version":  "1.1.3",
+    "next_planned_milestone":  "1.2 Department Intelligence",
+    "compatibility":  {
+                          "windows_powershell":  "5.1+",
+                          "powershell":  "7.x supported",
+                          "repository_layout":  "AI Office v1.0",
+                          "openclaw_gateway":  "2026.6.10"
+                      }
+}

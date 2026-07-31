@@ -1,0 +1,10 @@
+﻿{
+  "decision_id": "DEC-YYYYMMDD-HHMMSS-ABC123",
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "decision": "",
+  "reason": "",
+  "risk_level": "medium",
+  "approval_required": false,
+  "created_at": "",
+  "created_by": "chief-of-staff"
+}

@@ -1,0 +1,42 @@
+﻿{
+    "report_id":  "COS-REPORT-20260731-135629",
+    "generated_at":  "2026-07-31T13:56:29.6909559-05:00",
+    "status":  "ready",
+    "inbox_count":  0,
+    "open_plan_count":  0,
+    "pending_approval_count":  0,
+    "active_delegation_count":  1,
+    "decision_count":  0,
+    "plan_count":  1,
+    "delegation_count":  1,
+    "stale_delegation_count":  0,
+    "escalation_count":  0,
+    "plans":  [
+                  {
+                      "plan_id":  "PLAN-20260731-135629-C0EE10",
+                      "title":  "Chief of Staff certification campaign",
+                      "priority":  "high",
+                      "risk_level":  "medium",
+                      "approval_status":  "not_required",
+                      "status":  "completed",
+                      "owner":  "chief-of-staff",
+                      "workflow_id":  "",
+                      "created_at":  "2026-07-31T13:56:29.1979340-05:00"
+                  }
+              ],
+    "delegations":  [
+                        {
+                            "delegation_id":  "DLG-20260731-135629-0AD26B",
+                            "plan_id":  "PLAN-20260731-135629-C0EE10",
+                            "department":  "marketing",
+                            "assigned_to":  "marketing",
+                            "status":  "completed",
+                            "priority":  "high",
+                            "risk_level":  "medium",
+                            "message_id":  "MSG-20260731-135629-DC67E3",
+                            "age_hours":  0,
+                            "stale":  false,
+                            "escalate":  false
+                        }
+                    ]
+}

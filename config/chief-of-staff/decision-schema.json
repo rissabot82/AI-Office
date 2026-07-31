@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-decision-schema.json",
+  "title": "AI Office Chief of Staff Decision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "plan_id",
+    "decision",
+    "reason",
+    "risk_level",
+    "approval_required",
+    "created_at",
+    "created_by"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "plan_id": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    }
+  }
+}

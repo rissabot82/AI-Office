@@ -1,0 +1,9 @@
+﻿{
+  "classification_id": "CLS-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "classification": "work_request",
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_required": false,
+  "created_at": ""
+}

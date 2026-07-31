@@ -1,0 +1,96 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/message-schema.json",
+  "title": "AI Office Message",
+  "type": "object",
+  "required": [
+    "message_id",
+    "correlation_id",
+    "conversation_id",
+    "office_id",
+    "office_version",
+    "from",
+    "to",
+    "message_type",
+    "priority",
+    "status",
+    "created_at",
+    "delivery_attempts",
+    "payload",
+    "history"
+  ],
+  "properties": {
+    "message_id": {
+      "type": "string",
+      "pattern": "^MSG-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "correlation_id": {
+      "type": "string",
+      "pattern": "^COR-[A-F0-9]{12}$"
+    },
+    "conversation_id": {
+      "type": "string",
+      "pattern": "^CONV-[A-Z0-9-]+$"
+    },
+    "office_id": {
+      "type": "string"
+    },
+    "office_version": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string",
+      "minLength": 1
+    },
+    "to": {
+      "type": "string",
+      "minLength": 1
+    },
+    "message_type": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "workflow_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "available_at": {
+      "type": "string"
+    },
+    "expires_at": {
+      "type": ["string", "null"]
+    },
+    "delivery_attempts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "requires_acknowledgement": {
+      "type": "boolean"
+    },
+    "acknowledged_at": {
+      "type": ["string", "null"]
+    },
+    "payload": {
+      "type": "object"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

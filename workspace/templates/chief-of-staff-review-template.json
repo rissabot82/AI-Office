@@ -1,0 +1,11 @@
+﻿{
+  "review_id": "REV-YYYYMMDD-HHMMSS-ABC123",
+  "plan_id": "PLAN-YYYYMMDD-HHMMSS-ABC123",
+  "delegation_id": "DLG-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "outcome": "completed",
+  "summary": "",
+  "criteria_results": [],
+  "created_at": "",
+  "created_by": "chief-of-staff"
+}

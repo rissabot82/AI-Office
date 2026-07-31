@@ -1,0 +1,158 @@
+﻿{
+    "certification_id":  "CERT-BRIDGE-20260731-132205",
+    "version":  "1.1.3",
+    "certified_at":  "2026-07-31T13:22:05.7939598-05:00",
+    "mode":  "offline",
+    "status":  "certified",
+    "passed_checks":  29,
+    "failed_checks":  0,
+    "live_execution_id":  "",
+    "live_result_message_id":  "",
+    "checks":  [
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\bridge-identity.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\bridge-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\bridge-capabilities.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\approval-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\execution-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\result-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\release-manifest.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\certification-schema.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\bridge\\live-certification-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\AIOfficeBridge.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\AIOfficeOpenClaw.Transport.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\AIOfficeBridgeResults.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\New-AIOfficeBridgeRequest.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Test-AIOfficeBridgeRequest.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Test-AIOfficeOpenClawConnection.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Invoke-AIOfficeOpenClawExecution.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Receive-AIOfficeBridgeWork.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\New-AIOfficeArtifactManifest.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\ConvertTo-AIOfficeNormalizedResult.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Publish-AIOfficeOpenClawResult.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Process-AIOfficeOpenClawResult.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Search-AIOfficeBridgeArtifacts.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Certify-AIOfficeOpenClawBridge.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Test-AIOfficeOpenClawBridge.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\bridge\\Publish-AIOfficeOpenClawBridgeRelease.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Gateway port reachable",
+                       "passed":  true,
+                       "details":  "ws://localhost:18789 | reachable=True"
+                   },
+                   {
+                       "name":  "Authenticated Gateway connection",
+                       "passed":  true,
+                       "details":  "Skipped by design. Run with -AuthenticatedConnectionTest."
+                   },
+                   {
+                       "name":  "Live OpenClaw execution",
+                       "passed":  true,
+                       "details":  "Skipped by design. Run with -LiveExecutionTest."
+                   },
+                   {
+                       "name":  "Offline end-to-end pipeline",
+                       "passed":  true,
+                       "details":  "Execution EXE-20260731-132205-4CFD0D published as MSG-20260731-132205-E925E0"
+                   }
+               ]
+}

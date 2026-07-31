@@ -1,0 +1,30 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/message-bus-certification-schema.json",
+  "title": "AI Office Message Bus Certification",
+  "type": "object",
+  "required": [
+    "certification_id",
+    "version",
+    "certified_at",
+    "status",
+    "checks"
+  ],
+  "properties": {
+    "certification_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "certified_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "checks": {
+      "type": "array"
+    }
+  }
+}

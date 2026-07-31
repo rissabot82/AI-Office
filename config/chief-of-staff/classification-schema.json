@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-classification-schema.json",
+  "title": "AI Office Chief of Staff Classification",
+  "type": "object",
+  "required": [
+    "classification_id",
+    "message_id",
+    "classification",
+    "priority",
+    "risk_level",
+    "approval_required",
+    "created_at"
+  ],
+  "properties": {
+    "classification_id": {
+      "type": "string"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

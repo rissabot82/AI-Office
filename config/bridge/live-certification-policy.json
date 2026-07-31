@@ -1,0 +1,19 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.3",
+  "live_test": {
+    "enabled_only_by_switch": true,
+    "requires_authenticated_connection": true,
+    "default_session_key": "ai-office-bridge-certification",
+    "default_timeout_seconds": 120,
+    "prompt": "Respond with exactly: AI Office OpenClaw Bridge live certification successful.",
+    "expected_text": "AI Office OpenClaw Bridge live certification successful."
+  },
+  "cleanup": {
+    "remove_test_messages": true,
+    "remove_test_requests": true,
+    "remove_test_executions": false,
+    "retain_certification_records": true
+  },
+  "updated_at": "2026-07-31T13:19:20.7084470-05:00"
+}

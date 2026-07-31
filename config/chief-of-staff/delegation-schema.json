@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-delegation-schema.json",
+  "title": "AI Office Chief of Staff Delegation",
+  "type": "object",
+  "required": [
+    "delegation_id",
+    "plan_id",
+    "department",
+    "assigned_to",
+    "status",
+    "priority",
+    "risk_level",
+    "approval_status",
+    "created_at",
+    "updated_at",
+    "work_package_id",
+    "message_id",
+    "history"
+  ]
+}

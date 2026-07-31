@@ -1,0 +1,45 @@
+﻿{
+  "schema_version": "1.0.0",
+  "system": "AI Office Message Bus",
+  "version": "1.1.2",
+  "part": "A",
+  "status": "foundation_installed",
+  "default_timezone": "America/Chicago",
+  "default_priority": "normal",
+  "max_delivery_attempts": 3,
+  "processing_timeout_seconds": 300,
+  "message_retention_days": 90,
+  "archive_after_days": 30,
+  "allowed_priorities": [
+    "low",
+    "normal",
+    "high",
+    "urgent",
+    "critical"
+  ],
+  "allowed_message_types": [
+    "information",
+    "request",
+    "response",
+    "execution_request",
+    "execution_result",
+    "approval_request",
+    "approval_result",
+    "handoff",
+    "status",
+    "error",
+    "event"
+  ],
+  "allowed_statuses": [
+    "draft",
+    "queued",
+    "processing",
+    "delivered",
+    "acknowledged",
+    "completed",
+    "failed",
+    "dead_lettered",
+    "archived"
+  ],
+  "updated_at": "2026-07-31T12:34:35.3883393-05:00"
+}

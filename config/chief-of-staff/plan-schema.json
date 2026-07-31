@@ -1,0 +1,72 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/chief-of-staff-plan-schema.json",
+  "title": "AI Office Chief of Staff Plan",
+  "type": "object",
+  "required": [
+    "plan_id",
+    "title",
+    "objective",
+    "success_criteria",
+    "priority",
+    "risk_level",
+    "approval_status",
+    "status",
+    "created_at",
+    "updated_at",
+    "owner",
+    "steps",
+    "history"
+  ],
+  "properties": {
+    "plan_id": {
+      "type": "string",
+      "pattern": "^PLAN-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "success_criteria": {
+      "type": "array"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "approval_status": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "workflow_id": {
+      "type": "string"
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array"
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

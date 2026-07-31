@@ -1,0 +1,120 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.4",
+  "part": "C",
+  "routing": {
+    "default_department": "executive",
+    "openclaw_department": "openclaw-bridge",
+    "department_keywords": {
+      "marketing": [
+        "campaign",
+        "facebook",
+        "meta",
+        "google ads",
+        "email",
+        "seo",
+        "promotion",
+        "sale",
+        "offer"
+      ],
+      "creative": [
+        "image",
+        "graphic",
+        "banner",
+        "claymation",
+        "design",
+        "video",
+        "logo",
+        "creative"
+      ],
+      "website": [
+        "website",
+        "landing page",
+        "html",
+        "css",
+        "dealer.com",
+        "dealeron",
+        "wordpress",
+        "page"
+      ],
+      "analytics": [
+        "analytics",
+        "tracking",
+        "conversion",
+        "gtm",
+        "ga4",
+        "pixel",
+        "report",
+        "dashboard"
+      ],
+      "finance": [
+        "budget",
+        "cash flow",
+        "financial",
+        "expense",
+        "income",
+        "savings",
+        "debt"
+      ],
+      "business": [
+        "pricing",
+        "proposal",
+        "business plan",
+        "client",
+        "side project",
+        "quote"
+      ],
+      "side-hustles": [
+        "doordash",
+        "user testing",
+        "userinterviews",
+        "side hustle",
+        "gig"
+      ],
+      "youtube": [
+        "youtube",
+        "channel",
+        "video script",
+        "thumbnail",
+        "content plan"
+      ],
+      "personal-assistant": [
+        "appointment",
+        "reminder",
+        "calendar",
+        "personal",
+        "schedule"
+      ],
+      "openclaw-bridge": [
+        "browser",
+        "execute",
+        "openclaw",
+        "screen",
+        "system",
+        "automation"
+      ]
+    }
+  },
+  "delegation": {
+    "create_work_package": true,
+    "create_message": true,
+    "maximum_departments_per_plan": 8,
+    "maximum_steps_per_work_package": 25,
+    "require_approval_before_dispatch_for": [
+      "high",
+      "critical"
+    ]
+  },
+  "dispatch": {
+    "message_type": "handoff",
+    "queue": "outbox",
+    "openclaw_message_type": "execution_request",
+    "execution_status": "queued"
+  },
+  "monitoring": {
+    "stale_after_hours": 24,
+    "escalate_after_hours": 48,
+    "critical_escalation_after_hours": 4
+  },
+  "updated_at": "2026-07-31T13:44:29.3321654-05:00"
+}

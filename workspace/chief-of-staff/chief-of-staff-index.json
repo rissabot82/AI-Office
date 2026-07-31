@@ -1,0 +1,13 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "updated_at":  "2026-07-31T13:56:29.8159347-05:00",
+    "chief_of_staff_id":  "COS-001",
+    "status":  "ready",
+    "inbox_count":  0,
+    "open_plan_count":  0,
+    "pending_approval_count":  0,
+    "active_delegation_count":  0,
+    "decision_count":  0,
+    "latest_plan_id":  "",
+    "latest_decision_id":  ""
+}

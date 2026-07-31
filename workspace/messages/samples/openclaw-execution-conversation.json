@@ -1,0 +1,42 @@
+﻿{
+  "sample_name": "OpenClaw execution request lifecycle",
+  "version": "1.1.2",
+  "conversation_id": "CONV-OPENCLAW-BRIDGE-SAMPLE",
+  "messages": [
+    {
+      "sequence": 1,
+      "from": "chief-of-staff",
+      "to": "marketing",
+      "message_type": "request",
+      "subject": "Prepare an Elite Auto Sales campaign workflow"
+    },
+    {
+      "sequence": 2,
+      "from": "marketing",
+      "to": "bridge",
+      "message_type": "execution_request",
+      "subject": "Open the approved advertising platform workflow"
+    },
+    {
+      "sequence": 3,
+      "from": "bridge",
+      "to": "openclaw",
+      "message_type": "execution_request",
+      "subject": "Execute approved browser task"
+    },
+    {
+      "sequence": 4,
+      "from": "openclaw",
+      "to": "bridge",
+      "message_type": "execution_result",
+      "subject": "Browser task completed"
+    },
+    {
+      "sequence": 5,
+      "from": "bridge",
+      "to": "chief-of-staff",
+      "message_type": "status",
+      "subject": "Execution result recorded"
+    }
+  ]
+}

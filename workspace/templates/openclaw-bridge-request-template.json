@@ -1,0 +1,17 @@
+﻿{
+  "bridge_request_id": "BRQ-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "correlation_id": "COR-ABCDEF123456",
+  "conversation_id": "CONV-OPENCLAW",
+  "workflow_id": "",
+  "requested_by": "chief-of-staff",
+  "target_engine": "OpenClaw",
+  "action_type": "browser_task",
+  "risk_level": "high",
+  "approval_status": "pending",
+  "status": "queued",
+  "created_at": "",
+  "updated_at": "",
+  "payload": {},
+  "history": []
+}

@@ -1,0 +1,30 @@
+﻿{
+    "execution_id":  "EXE-20260731-132003-11CC64",
+    "bridge_request_id":  "BRQ-20260731-132003-B59E49",
+    "message_id":  "MSG-20260731-132003-E70421",
+    "status":  "completed",
+    "gateway_url":  "ws://localhost:18789",
+    "method":  "offline-certification",
+    "run_id":  "RUN-OFFLINE-CERTIFICATION",
+    "session_key":  "ai-office-bridge-certification",
+    "created_at":  "2026-07-31T13:20:03.6277005-05:00",
+    "updated_at":  "2026-07-31T13:20:03.6277005-05:00",
+    "started_at":  "2026-07-31T13:20:03.6277005-05:00",
+    "completed_at":  "2026-07-31T13:20:03.6277005-05:00",
+    "request_payload":  {
+                            "certification":  true
+                        },
+    "response_payload":  {
+                             "summary":  "Offline OpenClaw Bridge certification completed.",
+                             "status":  "success"
+                         },
+    "error":  null,
+    "history":  [
+                    {
+                        "timestamp":  "2026-07-31T13:20:03.6277005-05:00",
+                        "action":  "offline_certification",
+                        "actor":  "bridge-certification",
+                        "details":  "Synthetic execution used to validate result pipeline."
+                    }
+                ]
+}

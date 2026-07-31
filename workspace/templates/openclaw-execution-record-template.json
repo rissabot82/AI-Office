@@ -1,0 +1,18 @@
+﻿{
+  "execution_id": "EXE-YYYYMMDD-HHMMSS-ABC123",
+  "bridge_request_id": "BRQ-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "status": "queued",
+  "gateway_url": "ws://localhost:18789",
+  "method": "agent",
+  "run_id": "",
+  "session_key": "ai-office-bridge",
+  "created_at": "",
+  "updated_at": "",
+  "started_at": null,
+  "completed_at": null,
+  "request_payload": {},
+  "response_payload": null,
+  "error": null,
+  "history": []
+}

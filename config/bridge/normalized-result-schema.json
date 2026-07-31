@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/openclaw-normalized-result-schema.json",
+  "title": "AI Office OpenClaw Normalized Result",
+  "type": "object",
+  "required": [
+    "normalized_result_id",
+    "execution_id",
+    "bridge_request_id",
+    "message_id",
+    "status",
+    "created_at",
+    "summary",
+    "data",
+    "artifacts"
+  ],
+  "properties": {
+    "normalized_result_id": {
+      "type": "string"
+    },
+    "execution_id": {
+      "type": "string"
+    },
+    "bridge_request_id": {
+      "type": "string"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  }
+}

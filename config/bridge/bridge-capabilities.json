@@ -1,0 +1,49 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.3",
+  "bridge_id": "BRIDGE-OPENCLAW-001",
+  "declared_capabilities": [
+    "browser",
+    "camera",
+    "canvas",
+    "device",
+    "location",
+    "screen",
+    "system"
+  ],
+  "approved_initial_capabilities": [
+    "browser",
+    "canvas",
+    "device",
+    "screen"
+  ],
+  "restricted_initial_capabilities": [
+    "camera",
+    "location",
+    "system"
+  ],
+  "allowed_initial_commands": [
+    "browser.proxy",
+    "canvas.snapshot",
+    "device.info",
+    "device.status",
+    "screen.snapshot"
+  ],
+  "approval_required_commands": [
+    "system.run",
+    "system.run.prepare",
+    "system.execApprovals.set",
+    "camera.snap",
+    "camera.clip",
+    "screen.record",
+    "location.get"
+  ],
+  "blocked_commands": [
+    "unapproved_file_delete",
+    "unapproved_git_push",
+    "unapproved_external_publish",
+    "credential_read",
+    "credential_export"
+  ],
+  "updated_at": "2026-07-31T13:02:49.9873203-05:00"
+}

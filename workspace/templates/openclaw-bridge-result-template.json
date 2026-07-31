@@ -1,0 +1,11 @@
+﻿{
+  "bridge_result_id": "BRR-YYYYMMDD-HHMMSS-ABC123",
+  "bridge_request_id": "BRQ-YYYYMMDD-HHMMSS-ABC123",
+  "message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "status": "completed",
+  "started_at": "",
+  "completed_at": "",
+  "result": {},
+  "artifacts": [],
+  "history": []
+}

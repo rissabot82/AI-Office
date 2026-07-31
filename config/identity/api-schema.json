@@ -1,0 +1,45 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/identity-envelope-schema.json",
+  "title": "AI Office Identity Envelope",
+  "type": "object",
+  "required": [
+    "office_id",
+    "office_name",
+    "office_version",
+    "message_type",
+    "created_at",
+    "payload"
+  ],
+  "properties": {
+    "office_id": {
+      "type": "string",
+      "pattern": "^AIOFFICE-[A-Z0-9-]+$"
+    },
+    "office_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "office_version": {
+      "type": "string"
+    },
+    "message_type": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "source_component": {
+      "type": "string"
+    },
+    "target_component": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.4",
+  "part": "D",
+  "review": {
+    "require_result_message": true,
+    "require_success_criteria_check": true,
+    "allow_partial_completion": true,
+    "allowed_outcomes": [
+      "approved",
+      "rejected",
+      "needs_revision",
+      "completed",
+      "partially_completed"
+    ]
+  },
+  "approval": {
+    "allowed_statuses": [
+      "pending",
+      "approved",
+      "rejected",
+      "not_required"
+    ],
+    "approved_by_default_for_low_risk": true,
+    "require_human_for_high_risk": true,
+    "require_human_for_critical_risk": true
+  },
+  "completion": {
+    "close_plan_when_all_delegations_complete": true,
+    "close_plan_when_result_approved": true,
+    "archive_completed_delegations": false,
+    "publish_completion_message": true,
+    "completion_recipient": "chief-of-staff"
+  },
+  "certification": {
+    "require_parts_a_b_c": true,
+    "require_message_bus": true,
+    "require_bridge": true,
+    "require_offline_end_to_end": true
+  },
+  "updated_at": "2026-07-31T13:48:14.3971306-05:00"
+}

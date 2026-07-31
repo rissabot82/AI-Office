@@ -1,0 +1,68 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/openclaw-execution-record-schema.json",
+  "title": "AI Office OpenClaw Execution Record",
+  "type": "object",
+  "required": [
+    "execution_id",
+    "bridge_request_id",
+    "message_id",
+    "status",
+    "gateway_url",
+    "method",
+    "created_at",
+    "updated_at",
+    "history"
+  ],
+  "properties": {
+    "execution_id": {
+      "type": "string",
+      "pattern": "^EXE-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "bridge_request_id": {
+      "type": "string"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "gateway_url": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "session_key": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": ["string", "null"]
+    },
+    "completed_at": {
+      "type": ["string", "null"]
+    },
+    "request_payload": {
+      "type": "object"
+    },
+    "response_payload": {
+      "type": ["object", "null"]
+    },
+    "error": {
+      "type": ["object", "null"]
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

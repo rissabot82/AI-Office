@@ -1,0 +1,52 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.4",
+  "part": "A",
+  "operating_model": {
+    "human_supervised": true,
+    "default_owner": "chief-of-staff",
+    "default_priority": "normal",
+    "default_approval_status": "pending",
+    "maximum_open_plans": 100,
+    "maximum_active_delegations": 250
+  },
+  "planning": {
+    "require_objective": true,
+    "require_success_criteria": true,
+    "require_owner": true,
+    "require_priority": true,
+    "require_risk_level": true,
+    "require_approval_for_high_risk": true
+  },
+  "delegation": {
+    "allowed_departments": [
+      "executive",
+      "marketing",
+      "creative",
+      "website",
+      "analytics",
+      "finance",
+      "business",
+      "side-hustles",
+      "youtube",
+      "personal-assistant",
+      "openclaw-bridge"
+    ],
+    "allow_cross_department": true,
+    "require_message_bus": true
+  },
+  "risk": {
+    "levels": [
+      "low",
+      "medium",
+      "high",
+      "critical"
+    ],
+    "default": "medium",
+    "approval_required": [
+      "high",
+      "critical"
+    ]
+  },
+  "updated_at": "2026-07-31T13:37:03.9194522-05:00"
+}

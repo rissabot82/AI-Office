@@ -1,0 +1,28 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.1.2",
+  "part": "C",
+  "retry": {
+    "enabled": true,
+    "max_delivery_attempts": 3,
+    "base_delay_seconds": 30,
+    "backoff_multiplier": 2,
+    "maximum_delay_seconds": 900
+  },
+  "dead_letter": {
+    "enabled": true,
+    "move_after_max_attempts": true
+  },
+  "maintenance": {
+    "processing_timeout_seconds": 300,
+    "archive_processed_after_days": 30,
+    "archive_failed_after_days": 30,
+    "archive_dead_letter_after_days": 90
+  },
+  "processor": {
+    "default_batch_size": 10,
+    "maximum_batch_size": 100,
+    "continue_on_error": true
+  },
+  "updated_at": ""
+}
