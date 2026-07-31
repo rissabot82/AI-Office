@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-recovery-schema.json",
+  "title": "AI Office Autonomous Recovery Record",
+  "type": "object",
+  "required": [
+    "recovery_id",
+    "run_id",
+    "previous_status",
+    "recovered_status",
+    "created_at"
+  ]
+}

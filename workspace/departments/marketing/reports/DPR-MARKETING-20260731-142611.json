@@ -1,0 +1,29 @@
+﻿{
+    "report_id":  "DPR-MARKETING-20260731-142611",
+    "department":  "marketing",
+    "department_name":  "Marketing Department",
+    "generated_at":  "2026-07-31T14:26:11.1607898-05:00",
+    "status":  "ready",
+    "inbox_count":  0,
+    "plan_count":  1,
+    "active_work_count":  1,
+    "knowledge_item_count":  1,
+    "learning_event_count":  2,
+    "success_count":  1,
+    "failure_count":  0,
+    "success_rate":  100,
+    "knowledge":  [
+                      {
+                          "knowledge_id":  "DKI-20260731-142610-9E227B",
+                          "department":  "marketing",
+                          "knowledge_type":  "lesson",
+                          "title":  "Department Intelligence certification",
+                          "summary":  "Reusable campaign planning lesson completed.",
+                          "confidence":  0.9,
+                          "reuse_count":  1,
+                          "success_count":  1,
+                          "failure_count":  0,
+                          "updated_at":  "2026-07-31T14:26:11.0477906-05:00"
+                      }
+                  ]
+}

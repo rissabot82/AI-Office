@@ -1,0 +1,49 @@
+﻿{
+    "execution_id":  "EXE-20260731-154905-4D7860",
+    "bridge_request_id":  "BRQ-20260731-154905-E0D9D9",
+    "message_id":  "MSG-20260731-154905-E04108",
+    "status":  "completed",
+    "gateway_url":  "ws://localhost:18789",
+    "method":  "agent",
+    "run_id":  "",
+    "session_key":  "ai-office-bridge-certification",
+    "created_at":  "2026-07-31T15:49:05.9822575-05:00",
+    "updated_at":  "2026-07-31T15:49:06.2843840-05:00",
+    "started_at":  "2026-07-31T15:49:05.9822575-05:00",
+    "completed_at":  "2026-07-31T15:49:06.2843840-05:00",
+    "request_payload":  {
+                            "action_type":  "agent_task",
+                            "risk_level":  "low",
+                            "approval_status":  "not_required",
+                            "prompt":  "Respond with exactly: AI Office OpenClaw Bridge live certification successful."
+                        },
+    "response_payload":  [
+                             {
+
+                             },
+                             {
+                                 "runId":  "AIO-BRIDGE-EXE-20260731-154905-4D7860",
+                                 "sessionKey":  "agent:main:ai-office-bridge-certification",
+                                 "status":  "accepted",
+                                 "acceptedAt":  1785530946109
+                             },
+                             {
+
+                             }
+                         ],
+    "error":  null,
+    "history":  [
+                    {
+                        "timestamp":  "2026-07-31T15:49:05.9822575-05:00",
+                        "action":  "execution_started",
+                        "actor":  "openclaw-bridge",
+                        "details":  "Approved request submitted to OpenClaw."
+                    },
+                    {
+                        "timestamp":  "2026-07-31T15:49:06.2843840-05:00",
+                        "action":  "execution_completed",
+                        "actor":  "openclaw-bridge",
+                        "details":  "OpenClaw execution completed."
+                    }
+                ]
+}

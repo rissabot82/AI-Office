@@ -1,0 +1,32 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.2.0",
+  "part": "B",
+  "message_types": [
+    "handoff",
+    "request",
+    "execution_request",
+    "execution_result",
+    "status",
+    "error",
+    "information",
+    "event"
+  ],
+  "intake": {
+    "default_limit": 10,
+    "maximum_limit": 100,
+    "create_work_item": true,
+    "complete_message_after_intake": true,
+    "reject_capability_mismatch": false,
+    "send_mismatch_to_chief_of_staff": true
+  },
+  "work_item": {
+    "default_status": "queued",
+    "default_priority": "normal",
+    "default_risk_level": "medium",
+    "require_objective": true,
+    "require_deliverables": true,
+    "require_source_message": true
+  },
+  "updated_at": "2026-07-31T14:04:26.1567475-05:00"
+}

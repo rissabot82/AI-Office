@@ -1,0 +1,20 @@
+﻿{
+  "schema_version": "1.0.0",
+  "department_id": "DEPT-EXAMPLE",
+  "slug": "example",
+  "name": "Example Department",
+  "version": "1.2.0",
+  "status": "ready",
+  "reports_to": "chief-of-staff",
+  "mission": "",
+  "capabilities": [],
+  "responsibilities": [],
+  "kpis": [],
+  "execution_modes": [
+    "internal_reasoning",
+    "message_bus",
+    "openclaw_bridge"
+  ],
+  "created_at": "",
+  "updated_at": ""
+}

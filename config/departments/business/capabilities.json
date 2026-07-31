@@ -1,0 +1,99 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "business",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-BUSINESS-BUSINESS_PLANNING",
+                             "department":  "business",
+                             "name":  "business_planning",
+                             "description":  "Department capability for business planning.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-PRICING",
+                             "department":  "business",
+                             "name":  "pricing",
+                             "description":  "Department capability for pricing.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-PROPOSAL_CREATION",
+                             "department":  "business",
+                             "name":  "proposal_creation",
+                             "description":  "Department capability for proposal creation.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-OPPORTUNITY_SCORING",
+                             "department":  "business",
+                             "name":  "opportunity_scoring",
+                             "description":  "Department capability for opportunity scoring.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-SERVICE_DESIGN",
+                             "department":  "business",
+                             "name":  "service_design",
+                             "description":  "Department capability for service design.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-CLIENT_WORKFLOWS",
+                             "department":  "business",
+                             "name":  "client_workflows",
+                             "description":  "Department capability for client workflows.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-BUSINESS-REVENUE_MODELING",
+                             "department":  "business",
+                             "name":  "revenue_modeling",
+                             "description":  "Department capability for revenue modeling.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

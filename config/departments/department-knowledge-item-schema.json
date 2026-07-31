@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-knowledge-item-schema.json",
+  "title": "AI Office Department Knowledge Item",
+  "type": "object",
+  "required": [
+    "knowledge_id",
+    "department",
+    "knowledge_type",
+    "title",
+    "summary",
+    "content",
+    "source",
+    "confidence",
+    "created_at",
+    "updated_at",
+    "reuse_count",
+    "history"
+  ]
+}

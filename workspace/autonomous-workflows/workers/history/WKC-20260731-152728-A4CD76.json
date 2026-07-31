@@ -1,0 +1,19 @@
+﻿{
+    "worker_cycle_id":  "WKC-20260731-152728-A4CD76",
+    "started_at":  "2026-07-31T15:27:28.2499374-05:00",
+    "completed_at":  "2026-07-31T15:27:28.6998843-05:00",
+    "status":  "completed",
+    "recovered_run_count":  1,
+    "processed_run_count":  1,
+    "completed_run_count":  1,
+    "failed_run_count":  0,
+    "waiting_approval_count":  0,
+    "runs":  [
+                 {
+                     "run_id":  "RUN-20260731-152728-4CB5CB",
+                     "before_status":  "running",
+                     "after_status":  "completed",
+                     "error":  ""
+                 }
+             ]
+}

@@ -1,0 +1,39 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-PERSONAL_ASSISTANT",
+    "slug":  "personal-assistant",
+    "name":  "Personal Assistant",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Coordinate personal scheduling, household priorities, reminders, and life administration.",
+    "capabilities":  [
+                         "calendar_management",
+                         "reminders",
+                         "household_planning",
+                         "family_scheduling",
+                         "shopping_plans",
+                         "travel_planning",
+                         "personal_project_tracking"
+                     ],
+    "responsibilities":  [
+                             "Calendar coordination",
+                             "Reminder management",
+                             "Household planning",
+                             "Personal task organization",
+                             "Family logistics"
+                         ],
+    "kpis":  [
+                 "task_completion_rate",
+                 "missed_deadlines",
+                 "schedule_conflicts",
+                 "reminder_success_rate"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

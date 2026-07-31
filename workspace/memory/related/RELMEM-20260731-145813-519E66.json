@@ -1,0 +1,24 @@
+﻿{
+    "related_check_id":  "RELMEM-20260731-145813-519E66",
+    "source_memory_id":  "MEM-20260731-145812-341CAC",
+    "created_at":  "2026-07-31T14:58:13.3866869-05:00",
+    "related_count":  1,
+    "related_memories":  [
+                             {
+                                 "memory_id":  "MEM-20260731-145813-18AF4B",
+                                 "title":  "Campaign structure decision",
+                                 "scope":  "business",
+                                 "department":  "",
+                                 "relation_score":  3,
+                                 "shared_tags":  [
+                                                     "campaign"
+                                                 ],
+                                 "shared_entities":  [
+                                                         "Elite Auto Sales"
+                                                     ],
+                                 "shared_projects":  [
+                                                         "Memory Validation"
+                                                     ]
+                             }
+                         ]
+}

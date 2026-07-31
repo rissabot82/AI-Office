@@ -1,0 +1,145 @@
+﻿{
+    "certification_id":  "CERT-DEPT-20260731-142611",
+    "version":  "1.2.0",
+    "certified_at":  "2026-07-31T14:26:11.3616218-05:00",
+    "status":  "certified",
+    "passed_checks":  27,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Valid JSON: .\\config\\departments\\department-intelligence-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\departments\\department-inbox-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\departments\\department-execution-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\departments\\department-knowledge-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\departments\\release-manifest.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\AIOfficeDepartments.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\AIOfficeDepartmentInbox.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\AIOfficeDepartmentExecution.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\AIOfficeDepartmentKnowledge.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\New-AIOfficeDepartmentWorkItem.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\New-AIOfficeDepartmentPlan.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\New-AIOfficeDepartmentExecution.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Invoke-AIOfficeDepartmentExecution.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Publish-AIOfficeDepartmentResult.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\New-AIOfficeDepartmentKnowledge.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Search-AIOfficeDepartmentKnowledge.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Add-AIOfficeDepartmentLearning.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Convert-AIOfficeDepartmentExecutionToKnowledge.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\New-AIOfficeDepartmentReport.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Certify-AIOfficeDepartmentIntelligence.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Test-AIOfficeDepartmentIntelligence.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\departments\\Publish-AIOfficeDepartmentIntelligenceRelease.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Inbox through execution and result",
+                       "passed":  true,
+                       "details":  "DEX-20260731-142610-28CE7D | result MSG-20260731-142610-191EB8"
+                   },
+                   {
+                       "name":  "Execution to knowledge capture",
+                       "passed":  true,
+                       "details":  "DKI-20260731-142610-9E227B"
+                   },
+                   {
+                       "name":  "Department knowledge search",
+                       "passed":  true,
+                       "details":  "1 result(s)"
+                   },
+                   {
+                       "name":  "Department learning record",
+                       "passed":  true,
+                       "details":  "DLR-20260731-142611-715CC5"
+                   },
+                   {
+                       "name":  "Department report generation",
+                       "passed":  true,
+                       "details":  "DPR-MARKETING-20260731-142611"
+                   }
+               ]
+}

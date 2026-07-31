@@ -1,0 +1,47 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.3.0",
+  "part": "B",
+  "capture": {
+    "manual_enabled": true,
+    "automatic_enabled": true,
+    "supported_sources": [
+      "manual",
+      "chief_of_staff_plan",
+      "chief_of_staff_decision",
+      "department_execution",
+      "department_knowledge",
+      "message",
+      "workflow",
+      "report"
+    ]
+  },
+  "search": {
+    "default_limit": 25,
+    "maximum_limit": 250,
+    "minimum_confidence": 0.0,
+    "track_access": true,
+    "case_insensitive": true
+  },
+  "duplicate_detection": {
+    "enabled": true,
+    "title_match": true,
+    "summary_match": true,
+    "same_scope_required": true
+  },
+  "related_memory": {
+    "enabled": true,
+    "match_tags": true,
+    "match_entities": true,
+    "match_projects": true,
+    "minimum_shared_terms": 1
+  },
+  "context_packets": {
+    "enabled": true,
+    "default_limit": 10,
+    "include_content": true,
+    "include_source": true,
+    "include_metadata": true
+  },
+  "updated_at": "2026-07-31T14:51:53.1515168-05:00"
+}

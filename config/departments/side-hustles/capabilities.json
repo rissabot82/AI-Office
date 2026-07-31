@@ -1,0 +1,86 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "side-hustles",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-USER_TESTING_TRACKING",
+                             "department":  "side-hustles",
+                             "name":  "user_testing_tracking",
+                             "description":  "Department capability for user testing tracking.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-USER_INTERVIEWS_TRACKING",
+                             "department":  "side-hustles",
+                             "name":  "user_interviews_tracking",
+                             "description":  "Department capability for user interviews tracking.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-DOORDASH_ANALYSIS",
+                             "department":  "side-hustles",
+                             "name":  "doordash_analysis",
+                             "description":  "Department capability for doordash analysis.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-GIG_PROFITABILITY",
+                             "department":  "side-hustles",
+                             "name":  "gig_profitability",
+                             "description":  "Department capability for gig profitability.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-OPPORTUNITY_RECOMMENDATIONS",
+                             "department":  "side-hustles",
+                             "name":  "opportunity_recommendations",
+                             "description":  "Department capability for opportunity recommendations.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-SIDE_HUSTLES-SCHEDULE_OPTIMIZATION",
+                             "department":  "side-hustles",
+                             "name":  "schedule_optimization",
+                             "description":  "Department capability for schedule optimization.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

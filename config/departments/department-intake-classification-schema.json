@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-intake-classification-schema.json",
+  "title": "AI Office Department Intake Classification",
+  "type": "object",
+  "required": [
+    "classification_id",
+    "department",
+    "message_id",
+    "accepted",
+    "matched_capabilities",
+    "missing_capabilities",
+    "created_at"
+  ]
+}

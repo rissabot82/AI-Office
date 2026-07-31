@@ -1,0 +1,99 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "youtube",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-YOUTUBE-CHANNEL_STRATEGY",
+                             "department":  "youtube",
+                             "name":  "channel_strategy",
+                             "description":  "Department capability for channel strategy.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-TOPIC_RESEARCH",
+                             "department":  "youtube",
+                             "name":  "topic_research",
+                             "description":  "Department capability for topic research.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-SCRIPT_DEVELOPMENT",
+                             "department":  "youtube",
+                             "name":  "script_development",
+                             "description":  "Department capability for script development.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-THUMBNAIL_PLANNING",
+                             "department":  "youtube",
+                             "name":  "thumbnail_planning",
+                             "description":  "Department capability for thumbnail planning.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-PRODUCTION_WORKFLOWS",
+                             "department":  "youtube",
+                             "name":  "production_workflows",
+                             "description":  "Department capability for production workflows.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-PUBLISHING_CALENDARS",
+                             "department":  "youtube",
+                             "name":  "publishing_calendars",
+                             "description":  "Department capability for publishing calendars.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-YOUTUBE-PERFORMANCE_ANALYSIS",
+                             "department":  "youtube",
+                             "name":  "performance_analysis",
+                             "description":  "Department capability for performance analysis.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

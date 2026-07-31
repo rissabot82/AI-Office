@@ -1,0 +1,10 @@
+﻿{
+  "step_result_id": "SR-YYYYMMDD-HHMMSS-ABC123",
+  "run_id": "RUN-YYYYMMDD-HHMMSS-ABC123",
+  "step_id": "STEP-001-ABC123",
+  "step_type": "department",
+  "status": "completed",
+  "summary": "",
+  "payload": {},
+  "created_at": ""
+}

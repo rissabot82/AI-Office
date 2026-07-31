@@ -1,0 +1,14 @@
+﻿{
+  "department_execution_id": "DEX-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "department_plan_id": "DPL-YYYYMMDD-HHMMSS-ABC123",
+  "work_item_id": "DWI-YYYYMMDD-HHMMSS-ABC123",
+  "execution_mode": "internal_reasoning",
+  "status": "queued",
+  "created_at": "",
+  "updated_at": "",
+  "started_at": null,
+  "completed_at": null,
+  "result": null,
+  "history": []
+}

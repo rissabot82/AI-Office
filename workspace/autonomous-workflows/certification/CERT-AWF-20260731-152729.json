@@ -1,0 +1,125 @@
+﻿{
+    "certification_id":  "CERT-AWF-20260731-152729",
+    "version":  "1.4.0",
+    "certified_at":  "2026-07-31T15:27:29.0227063-05:00",
+    "status":  "certified",
+    "passed_checks":  23,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Valid JSON: .\\config\\autonomous-workflows\\autonomous-workflow-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\autonomous-workflows\\autonomous-execution-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\autonomous-workflows\\autonomous-worker-policy.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Valid JSON: .\\config\\autonomous-workflows\\release-manifest.json",
+                       "passed":  true,
+                       "details":  "Parsed successfully."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\AIOfficeAutonomousWorkflows.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\AIOfficeAutonomousExecution.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\AIOfficeAutonomousWorker.Common.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\New-AIOfficeAutonomousGoal.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\New-AIOfficeAutonomousPlan.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\New-AIOfficeAutonomousRun.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Invoke-AIOfficeAutonomousStep.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Invoke-AIOfficeAutonomousRun.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Resume-AIOfficeAutonomousRuns.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Invoke-AIOfficeAutonomousWorkerCycle.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Get-AIOfficeAutonomousWorkflowMonitoring.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\New-AIOfficeAutonomousWorkflowReport.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Install-AIOfficeAutonomousWorkerTask.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Certify-AIOfficeAutonomousWorkflows.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Test-AIOfficeAutonomousWorkflows.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Script exists: .\\scripts\\autonomous-workflows\\Publish-AIOfficeAutonomousWorkflowsRelease.ps1",
+                       "passed":  true,
+                       "details":  "Found."
+                   },
+                   {
+                       "name":  "Worker-cycle execution",
+                       "passed":  true,
+                       "details":  "WKC-20260731-152728-A4CD76 | run RUN-20260731-152728-4CB5CB"
+                   },
+                   {
+                       "name":  "Workflow monitoring",
+                       "passed":  true,
+                       "details":  "MON-20260731-152728-C3AECA"
+                   },
+                   {
+                       "name":  "Executive workflow report",
+                       "passed":  true,
+                       "details":  "AWR-20260731-152728"
+                   }
+               ]
+}

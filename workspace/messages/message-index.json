@@ -1,15 +1,15 @@
 ﻿{
     "schema_version":  "1.0.0",
-    "updated_at":  "2026-07-31T13:56:29.8029332-05:00",
-    "total_messages":  1,
-    "inbox_count":  0,
+    "updated_at":  "2026-07-31T15:53:26.6049843-05:00",
+    "total_messages":  5,
+    "inbox_count":  2,
     "outbox_count":  0,
     "processing_count":  0,
-    "processed_count":  0,
+    "processed_count":  2,
     "failed_count":  1,
     "dead_letter_count":  0,
     "archive_count":  0,
-    "latest_message_id":  "MSG-20260731-132003-A106A7",
-    "latest_message_at":  "2026-07-31T13:20:03.5407074-05:00",
+    "latest_message_id":  "MSG-20260731-155326-6C1097",
+    "latest_message_at":  "2026-07-31T15:53:26.3593102-05:00",
     "status":  "active"
 }

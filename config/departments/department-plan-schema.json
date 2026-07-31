@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-plan-schema.json",
+  "title": "AI Office Department Plan",
+  "type": "object",
+  "required": [
+    "department_plan_id",
+    "department",
+    "work_item_id",
+    "title",
+    "objective",
+    "execution_mode",
+    "status",
+    "steps",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

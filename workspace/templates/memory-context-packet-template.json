@@ -1,0 +1,10 @@
+﻿{
+  "context_packet_id": "CTXMEM-YYYYMMDD-HHMMSS-ABC123",
+  "created_at": "",
+  "requested_by": "chief-of-staff",
+  "query": "",
+  "scope": "",
+  "department": "",
+  "memory_count": 0,
+  "memories": []
+}

@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-conflict-schema.json",
+  "title": "AI Office Memory Conflict",
+  "type": "object",
+  "required": [
+    "conflict_id",
+    "memory_ids",
+    "reason",
+    "status",
+    "created_at"
+  ]
+}

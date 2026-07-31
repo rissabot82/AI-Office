@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-execution-schema.json",
+  "title": "AI Office Department Execution",
+  "type": "object",
+  "required": [
+    "department_execution_id",
+    "department",
+    "department_plan_id",
+    "work_item_id",
+    "execution_mode",
+    "status",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

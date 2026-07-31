@@ -1,0 +1,10 @@
+﻿{
+  "autonomous_plan_id": "APL-YYYYMMDD-HHMMSS-ABC123",
+  "goal_id": "GOAL-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "status": "draft",
+  "steps": [],
+  "created_at": "",
+  "updated_at": "",
+  "history": []
+}

@@ -1,0 +1,45 @@
+﻿{
+    "message_id":  "MSG-20260731-155325-82E522",
+    "correlation_id":  "COR-C299C3CD8CB6",
+    "conversation_id":  "CONV-BRIDGE-LIVE-CERTIFICATION-20260731-578B5E",
+    "office_id":  "AIOFFICE-RISSABOT82-001",
+    "office_version":  "1.1.2",
+    "from":  "chief-of-staff",
+    "to":  "bridge",
+    "message_type":  "execution_request",
+    "priority":  "high",
+    "status":  "completed",
+    "subject":  "OpenClaw Bridge live certification",
+    "workflow_id":  "",
+    "created_at":  "2026-07-31T15:53:25.8594651-05:00",
+    "updated_at":  "2026-07-31T15:53:26.2703129-05:00",
+    "available_at":  "2026-07-31T15:53:25.8594651-05:00",
+    "expires_at":  null,
+    "delivery_attempts":  0,
+    "requires_acknowledgement":  true,
+    "acknowledged_at":  null,
+    "payload":  {
+                    "action_type":  "agent_task",
+                    "risk_level":  "low",
+                    "approval_status":  "not_required",
+                    "prompt":  "Respond with exactly: AI Office OpenClaw Bridge live certification successful."
+                },
+    "metadata":  {
+                     "source":  "AI Office Message Bus",
+                     "queue":  "processed"
+                 },
+    "history":  [
+                    {
+                        "timestamp":  "2026-07-31T15:53:25.8594651-05:00",
+                        "action":  "created",
+                        "actor":  "chief-of-staff",
+                        "details":  "Message created in queue processing."
+                    },
+                    {
+                        "timestamp":  "2026-07-31T15:53:26.2703129-05:00",
+                        "action":  "moved",
+                        "actor":  "openclaw-bridge",
+                        "details":  "OpenClaw execution completed."
+                    }
+                ]
+}

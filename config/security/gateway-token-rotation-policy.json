@@ -1,0 +1,13 @@
+﻿{
+  "schema_version": "1.0.0",
+  "utility": "OpenClaw Gateway Token Rotation",
+  "wsl_distribution": "OpenClawGateway",
+  "openclaw_config_path": "/home/openclaw/.openclaw/openclaw.json",
+  "gateway_service": "openclaw-gateway",
+  "gateway_port": 18789,
+  "token_bytes": 32,
+  "backup_before_rotation": true,
+  "rollback_on_failure": true,
+  "verify_after_rotation": true,
+  "store_token_in_history": false
+}

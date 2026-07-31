@@ -1,0 +1,12 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "marketing",
+    "updated_at":  "2026-07-31T14:26:11.2727888-05:00",
+    "status":  "ready",
+    "inbox_count":  0,
+    "plan_count":  0,
+    "active_work_count":  0,
+    "knowledge_item_count":  0,
+    "report_count":  1,
+    "latest_work_id":  ""
+}

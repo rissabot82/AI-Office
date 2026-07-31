@@ -1,0 +1,18 @@
+﻿{
+  "work_item_id": "DWI-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "source_message_id": "MSG-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "objective": "",
+  "deliverables": [],
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_status": "not_required",
+  "status": "queued",
+  "workflow_id": "",
+  "conversation_id": "",
+  "correlation_id": "",
+  "created_at": "",
+  "updated_at": "",
+  "history": []
+}

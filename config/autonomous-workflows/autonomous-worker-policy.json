@@ -1,0 +1,35 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.4.0",
+  "part": "C",
+  "worker": {
+    "enabled": true,
+    "default_maximum_runs_per_cycle": 10,
+    "default_maximum_steps_per_run": 25,
+    "recover_before_processing": true,
+    "continue_after_run_failure": true,
+    "persist_cycle_history": true
+  },
+  "monitoring": {
+    "enabled": true,
+    "stale_run_after_hours": 24,
+    "warning_run_after_hours": 8,
+    "include_waiting_approvals": true,
+    "include_failures": true,
+    "include_retry_exhaustion": true
+  },
+  "reporting": {
+    "executive_summary": true,
+    "include_goals": true,
+    "include_runs": true,
+    "include_failures": true,
+    "include_approvals": true,
+    "include_checkpoint_counts": true
+  },
+  "scheduling": {
+    "task_name": "AI Office Autonomous Workflow Worker",
+    "default_interval_minutes": 15,
+    "start_when_available": true
+  },
+  "updated_at": "2026-07-31T15:27:18.3534245-05:00"
+}

@@ -1,0 +1,14 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "1.4.0",
+    "updated_at":  "2026-07-31T15:27:29.0087074-05:00",
+    "status":  "ready",
+    "goal_count":  0,
+    "open_goal_count":  0,
+    "plan_count":  0,
+    "active_run_count":  0,
+    "waiting_approval_count":  0,
+    "failed_run_count":  0,
+    "latest_goal_id":  "",
+    "latest_run_id":  ""
+}

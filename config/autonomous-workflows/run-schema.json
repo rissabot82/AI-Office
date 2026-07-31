@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-run-schema.json",
+  "title": "AI Office Autonomous Workflow Run",
+  "type": "object",
+  "required": [
+    "run_id",
+    "autonomous_plan_id",
+    "goal_id",
+    "status",
+    "current_step",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

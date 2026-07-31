@@ -1,0 +1,41 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-ANALYTICS",
+    "slug":  "analytics",
+    "name":  "Analytics Department",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Measure performance, diagnose tracking, and produce decision-ready reporting.",
+    "capabilities":  [
+                         "ga4",
+                         "google_tag_manager",
+                         "meta_pixel",
+                         "conversion_tracking",
+                         "looker_studio",
+                         "attribution",
+                         "campaign_analysis",
+                         "executive_reporting"
+                     ],
+    "responsibilities":  [
+                             "Tracking implementation",
+                             "Conversion diagnostics",
+                             "KPI reporting",
+                             "Attribution review",
+                             "Executive insights"
+                         ],
+    "kpis":  [
+                 "tracking_accuracy",
+                 "report_freshness",
+                 "conversion_coverage",
+                 "data_quality",
+                 "issue_resolution_time"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

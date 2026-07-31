@@ -1,0 +1,41 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-FINANCE",
+    "slug":  "finance",
+    "name":  "Finance Department",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Support personal and business financial planning, tracking, and decision-making.",
+    "capabilities":  [
+                         "budgeting",
+                         "cash_flow",
+                         "expense_tracking",
+                         "income_tracking",
+                         "side_hustle_finance",
+                         "savings_plans",
+                         "vehicle_fund_planning",
+                         "operating_cost_analysis"
+                     ],
+    "responsibilities":  [
+                             "Budget management",
+                             "Cash-flow forecasting",
+                             "Savings-goal tracking",
+                             "Side-hustle profitability",
+                             "Financial decision support"
+                         ],
+    "kpis":  [
+                 "monthly_surplus",
+                 "savings_rate",
+                 "goal_progress",
+                 "side_hustle_margin",
+                 "budget_variance"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

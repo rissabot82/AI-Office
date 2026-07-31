@@ -1,0 +1,42 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-WEBSITE",
+    "slug":  "website",
+    "name":  "Website Department",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Build, maintain, and optimize dealership and business web experiences.",
+    "capabilities":  [
+                         "html",
+                         "css",
+                         "javascript",
+                         "dealer_dot_com",
+                         "dealeron",
+                         "wordpress",
+                         "accessibility",
+                         "conversion_optimization",
+                         "technical_website_support"
+                     ],
+    "responsibilities":  [
+                             "Website content deployment",
+                             "Landing page implementation",
+                             "Platform-safe code",
+                             "Accessibility compliance",
+                             "Conversion-path improvements"
+                         ],
+    "kpis":  [
+                 "page_speed",
+                 "conversion_rate",
+                 "accessibility_score",
+                 "deployment_success_rate",
+                 "error_rate"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-monitoring-schema.json",
+  "title": "AI Office Autonomous Monitoring Report",
+  "type": "object",
+  "required": [
+    "monitoring_id",
+    "generated_at",
+    "status",
+    "active_run_count",
+    "waiting_approval_count",
+    "failed_run_count",
+    "warning_count"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-context-packet-schema.json",
+  "title": "AI Office Memory Context Packet",
+  "type": "object",
+  "required": [
+    "context_packet_id",
+    "created_at",
+    "requested_by",
+    "query",
+    "memory_count",
+    "memories"
+  ]
+}

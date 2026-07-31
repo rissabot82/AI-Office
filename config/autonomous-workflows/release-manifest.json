@@ -1,0 +1,33 @@
+﻿{
+  "product": "AI Office",
+  "component": "Autonomous Workflows",
+  "version": "1.4.0",
+  "release_name": "Autonomous Workflows",
+  "release_status": "installed",
+  "installed_at": "2026-07-31T15:27:18.3534245-05:00",
+  "parts": {
+    "A": "Autonomous Workflow Architecture",
+    "B": "Autonomous Execution and Recovery",
+    "C": "Worker Runtime, Monitoring, Certification, and Release"
+  },
+  "capabilities": [
+    "executive_goals",
+    "persistent_plans",
+    "workflow_runs",
+    "step_dependencies",
+    "human_approval_gates",
+    "memory_recall",
+    "department_dispatch",
+    "message_bus_dispatch",
+    "openclaw_dispatch",
+    "checkpoints",
+    "retries",
+    "recovery",
+    "background_worker_cycles",
+    "workflow_monitoring",
+    "executive_reporting",
+    "scheduled_worker_installation",
+    "certification"
+  ],
+  "next_planned_milestone": "1.5 Knowledge Graph and Reasoning"
+}

@@ -1,0 +1,43 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.2.0",
+  "part": "C",
+  "planning": {
+    "default_step_count": 3,
+    "maximum_step_count": 25,
+    "require_deliverables": true,
+    "require_execution_mode": true
+  },
+  "execution_modes": [
+    "internal_reasoning",
+    "message_bus",
+    "openclaw_bridge",
+    "human_approval"
+  ],
+  "mode_rules": {
+    "internal_reasoning": {
+      "default_for_low_risk": true,
+      "approval_required": false
+    },
+    "message_bus": {
+      "approval_required": false
+    },
+    "openclaw_bridge": {
+      "approval_required_for": ["high", "critical"]
+    },
+    "human_approval": {
+      "approval_required": true
+    }
+  },
+  "handoff": {
+    "allow_cross_department": true,
+    "message_type": "handoff",
+    "queue": "outbox"
+  },
+  "result": {
+    "publish_to_chief_of_staff": true,
+    "message_type": "execution_result",
+    "queue": "inbox"
+  },
+  "updated_at": "2026-07-31T14:08:09.0284459-05:00"
+}

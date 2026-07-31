@@ -1,0 +1,45 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.3.0",
+  "part": "C",
+  "feedback": {
+    "allowed_types": [
+      "confirm",
+      "correct",
+      "reject",
+      "promote",
+      "demote"
+    ],
+    "adjust_confidence": true,
+    "preserve_history": true
+  },
+  "confidence_adjustments": {
+    "confirm": 0.05,
+    "correct": -0.10,
+    "reject": -0.25,
+    "promote": 0.15,
+    "demote": -0.15
+  },
+  "status_rules": {
+    "promote_at": 0.90,
+    "review_below": 0.50,
+    "archive_below": 0.20
+  },
+  "staleness": {
+    "review_after_days": 180,
+    "stale_after_days": 365
+  },
+  "conflicts": {
+    "enabled": true,
+    "same_scope_only": false,
+    "same_entity_or_project_required": true
+  },
+  "health": {
+    "include_stale": true,
+    "include_low_confidence": true,
+    "include_conflicts": true,
+    "include_scope_counts": true,
+    "include_type_counts": true
+  },
+  "updated_at": "2026-07-31T14:58:01.7301303-05:00"
+}

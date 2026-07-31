@@ -1,0 +1,75 @@
+﻿{
+    "report_id":  "MEMHEALTH-20260731-145814",
+    "generated_at":  "2026-07-31T14:58:14.3809625-05:00",
+    "status":  "attention_required",
+    "total_memory_count":  2,
+    "active_memory_count":  1,
+    "archived_memory_count":  0,
+    "review_due_count":  0,
+    "stale_count":  0,
+    "low_confidence_count":  0,
+    "conflict_count":  1,
+    "scope_counts":  {
+                         "business":  1,
+                         "shared":  1
+                     },
+    "type_counts":  {
+                        "fact":  2
+                    },
+    "department_counts":  {
+                              "marketing":  0,
+                              "creative":  0,
+                              "website":  0,
+                              "analytics":  0,
+                              "finance":  0,
+                              "business":  0,
+                              "side-hustles":  0,
+                              "youtube":  0,
+                              "personal-assistant":  0
+                          },
+    "stale_memories":  [
+                           {
+                               "memory_id":  "MEM-20260731-145813-887600",
+                               "title":  "Certification memory two",
+                               "scope":  "shared",
+                               "department":  "",
+                               "age_days":  0,
+                               "review_due":  false,
+                               "stale":  false,
+                               "confidence":  0.8,
+                               "status":  "active"
+                           },
+                           {
+                               "memory_id":  "MEM-20260731-145813-62986D",
+                               "title":  "Certification memory one",
+                               "scope":  "business",
+                               "department":  "",
+                               "age_days":  0,
+                               "review_due":  false,
+                               "stale":  false,
+                               "confidence":  0.9,
+                               "status":  "promoted"
+                           }
+                       ],
+    "low_confidence_memories":  [
+
+                                ],
+    "conflicts":  [
+                      {
+                          "conflict_id":  "MCF-20260731-145814-E7511D",
+                          "memory_ids":  [
+                                             "MEM-20260731-145813-62986D",
+                                             "MEM-20260731-145813-887600"
+                                         ],
+                          "reason":  "Memories share entities or projects but contain different summaries.",
+                          "shared_entities":  [
+                                                  "AI Office"
+                                              ],
+                          "shared_projects":  [
+                                                  "Long-Term Memory"
+                                              ],
+                          "status":  "open",
+                          "created_at":  "2026-07-31T14:58:14.3412585-05:00"
+                      }
+                  ]
+}

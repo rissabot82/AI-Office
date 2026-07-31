@@ -1,0 +1,64 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.4.0",
+  "part": "A",
+  "operating_model": {
+    "human_supervised": true,
+    "resume_after_restart": true,
+    "persist_every_transition": true,
+    "default_owner": "chief-of-staff",
+    "default_priority": "normal",
+    "maximum_active_runs": 100,
+    "maximum_steps_per_plan": 100
+  },
+  "goal_management": {
+    "require_title": true,
+    "require_objective": true,
+    "require_success_criteria": true,
+    "require_owner": true,
+    "require_priority": true,
+    "require_risk_level": true
+  },
+  "execution": {
+    "allowed_step_types": [
+      "chief_of_staff",
+      "department",
+      "message_bus",
+      "openclaw_bridge",
+      "human_approval",
+      "memory_recall",
+      "wait",
+      "report"
+    ],
+    "default_step_timeout_minutes": 60,
+    "allow_parallel_steps": true,
+    "allow_conditional_steps": true
+  },
+  "approval": {
+    "required_for_risk_levels": [
+      "high",
+      "critical"
+    ],
+    "required_for_step_types": [
+      "human_approval"
+    ]
+  },
+  "retry": {
+    "enabled": true,
+    "default_max_attempts": 3,
+    "default_delay_seconds": 30,
+    "backoff_multiplier": 2.0
+  },
+  "checkpoint": {
+    "enabled": true,
+    "create_before_step": true,
+    "create_after_step": true,
+    "retain_completed_checkpoints": true
+  },
+  "recovery": {
+    "resume_queued_runs": true,
+    "resume_running_runs": true,
+    "fail_orphaned_steps_after_hours": 24
+  },
+  "updated_at": "2026-07-31T15:04:17.8878311-05:00"
+}

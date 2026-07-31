@@ -1,0 +1,22 @@
+﻿{
+    "scope_id":  "SCOPE-CHIEF",
+    "name":  "chief-of-staff",
+    "description":  "Executive memory used by the Chief of Staff.",
+    "path":  "workspace\\memory\\chief-of-staff",
+    "allowed_memory_types":  [
+                                 "fact",
+                                 "preference",
+                                 "decision",
+                                 "goal",
+                                 "project",
+                                 "relationship",
+                                 "procedure",
+                                 "lesson",
+                                 "event",
+                                 "metric",
+                                 "constraint",
+                                 "reference"
+                             ],
+    "created_at":  "2026-07-31T14:41:55.4965305-05:00",
+    "updated_at":  "2026-07-31T14:41:55.4965305-05:00"
+}

@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-step-result-schema.json",
+  "title": "AI Office Autonomous Step Result",
+  "type": "object",
+  "required": [
+    "step_result_id",
+    "run_id",
+    "step_id",
+    "step_type",
+    "status",
+    "summary",
+    "created_at"
+  ]
+}

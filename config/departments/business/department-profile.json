@@ -1,0 +1,39 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-BUSINESS",
+    "slug":  "business",
+    "name":  "Business Incubator",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Evaluate, plan, and develop new business opportunities.",
+    "capabilities":  [
+                         "business_planning",
+                         "pricing",
+                         "proposal_creation",
+                         "opportunity_scoring",
+                         "service_design",
+                         "client_workflows",
+                         "revenue_modeling"
+                     ],
+    "responsibilities":  [
+                             "Business idea evaluation",
+                             "Offer design",
+                             "Proposal development",
+                             "Pricing support",
+                             "Opportunity prioritization"
+                         ],
+    "kpis":  [
+                 "qualified_opportunities",
+                 "proposal_conversion_rate",
+                 "project_margin",
+                 "time_to_launch"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

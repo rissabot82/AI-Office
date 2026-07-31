@@ -1,0 +1,112 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "marketing",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-MARKETING-CAMPAIGN_STRATEGY",
+                             "department":  "marketing",
+                             "name":  "campaign_strategy",
+                             "description":  "Department capability for campaign strategy.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-GOOGLE_ADS",
+                             "department":  "marketing",
+                             "name":  "google_ads",
+                             "description":  "Department capability for google ads.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-META_ADS",
+                             "department":  "marketing",
+                             "name":  "meta_ads",
+                             "description":  "Department capability for meta ads.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-EMAIL_MARKETING",
+                             "department":  "marketing",
+                             "name":  "email_marketing",
+                             "description":  "Department capability for email marketing.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-SEO",
+                             "department":  "marketing",
+                             "name":  "seo",
+                             "description":  "Department capability for seo.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-VENDOR_MANAGEMENT",
+                             "department":  "marketing",
+                             "name":  "vendor_management",
+                             "description":  "Department capability for vendor management.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-OFFER_DEVELOPMENT",
+                             "department":  "marketing",
+                             "name":  "offer_development",
+                             "description":  "Department capability for offer development.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-MARKETING-MARKETING_COPY",
+                             "department":  "marketing",
+                             "name":  "marketing_copy",
+                             "description":  "Department capability for marketing copy.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

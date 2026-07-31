@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-approval-schema.json",
+  "title": "AI Office Autonomous Approval",
+  "type": "object",
+  "required": [
+    "approval_id",
+    "run_id",
+    "step_id",
+    "status",
+    "decision",
+    "created_at",
+    "created_by"
+  ]
+}

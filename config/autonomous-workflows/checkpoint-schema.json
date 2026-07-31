@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-checkpoint-schema.json",
+  "title": "AI Office Autonomous Workflow Checkpoint",
+  "type": "object",
+  "required": [
+    "checkpoint_id",
+    "run_id",
+    "step_id",
+    "stage",
+    "state",
+    "created_at"
+  ]
+}

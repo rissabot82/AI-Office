@@ -1,0 +1,112 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "analytics",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-ANALYTICS-GA4",
+                             "department":  "analytics",
+                             "name":  "ga4",
+                             "description":  "Department capability for ga4.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-GOOGLE_TAG_MANAGER",
+                             "department":  "analytics",
+                             "name":  "google_tag_manager",
+                             "description":  "Department capability for google tag manager.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-META_PIXEL",
+                             "department":  "analytics",
+                             "name":  "meta_pixel",
+                             "description":  "Department capability for meta pixel.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-CONVERSION_TRACKING",
+                             "department":  "analytics",
+                             "name":  "conversion_tracking",
+                             "description":  "Department capability for conversion tracking.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-LOOKER_STUDIO",
+                             "department":  "analytics",
+                             "name":  "looker_studio",
+                             "description":  "Department capability for looker studio.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-ATTRIBUTION",
+                             "department":  "analytics",
+                             "name":  "attribution",
+                             "description":  "Department capability for attribution.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-CAMPAIGN_ANALYSIS",
+                             "department":  "analytics",
+                             "name":  "campaign_analysis",
+                             "description":  "Department capability for campaign analysis.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-ANALYTICS-EXECUTIVE_REPORTING",
+                             "department":  "analytics",
+                             "name":  "executive_reporting",
+                             "description":  "Department capability for executive reporting.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

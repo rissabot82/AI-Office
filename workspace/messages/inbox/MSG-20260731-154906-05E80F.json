@@ -1,0 +1,43 @@
+﻿{
+    "message_id":  "MSG-20260731-154906-05E80F",
+    "correlation_id":  "COR-D767D36D55A7",
+    "conversation_id":  "CONV-BRIDGE-LIVE-CERTIFICATION-20260731-B4106B",
+    "office_id":  "AIOFFICE-RISSABOT82-001",
+    "office_version":  "1.1.2",
+    "from":  "bridge",
+    "to":  "chief-of-staff",
+    "message_type":  "execution_result",
+    "priority":  "normal",
+    "status":  "queued",
+    "subject":  "OpenClaw execution completed",
+    "workflow_id":  "",
+    "created_at":  "2026-07-31T15:49:06.4828874-05:00",
+    "updated_at":  "2026-07-31T15:49:06.4828874-05:00",
+    "available_at":  "2026-07-31T15:49:06.4828874-05:00",
+    "expires_at":  null,
+    "delivery_attempts":  0,
+    "requires_acknowledgement":  true,
+    "acknowledged_at":  null,
+    "payload":  {
+                    "execution_id":  "EXE-20260731-154905-4D7860",
+                    "bridge_request_id":  "BRQ-20260731-154905-E0D9D9",
+                    "normalized_result_id":  "NRR-20260731-154906-D48E2F",
+                    "status":  "completed",
+                    "summary":  "OpenClaw execution completed successfully.",
+                    "artifacts":  [
+
+                                  ]
+                },
+    "metadata":  {
+                     "source":  "AI Office Message Bus",
+                     "queue":  "inbox"
+                 },
+    "history":  [
+                    {
+                        "timestamp":  "2026-07-31T15:49:06.4828874-05:00",
+                        "action":  "created",
+                        "actor":  "bridge",
+                        "details":  "Message created in queue inbox."
+                    }
+                ]
+}

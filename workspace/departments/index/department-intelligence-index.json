@@ -1,0 +1,122 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "1.2.0",
+    "updated_at":  "2026-07-31T14:26:11.3456237-05:00",
+    "status":  "ready",
+    "department_count":  9,
+    "active_department_count":  9,
+    "total_inbox_count":  0,
+    "total_plan_count":  0,
+    "total_active_work_count":  0,
+    "total_knowledge_item_count":  0,
+    "departments":  [
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "marketing",
+                            "updated_at":  "2026-07-31T14:26:11.2727888-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  1,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "creative",
+                            "updated_at":  "2026-07-31T14:26:11.2827872-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "website",
+                            "updated_at":  "2026-07-31T14:26:11.2907872-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "analytics",
+                            "updated_at":  "2026-07-31T14:26:11.2986218-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "finance",
+                            "updated_at":  "2026-07-31T14:26:11.3046232-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "business",
+                            "updated_at":  "2026-07-31T14:26:11.3116174-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "side-hustles",
+                            "updated_at":  "2026-07-31T14:26:11.3176196-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "youtube",
+                            "updated_at":  "2026-07-31T14:26:11.3226270-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        },
+                        {
+                            "schema_version":  "1.0.0",
+                            "department":  "personal-assistant",
+                            "updated_at":  "2026-07-31T14:26:11.3306205-05:00",
+                            "status":  "ready",
+                            "inbox_count":  0,
+                            "plan_count":  0,
+                            "active_work_count":  0,
+                            "knowledge_item_count":  0,
+                            "report_count":  0,
+                            "latest_work_id":  ""
+                        }
+                    ]
+}

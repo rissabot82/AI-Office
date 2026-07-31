@@ -1,0 +1,39 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-SIDE_HUSTLES",
+    "slug":  "side-hustles",
+    "name":  "Side Hustles Department",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Track, optimize, and recommend flexible income opportunities.",
+    "capabilities":  [
+                         "user_testing_tracking",
+                         "user_interviews_tracking",
+                         "doordash_analysis",
+                         "gig_profitability",
+                         "opportunity_recommendations",
+                         "schedule_optimization"
+                     ],
+    "responsibilities":  [
+                             "Platform tracking",
+                             "Income analysis",
+                             "Opportunity ranking",
+                             "Time-to-income optimization",
+                             "Weekly side-hustle recommendations"
+                         ],
+    "kpis":  [
+                 "hourly_income",
+                 "weekly_income",
+                 "acceptance_rate",
+                 "payout_pipeline",
+                 "time_efficiency"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

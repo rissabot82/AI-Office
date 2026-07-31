@@ -1,0 +1,24 @@
+﻿{
+    "normalized_result_id":  "NRR-20260731-154906-8946DF",
+    "execution_id":  "EXE-20260731-154906-480B3F",
+    "bridge_request_id":  "BRQ-20260731-154906-33CE04",
+    "message_id":  "MSG-20260731-154906-4B0854",
+    "status":  "completed",
+    "created_at":  "2026-07-31T15:49:06.6606791-05:00",
+    "summary":  "Offline OpenClaw Bridge certification completed.",
+    "data":  {
+                 "run_id":  "RUN-OFFLINE-CERTIFICATION",
+                 "session_key":  "ai-office-bridge-certification",
+                 "gateway_url":  "ws://localhost:18789",
+                 "started_at":  "2026-07-31T15:49:06.6018705-05:00",
+                 "completed_at":  "2026-07-31T15:49:06.6018705-05:00",
+                 "response_payload":  {
+                                          "summary":  "Offline OpenClaw Bridge certification completed.",
+                                          "status":  "success"
+                                      },
+                 "error":  null
+             },
+    "artifacts":  [
+
+                  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.2.0",
+  "part": "A",
+  "departments": [
+    "marketing",
+    "creative",
+    "website",
+    "analytics",
+    "finance",
+    "business",
+    "side-hustles",
+    "youtube",
+    "personal-assistant"
+  ],
+  "governance": {
+    "reports_to": "chief-of-staff",
+    "require_message_bus": true,
+    "require_department_identity": true,
+    "require_capability_match": true,
+    "require_audit_history": true,
+    "allow_cross_department_handoffs": true,
+    "allow_openclaw_dispatch": true
+  },
+  "operating_model": {
+    "default_status": "ready",
+    "default_priority": "normal",
+    "maximum_open_work_items_per_department": 100,
+    "maximum_active_agents_per_department": 10
+  },
+  "updated_at": "2026-07-31T14:01:26.0920859-05:00"
+}

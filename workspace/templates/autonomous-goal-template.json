@@ -1,0 +1,14 @@
+﻿{
+  "goal_id": "GOAL-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "objective": "",
+  "success_criteria": [],
+  "owner": "chief-of-staff",
+  "priority": "normal",
+  "risk_level": "medium",
+  "approval_status": "pending",
+  "status": "draft",
+  "created_at": "",
+  "updated_at": "",
+  "history": []
+}

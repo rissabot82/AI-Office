@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-worker-cycle-schema.json",
+  "title": "AI Office Autonomous Worker Cycle",
+  "type": "object",
+  "required": [
+    "worker_cycle_id",
+    "started_at",
+    "completed_at",
+    "status",
+    "recovered_run_count",
+    "processed_run_count",
+    "completed_run_count",
+    "failed_run_count"
+  ]
+}

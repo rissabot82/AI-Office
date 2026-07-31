@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-capability-schema.json",
+  "title": "AI Office Department Capability",
+  "type": "object",
+  "required": [
+    "capability_id",
+    "department",
+    "name",
+    "description",
+    "risk_level",
+    "approval_required",
+    "execution_modes"
+  ]
+}

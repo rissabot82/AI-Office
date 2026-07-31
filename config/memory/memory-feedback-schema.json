@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-feedback-schema.json",
+  "title": "AI Office Memory Feedback",
+  "type": "object",
+  "required": [
+    "feedback_id",
+    "memory_id",
+    "feedback_type",
+    "summary",
+    "created_at",
+    "created_by"
+  ]
+}

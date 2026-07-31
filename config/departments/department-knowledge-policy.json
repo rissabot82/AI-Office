@@ -1,0 +1,39 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.2.0",
+  "part": "D",
+  "knowledge_types": [
+    "lesson",
+    "template",
+    "playbook",
+    "decision",
+    "metric"
+  ],
+  "capture": {
+    "allow_manual_capture": true,
+    "allow_result_capture": true,
+    "require_source": true,
+    "require_department": true,
+    "require_title": true,
+    "require_summary": true
+  },
+  "reuse": {
+    "enabled": true,
+    "minimum_confidence": 0.50,
+    "maximum_results": 25,
+    "prefer_same_department": true
+  },
+  "learning": {
+    "record_success": true,
+    "record_failure": true,
+    "record_revision": true,
+    "record_approval": true,
+    "calculate_reuse_count": true,
+    "calculate_success_rate": true
+  },
+  "retention": {
+    "archive_instead_of_delete": true,
+    "retain_history": true
+  },
+  "updated_at": "2026-07-31T14:25:58.1161117-05:00"
+}

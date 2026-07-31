@@ -1,0 +1,42 @@
+﻿{
+  "schema_version": "1.0.0",
+  "version": "1.4.0",
+  "part": "B",
+  "execution": {
+    "persist_before_step": true,
+    "persist_after_step": true,
+    "stop_on_failure": true,
+    "allow_resume": true,
+    "maximum_steps_per_cycle": 25
+  },
+  "approval": {
+    "waiting_status": "waiting_approval",
+    "approved_status": "approved",
+    "rejected_status": "rejected"
+  },
+  "retry": {
+    "enabled": true,
+    "default_max_attempts": 3,
+    "default_delay_seconds": 1,
+    "backoff_multiplier": 2.0,
+    "retryable_step_types": [
+      "chief_of_staff",
+      "department",
+      "message_bus",
+      "openclaw_bridge",
+      "memory_recall",
+      "report"
+    ]
+  },
+  "recovery": {
+    "resume_statuses": [
+      "queued",
+      "running",
+      "waiting",
+      "waiting_approval"
+    ],
+    "orphaned_after_hours": 24,
+    "recover_from_latest_checkpoint": true
+  },
+  "updated_at": "2026-07-31T15:21:57.2299293-05:00"
+}

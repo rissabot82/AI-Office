@@ -1,0 +1,29 @@
+﻿{
+    "bridge_request_id":  "BRQ-20260731-155325-BB9ADB",
+    "message_id":  "MSG-20260731-155325-82E522",
+    "correlation_id":  "COR-C299C3CD8CB6",
+    "conversation_id":  "CONV-BRIDGE-LIVE-CERTIFICATION-20260731-578B5E",
+    "workflow_id":  "",
+    "requested_by":  "chief-of-staff",
+    "target_engine":  "OpenClaw",
+    "action_type":  "agent_task",
+    "risk_level":  "low",
+    "approval_status":  "not_required",
+    "status":  "queued",
+    "created_at":  "2026-07-31T15:53:25.8944631-05:00",
+    "updated_at":  "2026-07-31T15:53:25.8944631-05:00",
+    "payload":  {
+                    "action_type":  "agent_task",
+                    "risk_level":  "low",
+                    "approval_status":  "not_required",
+                    "prompt":  "Respond with exactly: AI Office OpenClaw Bridge live certification successful."
+                },
+    "history":  [
+                    {
+                        "timestamp":  "2026-07-31T15:53:25.8944631-05:00",
+                        "action":  "created",
+                        "actor":  "chief-of-staff",
+                        "details":  "Bridge request created."
+                    }
+                ]
+}

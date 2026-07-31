@@ -1,0 +1,16 @@
+﻿{
+  "knowledge_id": "DKI-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "knowledge_type": "lesson",
+  "title": "",
+  "summary": "",
+  "content": {},
+  "source": {},
+  "confidence": 0.75,
+  "created_at": "",
+  "updated_at": "",
+  "reuse_count": 0,
+  "success_count": 0,
+  "failure_count": 0,
+  "history": []
+}

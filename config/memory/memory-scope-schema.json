@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-scope-schema.json",
+  "title": "AI Office Memory Scope",
+  "type": "object",
+  "required": [
+    "scope_id",
+    "name",
+    "description",
+    "path",
+    "allowed_memory_types",
+    "created_at",
+    "updated_at"
+  ]
+}

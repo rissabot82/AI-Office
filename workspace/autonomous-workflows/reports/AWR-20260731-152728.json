@@ -1,0 +1,75 @@
+﻿{
+    "report_id":  "AWR-20260731-152728",
+    "generated_at":  "2026-07-31T15:27:28.9377161-05:00",
+    "status":  "healthy",
+    "goal_count":  1,
+    "open_goal_count":  0,
+    "plan_count":  1,
+    "active_run_count":  0,
+    "waiting_approval_count":  0,
+    "failed_run_count":  0,
+    "checkpoint_count":  6,
+    "approval_record_count":  0,
+    "failure_record_count":  0,
+    "warning_count":  0,
+    "warnings":  [
+
+                 ],
+    "goals":  [
+                  {
+                      "goal_id":  "GOAL-20260731-152728-4ECAE2",
+                      "title":  "Autonomous Workflow certification",
+                      "objective":  "Validate end-to-end autonomous execution and worker runtime.",
+                      "success_criteria":  [
+                                               {
+                                                   "value":  [
+                                                                 "Goal created",
+                                                                 "Plan created",
+                                                                 "Run completed",
+                                                                 "Worker cycle completed",
+                                                                 "Report created"
+                                                             ],
+                                                   "Count":  5
+                                               }
+                                           ],
+                      "owner":  "chief-of-staff",
+                      "priority":  "high",
+                      "risk_level":  "low",
+                      "approval_status":  "not_required",
+                      "status":  "completed",
+                      "created_at":  "2026-07-31T15:27:28.1049343-05:00",
+                      "updated_at":  "2026-07-31T15:27:28.6301977-05:00",
+                      "history":  [
+                                      {
+                                          "timestamp":  "2026-07-31T15:27:28.1049343-05:00",
+                                          "action":  "created",
+                                          "actor":  "chief-of-staff",
+                                          "details":  "Autonomous goal created."
+                                      }
+                                  ],
+                      "completed_at":  "2026-07-31T15:27:28.6301977-05:00"
+                  }
+              ],
+    "runs":  [
+                 {
+                     "run_id":  "RUN-20260731-152728-4CB5CB",
+                     "autonomous_plan_id":  "APL-20260731-152728-AB2EA2",
+                     "goal_id":  "GOAL-20260731-152728-4ECAE2",
+                     "status":  "completed",
+                     "current_step":  3,
+                     "created_at":  "2026-07-31T15:27:28.1839333-05:00",
+                     "updated_at":  "2026-07-31T15:27:28.6301977-05:00",
+                     "started_at":  "2026-07-31T15:27:28.3185812-05:00",
+                     "completed_at":  "2026-07-31T15:27:28.6301977-05:00",
+                     "last_checkpoint_id":  "CHK-20260731-152728-BF6725",
+                     "history":  [
+                                     {
+                                         "timestamp":  "2026-07-31T15:27:28.1839333-05:00",
+                                         "action":  "created",
+                                         "actor":  "workflow-engine",
+                                         "details":  "Autonomous workflow run created."
+                                     }
+                                 ]
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-index-schema.json",
+  "title": "AI Office Long-Term Memory Index",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "version",
+    "updated_at",
+    "status",
+    "total_memory_count",
+    "active_memory_count",
+    "archived_memory_count",
+    "scope_counts",
+    "type_counts",
+    "department_counts"
+  ]
+}

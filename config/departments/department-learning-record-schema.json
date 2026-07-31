@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-learning-record-schema.json",
+  "title": "AI Office Department Learning Record",
+  "type": "object",
+  "required": [
+    "learning_id",
+    "department",
+    "event_type",
+    "source_id",
+    "outcome",
+    "summary",
+    "created_at"
+  ]
+}

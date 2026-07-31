@@ -1,0 +1,41 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department_id":  "DEPT-MARKETING",
+    "slug":  "marketing",
+    "name":  "Marketing Department",
+    "version":  "1.2.0",
+    "status":  "ready",
+    "reports_to":  "chief-of-staff",
+    "mission":  "Plan, execute, and optimize dealership and business marketing initiatives.",
+    "capabilities":  [
+                         "campaign_strategy",
+                         "google_ads",
+                         "meta_ads",
+                         "email_marketing",
+                         "seo",
+                         "vendor_management",
+                         "offer_development",
+                         "marketing_copy"
+                     ],
+    "responsibilities":  [
+                             "Dealership campaign planning",
+                             "Paid media strategy",
+                             "Promotional offer packaging",
+                             "Email and social campaign development",
+                             "Marketing vendor coordination"
+                         ],
+    "kpis":  [
+                 "cost_per_lead",
+                 "conversion_rate",
+                 "impression_share",
+                 "return_on_ad_spend",
+                 "lead_volume"
+             ],
+    "execution_modes":  [
+                            "internal_reasoning",
+                            "message_bus",
+                            "openclaw_bridge"
+                        ],
+    "created_at":  "2026-07-31T14:01:26.0920859-05:00",
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

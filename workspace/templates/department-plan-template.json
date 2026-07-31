@@ -1,0 +1,13 @@
+﻿{
+  "department_plan_id": "DPL-YYYYMMDD-HHMMSS-ABC123",
+  "department": "marketing",
+  "work_item_id": "DWI-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "objective": "",
+  "execution_mode": "internal_reasoning",
+  "status": "draft",
+  "steps": [],
+  "created_at": "",
+  "updated_at": "",
+  "history": []
+}

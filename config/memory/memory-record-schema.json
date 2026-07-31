@@ -1,0 +1,77 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/long-term-memory-record-schema.json",
+  "title": "AI Office Long-Term Memory Record",
+  "type": "object",
+  "required": [
+    "memory_id",
+    "scope",
+    "memory_type",
+    "title",
+    "summary",
+    "content",
+    "source",
+    "confidence",
+    "status",
+    "created_at",
+    "updated_at",
+    "history"
+  ],
+  "properties": {
+    "memory_id": {
+      "type": "string",
+      "pattern": "^MEM-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "memory_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "content": {
+      "type": "object"
+    },
+    "source": {
+      "type": "object"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "last_accessed_at": {
+      "type": ["string", "null"]
+    },
+    "access_count": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "array"
+    },
+    "entities": {
+      "type": "array"
+    },
+    "projects": {
+      "type": "array"
+    },
+    "history": {
+      "type": "array"
+    }
+  }
+}

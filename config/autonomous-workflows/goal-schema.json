@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-goal-schema.json",
+  "title": "AI Office Autonomous Goal",
+  "type": "object",
+  "required": [
+    "goal_id",
+    "title",
+    "objective",
+    "success_criteria",
+    "owner",
+    "priority",
+    "risk_level",
+    "approval_status",
+    "status",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

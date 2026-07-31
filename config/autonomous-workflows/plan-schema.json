@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/autonomous-plan-schema.json",
+  "title": "AI Office Autonomous Plan",
+  "type": "object",
+  "required": [
+    "autonomous_plan_id",
+    "goal_id",
+    "title",
+    "status",
+    "steps",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

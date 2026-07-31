@@ -1,0 +1,19 @@
+﻿{
+    "duplicate_check_id":  "DUPMEM-20260731-145813-3BFDC0",
+    "checked_at":  "2026-07-31T14:58:13.3130422-05:00",
+    "title":  "Campaign structure validation",
+    "summary":  "Reusable dealership campaign workflow.",
+    "scope":  "department",
+    "department":  "marketing",
+    "duplicate_count":  1,
+    "duplicates":  [
+                       {
+                           "memory_id":  "MEM-20260731-145812-341CAC",
+                           "title_match":  true,
+                           "summary_match":  true,
+                           "scope":  "department",
+                           "department":  "marketing",
+                           "confidence":  0.9
+                       }
+                   ]
+}

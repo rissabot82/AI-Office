@@ -1,0 +1,34 @@
+﻿{
+    "product":  "AI Office",
+    "component":  "Long-Term Memory",
+    "version":  "1.3.0",
+    "release_name":  "Long-Term Memory",
+    "release_status":  "released",
+    "installed_at":  "2026-07-31T14:58:01.7301303-05:00",
+    "parts":  {
+                  "A":  "Memory Architecture",
+                  "B":  "Capture, Search, Recall, and Context",
+                  "C":  "Learning, Health, Certification, and Release"
+              },
+    "capabilities":  [
+                         "memory_scopes",
+                         "personal_business_separation",
+                         "department_memory",
+                         "chief_of_staff_memory",
+                         "memory_capture",
+                         "json_import",
+                         "search_and_recall",
+                         "duplicate_detection",
+                         "related_memory",
+                         "context_packets",
+                         "feedback_and_correction",
+                         "promotion_and_demotion",
+                         "staleness_detection",
+                         "conflict_detection",
+                         "memory_health_reporting",
+                         "certification"
+                     ],
+    "next_planned_milestone":  "1.4 Autonomous Workflows",
+    "released_at":  "2026-07-31T14:59:35.9125983-05:00",
+    "certification_id":  "CERT-MEM-20260731-145814"
+}

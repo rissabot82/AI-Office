@@ -1,0 +1,125 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "website",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-WEBSITE-HTML",
+                             "department":  "website",
+                             "name":  "html",
+                             "description":  "Department capability for html.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-CSS",
+                             "department":  "website",
+                             "name":  "css",
+                             "description":  "Department capability for css.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-JAVASCRIPT",
+                             "department":  "website",
+                             "name":  "javascript",
+                             "description":  "Department capability for javascript.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-DEALER_DOT_COM",
+                             "department":  "website",
+                             "name":  "dealer_dot_com",
+                             "description":  "Department capability for dealer dot com.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-DEALERON",
+                             "department":  "website",
+                             "name":  "dealeron",
+                             "description":  "Department capability for dealeron.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-WORDPRESS",
+                             "department":  "website",
+                             "name":  "wordpress",
+                             "description":  "Department capability for wordpress.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-ACCESSIBILITY",
+                             "department":  "website",
+                             "name":  "accessibility",
+                             "description":  "Department capability for accessibility.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-CONVERSION_OPTIMIZATION",
+                             "department":  "website",
+                             "name":  "conversion_optimization",
+                             "description":  "Department capability for conversion optimization.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-WEBSITE-TECHNICAL_WEBSITE_SUPPORT",
+                             "department":  "website",
+                             "name":  "technical_website_support",
+                             "description":  "Department capability for technical website support.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

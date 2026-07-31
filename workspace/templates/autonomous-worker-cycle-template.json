@@ -1,0 +1,12 @@
+﻿{
+  "worker_cycle_id": "WKC-YYYYMMDD-HHMMSS-ABC123",
+  "started_at": "",
+  "completed_at": "",
+  "status": "completed",
+  "recovered_run_count": 0,
+  "processed_run_count": 0,
+  "completed_run_count": 0,
+  "failed_run_count": 0,
+  "waiting_approval_count": 0,
+  "runs": []
+}

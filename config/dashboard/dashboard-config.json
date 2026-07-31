@@ -1,0 +1,10 @@
+﻿{
+  "schema_version": "1.0.0",
+  "dashboard_name": "AI Office Control Center",
+  "host": "127.0.0.1",
+  "port": 18880,
+  "refresh_seconds": 15,
+  "openclaw_gateway_port": 18789,
+  "repository": "E:\\AI\\AI-Office",
+  "read_only": true
+}

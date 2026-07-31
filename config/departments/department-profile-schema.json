@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-profile-schema.json",
+  "title": "AI Office Department Profile",
+  "type": "object",
+  "required": [
+    "department_id",
+    "name",
+    "version",
+    "status",
+    "reports_to",
+    "mission",
+    "capabilities",
+    "responsibilities",
+    "kpis",
+    "created_at",
+    "updated_at"
+  ]
+}

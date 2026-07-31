@@ -1,0 +1,99 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "department":  "creative",
+    "version":  "1.2.0",
+    "capabilities":  [
+                         {
+                             "capability_id":  "CAP-CREATIVE-GRAPHIC_DESIGN",
+                             "department":  "creative",
+                             "name":  "graphic_design",
+                             "description":  "Department capability for graphic design.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-IMAGE_GENERATION",
+                             "department":  "creative",
+                             "name":  "image_generation",
+                             "description":  "Department capability for image generation.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-CLAYMATION_CAMPAIGNS",
+                             "department":  "creative",
+                             "name":  "claymation_campaigns",
+                             "description":  "Department capability for claymation campaigns.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-VIDEO_CONCEPTS",
+                             "department":  "creative",
+                             "name":  "video_concepts",
+                             "description":  "Department capability for video concepts.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-BRAND_SYSTEMS",
+                             "department":  "creative",
+                             "name":  "brand_systems",
+                             "description":  "Department capability for brand systems.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-PRINT_ASSETS",
+                             "department":  "creative",
+                             "name":  "print_assets",
+                             "description":  "Department capability for print assets.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         },
+                         {
+                             "capability_id":  "CAP-CREATIVE-SOCIAL_ASSETS",
+                             "department":  "creative",
+                             "name":  "social_assets",
+                             "description":  "Department capability for social assets.",
+                             "risk_level":  "medium",
+                             "approval_required":  false,
+                             "execution_modes":  [
+                                                     "internal_reasoning",
+                                                     "message_bus",
+                                                     "openclaw_bridge"
+                                                 ]
+                         }
+                     ],
+    "updated_at":  "2026-07-31T14:01:26.0920859-05:00"
+}

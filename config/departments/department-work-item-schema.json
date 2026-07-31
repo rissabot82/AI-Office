@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/department-work-item-schema.json",
+  "title": "AI Office Department Work Item",
+  "type": "object",
+  "required": [
+    "work_item_id",
+    "department",
+    "source_message_id",
+    "title",
+    "objective",
+    "deliverables",
+    "priority",
+    "risk_level",
+    "status",
+    "created_at",
+    "updated_at",
+    "history"
+  ]
+}

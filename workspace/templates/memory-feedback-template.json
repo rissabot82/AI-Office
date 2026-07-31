@@ -1,0 +1,10 @@
+﻿{
+  "feedback_id": "MFB-YYYYMMDD-HHMMSS-ABC123",
+  "memory_id": "MEM-YYYYMMDD-HHMMSS-ABC123",
+  "feedback_type": "confirm",
+  "summary": "",
+  "confidence_before": 0.75,
+  "confidence_after": 0.80,
+  "created_at": "",
+  "created_by": "chief-of-staff"
+}

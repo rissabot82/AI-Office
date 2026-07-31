@@ -1,0 +1,13 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "1.3.0",
+    "department":  "youtube",
+    "updated_at":  "2026-07-31T14:58:14.5396875-05:00",
+    "status":  "ready",
+    "active_memory_count":  0,
+    "archived_memory_count":  0,
+    "type_counts":  {
+
+                    },
+    "latest_memory_id":  ""
+}

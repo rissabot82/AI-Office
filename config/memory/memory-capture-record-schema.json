@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/memory-capture-record-schema.json",
+  "title": "AI Office Memory Capture Record",
+  "type": "object",
+  "required": [
+    "capture_id",
+    "memory_id",
+    "capture_type",
+    "source_type",
+    "created_at"
+  ]
+}

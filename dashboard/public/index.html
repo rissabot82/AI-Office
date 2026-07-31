@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Office Control Center</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">LOCAL OPERATIONS</p>
+        <h1>AI Office Control Center</h1>
+      </div>
+      <div class="header-actions">
+        <span id="lastUpdated">Waiting for data</span>
+        <button id="refreshButton" type="button">Refresh</button>
+      </div>
+    </header>
+
+    <section id="systemStatus" class="status-strip"></section>
+
+    <main>
+      <section class="hero-grid">
+        <article class="hero-card">
+          <p class="eyebrow">WORKFLOW OPERATIONS</p>
+          <div class="hero-number" id="activeRuns">0</div>
+          <h2>Active autonomous runs</h2>
+          <p id="workflowSummary">No workflow data loaded.</p>
+        </article>
+
+        <article class="hero-card">
+          <p class="eyebrow">LONG-TERM MEMORY</p>
+          <div class="hero-number" id="memoryCount">0</div>
+          <h2>Persistent memory records</h2>
+          <p id="memorySummary">No memory data loaded.</p>
+        </article>
+
+        <article class="hero-card attention">
+          <p class="eyebrow">NEEDS ATTENTION</p>
+          <div class="hero-number" id="attentionCount">0</div>
+          <h2>Approvals and failures</h2>
+          <p id="attentionSummary">No alerts detected.</p>
+        </article>
+      </section>
+
+      <section class="two-column">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">ORGANIZATION</p>
+              <h2>Departments</h2>
+            </div>
+          </div>
+          <div id="departments" class="department-grid"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">MESSAGE BUS</p>
+              <h2>Queue activity</h2>
+            </div>
+          </div>
+          <div id="queues" class="queue-list"></div>
+        </article>
+      </section>
+
+      <section class="two-column">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">CURRENT CONTEXT</p>
+              <h2>Recent memory</h2>
+            </div>
+          </div>
+          <div id="recentMemory" class="timeline"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">EXECUTION HISTORY</p>
+              <h2>Recent workflow runs</h2>
+            </div>
+          </div>
+          <div id="recentRuns" class="timeline"></div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
