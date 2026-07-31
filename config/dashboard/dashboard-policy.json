@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0",
+  "dashboard_name": "AI Office Executive Dashboard",
+  "default_timezone": "America/Chicago",
+  "snapshot_retention_days": 90,
+  "stale_snapshot_hours": 24,
+  "health_thresholds": {
+    "healthy_minimum": 80,
+    "attention_minimum": 55,
+    "critical_below": 55
+  },
+  "risk_weights": {
+    "overdue_work": 25,
+    "blocked_work": 25,
+    "pending_approvals": 15,
+    "overdue_calendar": 15,
+    "stale_knowledge": 10,
+    "system_validation": 10
+  },
+  "supported_sections": [
+    "executive_summary",
+    "workflows",
+    "approvals",
+    "calendar",
+    "knowledge",
+    "system_health",
+    "risks",
+    "recommendations"
+  ],
+  "html_report": {
+    "enabled": true,
+    "open_after_generation": false
+  },
+  "severity_order": [
+    "critical",
+    "high",
+    "medium",
+    "low",
+    "informational"
+  ]
+}

@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/agent-message-schema.json",
+  "title": "AI Office Agent Message",
+  "type": "object",
+  "required": [
+    "message_id",
+    "from_agent",
+    "to_agent",
+    "message_type",
+    "subject",
+    "body",
+    "created_at",
+    "status"
+  ],
+  "properties": {
+    "message_id": {
+      "type": "string",
+      "pattern": "^MSG-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "from_agent": {
+      "type": "string"
+    },
+    "to_agent": {
+      "type": "string"
+    },
+    "message_type": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

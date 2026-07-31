@@ -1,0 +1,16 @@
+﻿{
+    "version":  "1.0.0",
+    "updated_at":  "2026-07-31T10:19:49.8727758-05:00",
+    "latest_snapshot":  "DSH-20260731-101949.json",
+    "snapshot_count":  1,
+    "snapshots":  [
+                      {
+                          "snapshot_id":  "DSH-20260731-101949",
+                          "generated_at":  "2026-07-31T10:19:49.4990461-05:00",
+                          "health_score":  100,
+                          "health_status":  "healthy",
+                          "risk_count":  0,
+                          "file":  "DSH-20260731-101949.json"
+                      }
+                  ]
+}

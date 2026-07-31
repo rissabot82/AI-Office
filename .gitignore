@@ -1,71 +1,120 @@
-﻿# AI Office local environment and secrets
+﻿##############################################################
+# AI Office v1.x
+##############################################################
+
+#########################
+# Windows
+#########################
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#########################
+# PowerShell / VS Code
+#########################
+
+.vscode/
+.history/
+*.code-workspace
+
+#########################
+# Python
+#########################
+
+__pycache__/
+*.pyc
+
+#########################
+# Node
+#########################
+
+node_modules/
+
+#########################
+# Logs
+#########################
+
+*.log
+
+#########################
+# Temporary files
+#########################
+
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
+#########################
+# AI Office Runtime
+#########################
+
+workspace/automation/archived-events/
+workspace/automation/execution-log/
+
+workspace/collaboration/agents/
+workspace/collaboration/messages/
+workspace/collaboration/conflicts/
+workspace/collaboration/delegations/
+workspace/collaboration/shared-context/
+
+workspace/dashboard/reports/
+workspace/dashboard/snapshots/
+
+workspace/executive-os/briefings/
+workspace/executive-os/health/
+workspace/executive-os/logs/
+workspace/executive-os/releases/
+
+#########################
+# Backups
+#########################
+
+backups/
+*.zip
+
+#########################
+# Secrets
+#########################
+
 .env
 .env.local
-.env.*.local
+*.secret
 *.key
 *.pem
-*.p12
 *.pfx
-secrets/
-credentials/
-# AI Office operational data
-data/input/*
-data/processed/*
-data/output/*
-data/reference/*
-data/databases/*
-data/exports/*
-data/imports/*
-data/archive/*
-!data/schemas/
-!data/schemas/**
-# AI Office logs
-logs/agents/*
-logs/system/*
-logs/errors/*
-logs/audit/*
-logs/archive/*
-!logs/README.md
-# AI Office workspace
-workspace/inbox/*
-workspace/active/*
-workspace/review/*
-workspace/approved/*
-workspace/outbox/*
-workspace/completed/*
-workspace/failed/*
-workspace/temporary/*
-workspace/archive/*
-!workspace/README.md
-# AI Office backups
-backups/manual/*
-backups/automatic/*
-backups/configuration/*
-backups/databases/*
-backups/archive/*
-!backups/README.md
-# Test output
-tests/results/*
-# Local databases
-*.db
-*.sqlite
-*.sqlite3
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.log
-~$*
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-# Node
-node_modules/
-npm-debug.log*
-# Editor and operating system files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+
+#########################
+# OpenClaw Runtime
+#########################
+
+openclaw-data/
+docker-data/
+volumes/
+
+#########################
+# Keep indexes
+#########################
+
+!workspace/automation/automation-index.json
+!workspace/calendar/calendar-index.json
+!workspace/collaboration/collaboration-index.json
+!workspace/dashboard/dashboard-index.json
+!workspace/executive-os/executive-os-index.json
+!workspace/knowledge/knowledge-index.json
+!workspace/templates/**
+
+#########################
+# Keep source
+#########################
+
+!config/**
+!scripts/**
+!docs/**
+!Installers/**
+!agents/**
+!departments/**
+!knowledge/**
+!README*

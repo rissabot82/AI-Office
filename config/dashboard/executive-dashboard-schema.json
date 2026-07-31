@@ -1,0 +1,71 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/executive-dashboard-schema.json",
+  "title": "AI Office Executive Dashboard Snapshot",
+  "type": "object",
+  "required": [
+    "snapshot_id",
+    "generated_at",
+    "repository",
+    "overall_health",
+    "executive_summary",
+    "metrics",
+    "risks",
+    "recommendations",
+    "sources"
+  ],
+  "properties": {
+    "snapshot_id": {
+      "type": "string",
+      "pattern": "^DSH-[0-9]{8}-[0-9]{6}$"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "repository": {
+      "type": "string"
+    },
+    "overall_health": {
+      "type": "object",
+      "required": [
+        "score",
+        "status",
+        "risk_count"
+      ],
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "healthy",
+            "attention",
+            "critical"
+          ]
+        },
+        "risk_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "executive_summary": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "risks": {
+      "type": "array"
+    },
+    "recommendations": {
+      "type": "array"
+    },
+    "sources": {
+      "type": "array"
+    }
+  }
+}

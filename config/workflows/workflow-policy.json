@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0",
+  "default_owner": "chief-of-staff",
+  "default_department": "executive",
+  "default_status": "planning",
+  "require_all_required_tasks_complete": true,
+  "require_dependencies_complete": true,
+  "require_approval_before_completion": true,
+  "allow_parallel_tasks": true,
+  "allow_optional_tasks": true,
+  "automatic_status_sync": true,
+  "workflow_status_mapping": {
+    "no_tasks": "planning",
+    "not_started": "ready",
+    "work_started": "active",
+    "blocked": "blocked",
+    "all_tasks_complete": "review",
+    "approved": "completed"
+  },
+  "task_status_groups": {
+    "not_started": [
+      "inbox"
+    ],
+    "active": [
+      "active",
+      "review",
+      "approved",
+      "outbox"
+    ],
+    "completed": [
+      "completed"
+    ],
+    "failed": [
+      "failed"
+    ],
+    "archived": [
+      "archive",
+      "archived"
+    ]
+  }
+}

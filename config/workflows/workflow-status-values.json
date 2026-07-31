@@ -1,0 +1,45 @@
+﻿{
+  "version": "1.0.0",
+  "statuses": [
+    {
+      "id": "planning",
+      "description": "The workflow is being designed."
+    },
+    {
+      "id": "ready",
+      "description": "The workflow plan is complete and work may begin."
+    },
+    {
+      "id": "active",
+      "description": "One or more workflow tasks are in progress."
+    },
+    {
+      "id": "blocked",
+      "description": "The workflow cannot continue because of a blocker."
+    },
+    {
+      "id": "review",
+      "description": "Required child tasks are complete and the workflow is awaiting final review."
+    },
+    {
+      "id": "approved",
+      "description": "The workflow has passed final approval."
+    },
+    {
+      "id": "completed",
+      "description": "The workflow has been completed."
+    },
+    {
+      "id": "cancelled",
+      "description": "The workflow was intentionally stopped."
+    },
+    {
+      "id": "failed",
+      "description": "The workflow could not be completed."
+    },
+    {
+      "id": "archived",
+      "description": "The workflow is retained for historical reference."
+    }
+  ]
+}

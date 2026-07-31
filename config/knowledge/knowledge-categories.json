@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "general",
+      "name": "General",
+      "description": "Knowledge that does not fit another category."
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "description": "Campaign strategy, advertising, offers, audiences, and reporting."
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "description": "Design systems, prompts, image direction, copy, and production notes."
+    },
+    {
+      "id": "website",
+      "name": "Website",
+      "description": "Website platforms, development, analytics implementation, and troubleshooting."
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "description": "Measurement, attribution, dashboards, conversion tracking, and reporting."
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "description": "Dealership operations, vehicle marketing, offers, and vendor information."
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "description": "Personal finance, budgeting, savings, expenses, and financial planning."
+    },
+    {
+      "id": "side-hustles",
+      "name": "Side Hustles",
+      "description": "User testing, delivery work, freelance work, and additional income."
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Business planning, pricing, operations, clients, and future ventures."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "description": "Channel strategy, production, publishing, and performance."
+    },
+    {
+      "id": "ai-office",
+      "name": "AI Office",
+      "description": "Internal architecture, packages, agents, workflows, and operating procedures."
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "description": "OpenClaw installation, configuration, integrations, and operations."
+    }
+  ]
+}

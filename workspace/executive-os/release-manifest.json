@@ -1,0 +1,33 @@
+﻿{
+    "product":  "AI Office",
+    "version":  "1.0.0",
+    "release_name":  "Executive Operating System",
+    "release_status":  "released",
+    "installed_at":  "2026-07-31T10:53:58.5398162-05:00",
+    "packages":  [
+                     1,
+                     2,
+                     3,
+                     4,
+                     5,
+                     6,
+                     7,
+                     8,
+                     9,
+                     10,
+                     11,
+                     12,
+                     13,
+                     14,
+                     15
+                 ],
+    "components":  {
+                       "automation_engine":  true,
+                       "agent_collaboration":  true,
+                       "executive_dashboard":  true,
+                       "executive_reporting":  true,
+                       "health_monitoring":  true,
+                       "startup_routine":  true,
+                       "validation_suite":  true
+                   }
+}

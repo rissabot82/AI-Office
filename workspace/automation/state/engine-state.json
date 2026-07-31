@@ -1,0 +1,13 @@
+﻿{
+    "version":  "1.0.0",
+    "last_run_at":  "2026-07-31T10:34:58.8043435-05:00",
+    "processed_event_ids":  [
+                                "EVT-20260731-103458-6F668B"
+                            ],
+    "recent_fingerprints":  [
+                                {
+                                    "fingerprint":  "D49DCE017070F56CCB6DA696109DFFA2CBC2D6B524ABA9872FDC2BDD61D407E2",
+                                    "timestamp":  "2026-07-31T10:34:58.8003560-05:00"
+                                }
+                            ]
+}

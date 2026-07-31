@@ -1,0 +1,25 @@
+﻿{
+  "workflow_id": "WORKFLOW-YYYYMMDD-0001",
+  "title": "Workflow title",
+  "description": "Workflow description",
+  "status": "planning",
+  "template": "blank",
+  "owner_agent": "chief-of-staff",
+  "lead_department": "executive",
+  "created_by": "Clarissa",
+  "created_at": "YYYY-MM-DDTHH:MM:SS",
+  "updated_at": "YYYY-MM-DDTHH:MM:SS",
+  "due_date": null,
+  "approval_required": true,
+  "approval_status": "pending",
+  "progress": {
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "blocked_tasks": 0,
+    "percentage": 0
+  },
+  "tasks": [],
+  "deliverables": [],
+  "notes": [],
+  "history": []
+}

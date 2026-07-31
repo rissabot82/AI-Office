@@ -1,0 +1,50 @@
+﻿{
+    "queue_name":  "delegations",
+    "updated_at":  "2026-07-31T10:47:40.2338311-05:00",
+    "items":  [
+                  {
+                      "queue_item_id":  "QIT-C65847DDC5",
+                      "item_type":  "delegation",
+                      "reference_id":  "DEL-20260731-104117-971F50",
+                      "priority":  1,
+                      "assigned_agent":  "AGT-VALIDATION-MARKETING",
+                      "status":  "queued",
+                      "created_at":  "2026-07-31T10:41:17.5937221-05:00",
+                      "payload":  {
+                                      "delegation_id":  "DEL-20260731-104117-971F50",
+                                      "from_agent":  "AGT-VALIDATION-CHIEF",
+                                      "to_agent":  "AGT-VALIDATION-MARKETING",
+                                      "title":  "Validation delegation",
+                                      "description":  "Complete Package 14 validation.",
+                                      "status":  "assigned",
+                                      "priority":  1,
+                                      "depth":  0,
+                                      "parent_delegation_id":  "",
+                                      "created_at":  "2026-07-31T10:41:17.5420447-05:00",
+                                      "updated_at":  "2026-07-31T10:41:17.5420447-05:00"
+                                  }
+                  },
+                  {
+                      "queue_item_id":  "QIT-E59041800D",
+                      "item_type":  "delegation",
+                      "reference_id":  "DEL-20260731-104740-F2F8DE",
+                      "priority":  1,
+                      "assigned_agent":  "AGT-VALIDATION-MARKETING",
+                      "status":  "queued",
+                      "created_at":  "2026-07-31T10:47:40.2302018-05:00",
+                      "payload":  {
+                                      "delegation_id":  "DEL-20260731-104740-F2F8DE",
+                                      "from_agent":  "AGT-VALIDATION-CHIEF",
+                                      "to_agent":  "AGT-VALIDATION-MARKETING",
+                                      "title":  "Validation delegation",
+                                      "description":  "Complete Package 14 validation.",
+                                      "status":  "assigned",
+                                      "priority":  1,
+                                      "depth":  0,
+                                      "parent_delegation_id":  "",
+                                      "created_at":  "2026-07-31T10:47:40.2031137-05:00",
+                                      "updated_at":  "2026-07-31T10:47:40.2031137-05:00"
+                                  }
+                  }
+              ]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "snapshot_id": "",
+  "generated_at": "",
+  "repository": "E:\\AI\\AI-Office",
+  "overall_health": {
+    "score": 100,
+    "status": "healthy",
+    "risk_count": 0
+  },
+  "executive_summary": "",
+  "metrics": {
+    "workflows": {
+      "total": 0,
+      "active": 0,
+      "completed": 0,
+      "blocked": 0,
+      "overdue": 0
+    },
+    "approvals": {
+      "total": 0,
+      "pending": 0,
+      "approved": 0,
+      "rejected": 0
+    },
+    "calendar": {
+      "total": 0,
+      "today": 0,
+      "next_7_days": 0,
+      "overdue": 0
+    },
+    "knowledge": {
+      "total": 0,
+      "active": 0,
+      "archived": 0,
+      "stale": 0
+    },
+    "system": {
+      "json_files_checked": 0,
+      "invalid_json_files": 0,
+      "required_components_found": 0,
+      "required_components_missing": 0
+    }
+  },
+  "risks": [],
+  "recommendations": [],
+  "sources": []
+}

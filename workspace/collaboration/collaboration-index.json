@@ -1,0 +1,35 @@
+﻿{
+    "version":  "1.0.0",
+    "updated_at":  "2026-07-31T10:53:58.2620781-05:00",
+    "agent_count":  2,
+    "available_agent_count":  2,
+    "message_count":  2,
+    "open_delegation_count":  0,
+    "open_conflict_count":  1,
+    "agents":  [
+                   {
+                       "agent_id":  "AGT-VALIDATION-MARKETING",
+                       "name":  "Validation Marketing Agent",
+                       "department":  "Marketing",
+                       "role":  "Marketing Specialist",
+                       "status":  "available",
+                       "file":  "AGT-VALIDATION-MARKETING.json"
+                   },
+                   {
+                       "agent_id":  "AGT-VALIDATION-CHIEF",
+                       "name":  "Validation Chief of Staff",
+                       "department":  "Executive",
+                       "role":  "Chief of Staff",
+                       "status":  "available",
+                       "file":  "AGT-VALIDATION-CHIEF.json"
+                   }
+               ],
+    "queues":  [
+                   {
+                       "queue_name":  "delegations",
+                       "item_count":  2,
+                       "queued_count":  2,
+                       "file":  "delegations.json"
+                   }
+               ]
+}

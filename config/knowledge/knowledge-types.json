@@ -1,0 +1,45 @@
+﻿{
+  "version": "1.0.0",
+  "types": [
+    {
+      "id": "note",
+      "name": "Note",
+      "description": "General-purpose knowledge or observations."
+    },
+    {
+      "id": "sop",
+      "name": "Standard Operating Procedure",
+      "description": "A repeatable process with steps, requirements, and completion criteria."
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "description": "Findings, evidence, sources, analysis, and conclusions."
+    },
+    {
+      "id": "reference",
+      "name": "Reference",
+      "description": "Stable facts, settings, identifiers, definitions, or lookup information."
+    },
+    {
+      "id": "decision",
+      "name": "Decision",
+      "description": "A recorded decision with rationale, alternatives, and consequences."
+    },
+    {
+      "id": "lesson",
+      "name": "Lesson Learned",
+      "description": "A mistake, discovery, fix, or reusable insight."
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "description": "Business contact details and relationship notes."
+    },
+    {
+      "id": "template",
+      "name": "Template",
+      "description": "Reusable structure, prompt, copy block, or process outline."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "agent_id": "AGT-EXAMPLE",
+  "name": "Example Agent",
+  "department": "Operations",
+  "role": "Specialist",
+  "status": "available",
+  "capabilities": [
+    "example_capability"
+  ],
+  "manager_agent_id": "",
+  "created_at": "",
+  "updated_at": ""
+}

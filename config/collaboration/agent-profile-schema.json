@@ -1,0 +1,49 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/agent-profile-schema.json",
+  "title": "AI Office Agent Profile",
+  "type": "object",
+  "required": [
+    "agent_id",
+    "name",
+    "department",
+    "role",
+    "status",
+    "capabilities",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "pattern": "^AGT-[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "department": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string"
+    },
+    "capabilities": {
+      "type": "array"
+    },
+    "manager_agent_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

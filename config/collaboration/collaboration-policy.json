@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0",
+  "layer_name": "AI Office Agent Collaboration Layer",
+  "default_timezone": "America/Chicago",
+  "max_delegation_depth": 6,
+  "message_retention_days": 90,
+  "conflict_escalation_minutes": 60,
+  "default_queue_capacity": 500,
+  "allowed_agent_statuses": [
+    "available",
+    "busy",
+    "offline",
+    "paused"
+  ],
+  "allowed_message_types": [
+    "information",
+    "request",
+    "response",
+    "handoff",
+    "escalation",
+    "decision",
+    "status"
+  ],
+  "allowed_delegation_statuses": [
+    "assigned",
+    "accepted",
+    "in_progress",
+    "completed",
+    "rejected",
+    "escalated",
+    "cancelled"
+  ],
+  "conflict_resolution_order": [
+    "owner",
+    "department_lead",
+    "chief_of_staff"
+  ]
+}

@@ -1,0 +1,150 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/knowledge-item-schema.json",
+  "title": "AI Office Knowledge Item",
+  "type": "object",
+  "required": [
+    "knowledge_id",
+    "title",
+    "summary",
+    "type",
+    "category",
+    "status",
+    "visibility",
+    "owner_agent",
+    "created_by",
+    "created_at",
+    "updated_at",
+    "version",
+    "content_file",
+    "tags",
+    "links",
+    "sources",
+    "history"
+  ],
+  "properties": {
+    "knowledge_id": {
+      "type": "string",
+      "pattern": "^KNOW-[0-9]{8}-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "note",
+        "sop",
+        "research",
+        "reference",
+        "decision",
+        "lesson",
+        "contact",
+        "template"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "review",
+        "deprecated",
+        "archived"
+      ]
+    },
+    "visibility": {
+      "type": "string",
+      "enum": [
+        "internal",
+        "private",
+        "shared"
+      ]
+    },
+    "owner_agent": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "content_file": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "knowledge_id",
+          "relationship"
+        ],
+        "properties": {
+          "knowledge_id": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "location"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "accessed_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

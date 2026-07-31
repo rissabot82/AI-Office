@@ -1,0 +1,35 @@
+﻿{
+  "event_id": "EVT-YYYYMMDD-0001",
+  "title": "Calendar event title",
+  "description": "",
+  "event_type": "task",
+  "status": "scheduled",
+  "priority": "normal",
+  "start_at": "YYYY-MM-DDTHH:MM:SS",
+  "end_at": "YYYY-MM-DDTHH:MM:SS",
+  "all_day": false,
+  "timezone": "America/Chicago",
+  "owner_agent": "chief-of-staff",
+  "created_by": "Clarissa",
+  "created_at": "YYYY-MM-DDTHH:MM:SS",
+  "updated_at": "YYYY-MM-DDTHH:MM:SS",
+  "completed_at": null,
+  "estimated_minutes": 60,
+  "actual_minutes": 0,
+  "location": "",
+  "recurrence": {
+    "frequency": "none",
+    "interval": 1,
+    "until": null,
+    "count": null
+  },
+  "links": {
+    "project_id": null,
+    "workflow_id": null,
+    "task_id": null,
+    "knowledge_ids": []
+  },
+  "tags": [],
+  "urgency_score": 0,
+  "history": []
+}

@@ -1,0 +1,54 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/delegation-schema.json",
+  "title": "AI Office Delegation Record",
+  "type": "object",
+  "required": [
+    "delegation_id",
+    "from_agent",
+    "to_agent",
+    "title",
+    "status",
+    "priority",
+    "depth",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "delegation_id": {
+      "type": "string",
+      "pattern": "^DEL-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "from_agent": {
+      "type": "string"
+    },
+    "to_agent": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "depth": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "parent_delegation_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

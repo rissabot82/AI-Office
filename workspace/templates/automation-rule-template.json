@@ -1,0 +1,20 @@
+﻿{
+  "rule_id": "AUT-EXAMPLE",
+  "name": "Example automation rule",
+  "description": "Replace this example with an operational rule.",
+  "enabled": false,
+  "priority": 100,
+  "trigger": {
+    "type": "manual",
+    "source": "user"
+  },
+  "conditions": [],
+  "actions": [
+    {
+      "type": "write_log",
+      "message": "Example automation executed."
+    }
+  ],
+  "created_at": "",
+  "updated_at": ""
+}

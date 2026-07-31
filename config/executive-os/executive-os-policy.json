@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0",
+  "system_name": "AI Office Executive Operating System",
+  "default_timezone": "America/Chicago",
+  "startup_components": [
+    "automation",
+    "collaboration",
+    "dashboard",
+    "workflows",
+    "knowledge"
+  ],
+  "health_thresholds": {
+    "healthy": 80,
+    "warning": 60,
+    "critical": 0
+  },
+  "report_retention_days": 365,
+  "daily_briefing_hour": 7,
+  "end_of_day_hour": 18,
+  "weekly_report_day": "Friday",
+  "monthly_report_day": 1,
+  "release_name": "AI Office v1.0"
+}

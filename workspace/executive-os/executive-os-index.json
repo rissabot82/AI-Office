@@ -1,0 +1,13 @@
+﻿{
+    "version":  "1.0.0",
+    "updated_at":  "2026-07-31T10:53:58.5158656-05:00",
+    "last_startup_at":  "2026-07-31T10:53:58.4889891-05:00",
+    "last_daily_briefing_at":  "2026-07-31T10:53:58.4414482-05:00",
+    "last_end_of_day_report_at":  "",
+    "last_weekly_report_at":  "",
+    "last_monthly_report_at":  "",
+    "office_health_score":  100,
+    "office_health_status":  "healthy",
+    "latest_briefing":  ".\\workspace\\executive-os\\briefings\\daily-20260731-105358.json",
+    "latest_report":  ""
+}

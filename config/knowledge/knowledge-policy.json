@@ -1,0 +1,36 @@
+﻿{
+  "version": "1.0.0",
+  "default_owner": "chief-of-staff",
+  "default_status": "active",
+  "default_visibility": "internal",
+  "require_title": true,
+  "require_summary": true,
+  "require_category": true,
+  "require_source_for_research": false,
+  "allow_empty_tags": true,
+  "allow_cross_links": true,
+  "create_version_on_update": true,
+  "archive_instead_of_delete": true,
+  "supported_types": [
+    "note",
+    "sop",
+    "research",
+    "reference",
+    "decision",
+    "lesson",
+    "contact",
+    "template"
+  ],
+  "supported_statuses": [
+    "draft",
+    "active",
+    "review",
+    "deprecated",
+    "archived"
+  ],
+  "supported_visibility": [
+    "internal",
+    "private",
+    "shared"
+  ]
+}

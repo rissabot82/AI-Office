@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "blank",
+      "name": "Blank workflow",
+      "description": "An empty workflow for manual planning.",
+      "suggested_agents": []
+    },
+    {
+      "id": "dealership-campaign",
+      "name": "Dealership campaign",
+      "description": "Coordinates marketing, creative, website, and analytics work.",
+      "suggested_agents": [
+        "marketing",
+        "creative",
+        "website",
+        "analytics"
+      ]
+    },
+    {
+      "id": "website-project",
+      "name": "Website project",
+      "description": "Coordinates business planning, website production, creative work, and analytics.",
+      "suggested_agents": [
+        "business",
+        "website",
+        "creative",
+        "analytics"
+      ]
+    },
+    {
+      "id": "youtube-launch",
+      "name": "YouTube launch",
+      "description": "Coordinates business strategy, creative development, marketing, and video planning.",
+      "suggested_agents": [
+        "business",
+        "creative",
+        "marketing",
+        "youtube"
+      ]
+    },
+    {
+      "id": "side-hustle-review",
+      "name": "Side-hustle review",
+      "description": "Coordinates earnings analysis, financial review, and business recommendations.",
+      "suggested_agents": [
+        "side-hustles",
+        "finance",
+        "business"
+      ]
+    }
+  ]
+}

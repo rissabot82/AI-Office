@@ -1,0 +1,202 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/calendar-event-schema.json",
+  "title": "AI Office Calendar Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "title",
+    "description",
+    "event_type",
+    "status",
+    "priority",
+    "start_at",
+    "end_at",
+    "all_day",
+    "timezone",
+    "owner_agent",
+    "created_by",
+    "created_at",
+    "updated_at",
+    "estimated_minutes",
+    "actual_minutes",
+    "recurrence",
+    "links",
+    "tags",
+    "history"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVT-[0-9]{8}-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "meeting",
+        "deadline",
+        "milestone",
+        "reminder",
+        "task",
+        "time-block",
+        "review"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "in-progress",
+        "completed",
+        "cancelled",
+        "deferred",
+        "archived"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "normal",
+        "low"
+      ]
+    },
+    "start_at": {
+      "type": "string"
+    },
+    "end_at": {
+      "type": "string"
+    },
+    "all_day": {
+      "type": "boolean"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "owner_agent": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "actual_minutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "location": {
+      "type": "string"
+    },
+    "recurrence": {
+      "type": "object",
+      "required": [
+        "frequency",
+        "interval",
+        "until",
+        "count"
+      ],
+      "properties": {
+        "frequency": {
+          "type": "string",
+          "enum": [
+            "none",
+            "daily",
+            "weekly",
+            "monthly",
+            "yearly"
+          ]
+        },
+        "interval": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "until": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "required": [
+        "project_id",
+        "workflow_id",
+        "task_id",
+        "knowledge_ids"
+      ],
+      "properties": {
+        "project_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "workflow_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "task_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "knowledge_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "urgency_score": {
+      "type": "integer"
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

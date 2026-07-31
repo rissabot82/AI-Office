@@ -1,0 +1,19 @@
+﻿{
+  "knowledge_id": "KNOW-YYYYMMDD-0001",
+  "title": "Knowledge item title",
+  "summary": "Short description of the knowledge item.",
+  "type": "note",
+  "category": "general",
+  "status": "active",
+  "visibility": "internal",
+  "owner_agent": "chief-of-staff",
+  "created_by": "Clarissa",
+  "created_at": "YYYY-MM-DDTHH:MM:SS",
+  "updated_at": "YYYY-MM-DDTHH:MM:SS",
+  "version": 1,
+  "content_file": "content.md",
+  "tags": [],
+  "links": [],
+  "sources": [],
+  "history": []
+}

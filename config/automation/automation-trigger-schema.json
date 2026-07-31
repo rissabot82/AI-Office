@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-office/schemas/automation-trigger-schema.json",
+  "title": "AI Office Automation Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "trigger_type",
+    "created_at",
+    "source",
+    "payload",
+    "depth"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVT-[0-9]{8}-[0-9]{6}-[A-F0-9]{6}$"
+    },
+    "trigger_type": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "parent_event_id": {
+      "type": "string"
+    },
+    "depth": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

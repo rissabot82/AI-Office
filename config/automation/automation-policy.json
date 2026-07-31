@@ -1,0 +1,53 @@
+﻿{
+  "version": "1.0.0",
+  "engine_name": "AI Office Automation Engine",
+  "enabled": true,
+  "default_timezone": "America/Chicago",
+  "max_execution_depth": 5,
+  "max_actions_per_rule": 20,
+  "max_events_per_run": 100,
+  "duplicate_suppression_minutes": 30,
+  "retry_limit": 2,
+  "execution_timeout_seconds": 120,
+  "require_approval_for_high_impact": true,
+  "high_impact_actions": [
+    "execute_script",
+    "archive_record",
+    "change_priority",
+    "create_child_workflow"
+  ],
+  "allowed_trigger_types": [
+    "manual",
+    "workflow_created",
+    "workflow_updated",
+    "workflow_completed",
+    "workflow_approved",
+    "workflow_rejected",
+    "calendar_due",
+    "calendar_overdue",
+    "knowledge_added",
+    "knowledge_updated",
+    "dashboard_health_below",
+    "file_created",
+    "file_modified",
+    "daily_schedule",
+    "weekly_schedule",
+    "monthly_schedule"
+  ],
+  "allowed_action_types": [
+    "create_workflow",
+    "create_child_workflow",
+    "assign_owner",
+    "change_priority",
+    "request_approval",
+    "generate_report",
+    "generate_dashboard_snapshot",
+    "send_internal_notification",
+    "archive_record",
+    "update_knowledge",
+    "execute_script",
+    "queue_event",
+    "call_component",
+    "write_log"
+  ]
+}
