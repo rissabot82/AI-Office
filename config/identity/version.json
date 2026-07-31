@@ -3,8 +3,8 @@
     "version":  "1.4.0",
     "release_name":  "Autonomous Workflows",
     "release_type":  "minor_feature",
-    "status":  "part_c_installed",
-    "installed_at":  "2026-07-31T15:27:18.5954293-05:00",
+    "status":  "operational",
+    "installed_at":  "2026-07-31T16:59:41.9736482-05:00",
     "previous_version":  "1.3.0",
     "next_planned_milestone":  "1.5 Knowledge Graph and Reasoning",
     "compatibility":  {
