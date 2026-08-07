@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.5.0",
+  "part": "A",
+  "entity_types": [
+    "person",
+    "organization",
+    "dealership",
+    "vendor",
+    "project",
+    "campaign",
+    "vehicle",
+    "account",
+    "goal",
+    "decision",
+    "agent",
+    "department",
+    "platform",
+    "tool",
+    "metric",
+    "location",
+    "document",
+    "workflow",
+    "financial_entity",
+    "business_idea"
+  ],
+  "relationship_types": [
+    "owns",
+    "manages",
+    "works_at",
+    "part_of",
+    "uses",
+    "integrates_with",
+    "reports_to",
+    "depends_on",
+    "related_to",
+    "targets",
+    "measures",
+    "created_by",
+    "assigned_to",
+    "affects",
+    "supersedes",
+    "conflicts_with",
+    "supports",
+    "located_at",
+    "vendor_for",
+    "campaign_for",
+    "account_for",
+    "goal_for",
+    "decision_about"
+  ],
+  "confidence": {
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "default": 0.75
+  },
+  "provenance_required": true,
+  "allow_cross_scope_relationships": true,
+  "duplicate_detection": {
+    "enabled": true,
+    "name_normalization": true
+  },
+  "indexes": {
+    "entity_type": true,
+    "relationship_type": true,
+    "scope": true,
+    "source": true
+  }
+}

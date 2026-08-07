@@ -118,3 +118,5 @@ volumes/
 !departments/**
 !knowledge/**
 !README*
+
+dashboard/runtime/dashboard.pid

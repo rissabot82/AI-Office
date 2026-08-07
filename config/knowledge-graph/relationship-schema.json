@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Relationship",
+  "type": "object",
+  "required": [
+    "relationship_id",
+    "relationship_type",
+    "from_entity_id",
+    "to_entity_id",
+    "confidence",
+    "provenance",
+    "created_at",
+    "updated_at"
+  ]
+}

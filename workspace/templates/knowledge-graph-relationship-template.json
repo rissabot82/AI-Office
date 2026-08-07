@@ -1,0 +1,16 @@
+{
+  "relationship_id": "KGR-YYYYMMDD-HHMMSS-ABC123",
+  "relationship_type": "related_to",
+  "from_entity_id": "",
+  "to_entity_id": "",
+  "confidence": 0.75,
+  "attributes": {},
+  "provenance": {
+    "source_type": "manual",
+    "source_ref": "",
+    "source_detail": "",
+    "captured_at": ""
+  },
+  "created_at": "",
+  "updated_at": ""
+}

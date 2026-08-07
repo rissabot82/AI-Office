@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Provenance",
+  "type": "object",
+  "required": [
+    "source_type",
+    "source_ref",
+    "captured_at"
+  ]
+}

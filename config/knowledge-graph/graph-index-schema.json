@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Index",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "entity_count",
+    "relationship_count",
+    "entity_type_counts",
+    "relationship_type_counts",
+    "scope_counts"
+  ]
+}

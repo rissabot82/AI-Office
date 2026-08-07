@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.5.0",
+  "repository": "E:\\AI\\AI-Office",
+  "wsl_distribution": "OpenClawGateway",
+  "openclaw_config_path": "/home/openclaw/.openclaw/openclaw.json",
+  "openclaw_service": "openclaw-gateway",
+  "gateway_port": 18789,
+  "dashboard_port": 18880,
+  "check_docker": true,
+  "check_dashboard": true,
+  "check_authenticated_bridge": true
+}

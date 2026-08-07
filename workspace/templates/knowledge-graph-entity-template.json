@@ -1,0 +1,17 @@
+{
+  "entity_id": "KGE-YYYYMMDD-HHMMSS-ABC123",
+  "entity_type": "organization",
+  "name": "",
+  "aliases": [],
+  "scope": "business",
+  "confidence": 0.75,
+  "attributes": {},
+  "provenance": {
+    "source_type": "manual",
+    "source_ref": "",
+    "source_detail": "",
+    "captured_at": ""
+  },
+  "created_at": "",
+  "updated_at": ""
+}

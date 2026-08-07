@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Entity",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "name",
+    "scope",
+    "confidence",
+    "provenance",
+    "created_at",
+    "updated_at"
+  ]
+}
