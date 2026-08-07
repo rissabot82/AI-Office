@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.8.0",
+  "part": "B",
+  "evaluation": {
+    "enabled": true,
+    "go_threshold": 75.0,
+    "conditional_threshold": 60.0,
+    "minimum_validation_score": 50.0
+  },
+  "market_analysis": {
+    "enabled": true,
+    "track_competitors": true,
+    "track_customer_pain": true,
+    "track_pricing": true,
+    "track_demand_signals": true
+  },
+  "validation": {
+    "enabled": true,
+    "success_score": 70.0,
+    "partial_success_score": 50.0
+  },
+  "launch_budget": {
+    "enabled": true,
+    "maximum_default_months_to_break_even": 12
+  },
+  "portfolio": {
+    "enabled": true,
+    "maximum_priority_rank": 100,
+    "factors": [
+      "opportunity_score",
+      "validation_score",
+      "profitability",
+      "time_to_launch",
+      "automation_potential",
+      "capital_efficiency"
+    ]
+  }
+}

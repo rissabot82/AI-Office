@@ -1,0 +1,10 @@
+{
+  "budget_analysis_id": "BIZBUD-YYYYMMDD-HHMMSS-ABC123",
+  "idea_id": "",
+  "launch_budget": 0.0,
+  "expected_monthly_revenue": 0.0,
+  "expected_monthly_expenses": 0.0,
+  "expected_monthly_profit": 0.0,
+  "months_to_break_even": 0.0,
+  "created_at": ""
+}

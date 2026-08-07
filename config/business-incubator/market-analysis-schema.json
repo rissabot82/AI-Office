@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Market Analysis",
+  "type": "object",
+  "required": [
+    "market_analysis_id",
+    "idea_id",
+    "market_summary",
+    "competitors",
+    "pricing_observations",
+    "demand_signals",
+    "created_at"
+  ]
+}

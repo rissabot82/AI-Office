@@ -1,0 +1,31 @@
+﻿{
+    "certification_id":  "CERT-BIZ-20260807-131430",
+    "version":  "1.8.0",
+    "release_name":  "Business Incubator",
+    "certified_at":  "2026-08-07T13:14:30.0762734-05:00",
+    "status":  "failed",
+    "passed_checks":  2,
+    "failed_checks":  2,
+    "checks":  [
+                   {
+                       "name":  "Part A Business Incubator Architecture",
+                       "passed":  false,
+                       "details":  ""
+                   },
+                   {
+                       "name":  "Part B Validation and Venture Planning",
+                       "passed":  false,
+                       "details":  ""
+                   },
+                   {
+                       "name":  "Business Incubator Dashboard Snapshot",
+                       "passed":  true,
+                       "details":  "ideas=0; evaluations=0"
+                   },
+                   {
+                       "name":  "Release Manifest",
+                       "passed":  true,
+                       "details":  "version=1.8.0"
+                   }
+               ]
+}

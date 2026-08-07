@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Launch Budget Analysis",
+  "type": "object",
+  "required": [
+    "budget_analysis_id",
+    "idea_id",
+    "launch_budget",
+    "expected_monthly_revenue",
+    "expected_monthly_expenses",
+    "expected_monthly_profit",
+    "months_to_break_even",
+    "created_at"
+  ]
+}

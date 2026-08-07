@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Validation Experiment",
+  "type": "object",
+  "required": [
+    "experiment_id",
+    "idea_id",
+    "method",
+    "hypothesis",
+    "success_metric",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

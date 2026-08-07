@@ -1,0 +1,9 @@
+{
+  "validation_result_id": "BIZVR-YYYYMMDD-HHMMSS-ABC123",
+  "experiment_id": "",
+  "score": 0.0,
+  "status": "inconclusive",
+  "metrics": {},
+  "conclusion": "",
+  "created_at": ""
+}

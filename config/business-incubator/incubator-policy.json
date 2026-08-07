@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.8.0",
+  "part": "A",
+  "idea_statuses": [
+    "captured",
+    "researching",
+    "validating",
+    "approved",
+    "paused",
+    "rejected",
+    "launched"
+  ],
+  "opportunity_types": [
+    "digital_product",
+    "service",
+    "content_business",
+    "affiliate",
+    "ecommerce",
+    "software",
+    "local_business",
+    "consulting",
+    "media",
+    "other"
+  ],
+  "validation_methods": [
+    "market_research",
+    "competitive_analysis",
+    "landing_page",
+    "survey",
+    "preorder",
+    "prototype",
+    "content_test",
+    "paid_ad_test",
+    "customer_interview",
+    "other"
+  ],
+  "score_dimensions": [
+    "market_demand",
+    "profit_potential",
+    "startup_cost",
+    "time_to_launch",
+    "automation_potential",
+    "fit_with_skills",
+    "competition",
+    "scalability"
+  ],
+  "scoring": {
+    "minimum": 0,
+    "maximum": 100,
+    "default_weight": 1.0
+  },
+  "privacy": {
+    "store_credentials": false,
+    "store_private_api_keys": false,
+    "allow_public_research_links": true
+  }
+}

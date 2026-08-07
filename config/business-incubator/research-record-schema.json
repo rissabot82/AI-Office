@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Business Research Record",
+  "type": "object",
+  "required": [
+    "research_id",
+    "idea_id",
+    "research_type",
+    "summary",
+    "sources",
+    "created_at"
+  ]
+}

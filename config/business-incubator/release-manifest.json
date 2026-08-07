@@ -1,0 +1,18 @@
+﻿{
+    "version":  "1.8.0",
+    "release_name":  "Business Incubator",
+    "parts":  {
+                  "part_a":  "Business Incubator Architecture",
+                  "part_b":  "Validation and Venture Planning",
+                  "part_c":  "Dashboard, Certification, and Release"
+              },
+    "required_certification_checks":  [
+                                          "Part A Business Incubator Architecture",
+                                          "Part B Validation and Venture Planning",
+                                          "Business Incubator Dashboard Snapshot",
+                                          "Release Manifest"
+                                      ],
+    "status":  "released",
+    "released_at":  "2026-08-07T13:15:41.5793172-05:00",
+    "certification_id":  "CERT-BIZ-20260807-131541"
+}

@@ -1,0 +1,23 @@
+﻿{
+    "generated_at":  "2026-08-07T13:15:41.4034257-05:00",
+    "version":  "1.8.0",
+    "release_name":  "Business Incubator",
+    "summary":  {
+                    "ideas":  0,
+                    "market_analyses":  0,
+                    "validation_results":  0,
+                    "venture_evaluations":  0,
+                    "budget_analyses":  0,
+                    "recommendations":  {
+                                            "go":  0,
+                                            "conditional":  0,
+                                            "no_go":  0
+                                        }
+                },
+    "ideas":  [
+
+              ],
+    "portfolio":  {
+
+                  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Business Idea",
+  "type": "object",
+  "required": [
+    "idea_id",
+    "name",
+    "opportunity_type",
+    "status",
+    "summary",
+    "created_at",
+    "updated_at"
+  ]
+}

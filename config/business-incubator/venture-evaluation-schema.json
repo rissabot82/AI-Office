@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Venture Evaluation",
+  "type": "object",
+  "required": [
+    "evaluation_id",
+    "idea_id",
+    "opportunity_score",
+    "validation_score",
+    "recommendation",
+    "reasoning",
+    "created_at"
+  ]
+}
