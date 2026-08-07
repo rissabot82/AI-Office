@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.9.0",
+  "part": "B",
+  "release_name": "Operations and Integrations",
+  "dispatch": {
+    "enabled": true,
+    "chief_of_staff_default": true,
+    "allow_department_override": true,
+    "maximum_retry_attempts": 3,
+    "retry_backoff_seconds": [
+      5,
+      15,
+      30
+    ]
+  },
+  "discord": {
+    "enabled": true,
+    "normalize_task_requests": true,
+    "default_department": "chief-of-staff",
+    "default_priority": "normal"
+  },
+  "reporting": {
+    "enabled": true,
+    "department": "monthly-reporting",
+    "workflow_name": "monthly-reporting",
+    "stages": [
+      "collect",
+      "normalize",
+      "validate",
+      "populate",
+      "analyze",
+      "draft_summary",
+      "review"
+    ]
+  },
+  "health": {
+    "enabled": true,
+    "degraded_after_failures": 1,
+    "disconnected_after_failures": 3
+  },
+  "notifications": {
+    "on_failure": true,
+    "on_recovery": true,
+    "on_job_completion": true
+  }
+}

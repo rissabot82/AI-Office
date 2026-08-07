@@ -1,0 +1,19 @@
+﻿{
+    "version":  "1.9.0",
+    "updated_at":  "2026-08-07T13:51:26.6787467-05:00",
+    "status":  "ready",
+    "intake_count":  0,
+    "queued_intake_count":  0,
+    "integration_count":  0,
+    "connected_integration_count":  0,
+    "job_count":  0,
+    "active_job_count":  0,
+    "notification_count":  0,
+    "unread_notification_count":  0,
+    "channel_counts":  {
+
+                       },
+    "integration_type_counts":  {
+
+                                }
+}

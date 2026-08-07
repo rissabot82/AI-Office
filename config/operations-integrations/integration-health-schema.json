@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Integration Health Check",
+  "type": "object",
+  "required": [
+    "health_check_id",
+    "integration_id",
+    "status",
+    "details",
+    "checked_at"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Discord Intake",
+  "type": "object",
+  "required": [
+    "discord_intake_id",
+    "author_id",
+    "content",
+    "normalized_title",
+    "priority",
+    "requested_department",
+    "created_at"
+  ]
+}

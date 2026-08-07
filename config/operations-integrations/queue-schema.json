@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Operations Queue Index",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "status",
+    "intake_count",
+    "integration_count",
+    "job_count",
+    "notification_count"
+  ]
+}

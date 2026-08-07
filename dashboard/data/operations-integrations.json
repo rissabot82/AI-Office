@@ -1,0 +1,29 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "1.9.0",
+    "generated_at":  "2026-08-07T13:51:26.9678931-05:00",
+    "status":  "operational",
+    "metrics":  {
+                    "intake":  0,
+                    "discord_intake":  0,
+                    "dispatch_total":  0,
+                    "dispatch_queued":  0,
+                    "dispatch_failed":  0,
+                    "integrations":  0,
+                    "integrations_healthy":  0,
+                    "integrations_degraded":  0,
+                    "jobs":  0,
+                    "job_runs":  0,
+                    "job_runs_completed":  0,
+                    "job_runs_failed":  0
+                },
+    "integration_health":  [
+
+                           ],
+    "recent_dispatch":  [
+
+                        ],
+    "recent_job_runs":  [
+
+                        ]
+}

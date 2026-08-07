@@ -1,0 +1,31 @@
+﻿{
+    "certification_id":  "CERT-OPS-20260807-135126",
+    "version":  "1.9.0",
+    "release_name":  "Operations and Integrations",
+    "certified_at":  "2026-08-07T13:51:26.9155357-05:00",
+    "status":  "certified",
+    "passed_checks":  4,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Part A Operations and Integrations Architecture",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part B Operational Runtime and External Intake",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Operations Dashboard Snapshot",
+                       "passed":  true,
+                       "details":  "integrations=0; jobs=0"
+                   },
+                   {
+                       "name":  "Release Manifest",
+                       "passed":  true,
+                       "details":  "version=1.9.0"
+                   }
+               ]
+}

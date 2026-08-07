@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.9.0",
+  "release_name": "Operations and Integrations",
+  "status": "release_candidate",
+  "parts": {
+    "part_a": "Operations and Integrations Architecture",
+    "part_b": "Operational Runtime and External Intake",
+    "part_c": "Dashboard, Certification, and Release"
+  },
+  "capabilities": [
+    "multi-channel operational intake",
+    "discord/mobile task normalization",
+    "chief-of-staff and department dispatch",
+    "retry-aware operational execution",
+    "integration registry and health checks",
+    "scheduled operational jobs",
+    "monthly reporting workflow",
+    "operations dashboard visibility"
+  ]
+}

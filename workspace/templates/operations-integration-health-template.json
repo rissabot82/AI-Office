@@ -1,0 +1,8 @@
+{
+  "health_check_id": "OPSHEALTH-YYYYMMDD-HHMMSS-ABC123",
+  "integration_id": "",
+  "integration_name": "",
+  "status": "unknown",
+  "details": "",
+  "checked_at": ""
+}

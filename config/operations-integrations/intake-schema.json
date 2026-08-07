@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Operational Intake",
+  "type": "object",
+  "required": [
+    "intake_id",
+    "channel",
+    "title",
+    "status",
+    "priority",
+    "created_at",
+    "updated_at"
+  ]
+}

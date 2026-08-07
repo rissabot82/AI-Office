@@ -1,0 +1,11 @@
+{
+  "dispatch_id": "OPSDSP-YYYYMMDD-HHMMSS-ABC123",
+  "intake_id": "",
+  "destination_type": "department",
+  "destination": "chief-of-staff",
+  "status": "queued",
+  "attempts": 0,
+  "last_error": "",
+  "created_at": "",
+  "updated_at": ""
+}

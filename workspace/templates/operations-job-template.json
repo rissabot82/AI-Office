@@ -1,0 +1,12 @@
+{
+  "job_id": "OPSJOB-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "job_type": "manual",
+  "status": "configured",
+  "schedule": "",
+  "handler": "",
+  "department": "",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

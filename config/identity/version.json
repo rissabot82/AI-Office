@@ -1,10 +1,10 @@
 ﻿{
     "product":  "AI Office",
-    "version":  "1.8.0",
-    "release_name":  "Business Incubator",
+    "version":  "1.9.0",
+    "release_name":  "Operations and Integrations",
     "release_type":  "minor_feature",
     "status":  "released",
-    "installed_at":  "2026-08-07T13:15:41.5953930-05:00",
+    "installed_at":  "2026-08-07T13:35:19.8079034-05:00",
     "previous_version":  "1.3.0",
     "next_planned_milestone":  "2.0 Autonomous AI Enterprise",
     "compatibility":  {
@@ -12,5 +12,6 @@
                           "powershell":  "7.x supported",
                           "repository_layout":  "AI Office v1.0",
                           "openclaw_gateway":  "2026.6.10"
-                      }
+                      },
+    "released_at":  "2026-08-07T13:51:26.9512638-05:00"
 }

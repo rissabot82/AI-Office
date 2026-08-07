@@ -1,0 +1,12 @@
+{
+  "integration_id": "OPSINTG-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "integration_type": "",
+  "status": "configured",
+  "capabilities": [],
+  "endpoint_reference": "",
+  "health": {},
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

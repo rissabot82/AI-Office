@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.9.0",
+  "part": "A",
+  "release_name": "Operations and Integrations",
+  "intake_channels": [
+    "dashboard",
+    "discord",
+    "email",
+    "manual",
+    "api",
+    "scheduled_job"
+  ],
+  "work_item_statuses": [
+    "queued",
+    "processing",
+    "waiting",
+    "completed",
+    "failed",
+    "cancelled"
+  ],
+  "integration_statuses": [
+    "configured",
+    "connected",
+    "degraded",
+    "disconnected",
+    "disabled"
+  ],
+  "job_types": [
+    "scheduled",
+    "manual",
+    "event_driven",
+    "reporting",
+    "sync",
+    "notification"
+  ],
+  "notification_priorities": [
+    "low",
+    "normal",
+    "high",
+    "critical"
+  ],
+  "routing": {
+    "chief_of_staff_supervision": true,
+    "allow_department_routing": true,
+    "allow_agent_routing": true,
+    "allow_queue_priority": true
+  },
+  "security": {
+    "store_credentials": false,
+    "store_tokens": false,
+    "redact_secret_like_fields": true
+  }
+}

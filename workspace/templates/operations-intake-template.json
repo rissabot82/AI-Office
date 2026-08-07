@@ -1,0 +1,14 @@
+{
+  "intake_id": "OPSINT-YYYYMMDD-HHMMSS-ABC123",
+  "channel": "manual",
+  "title": "",
+  "description": "",
+  "status": "queued",
+  "priority": "normal",
+  "requested_department": "",
+  "requested_agent": "",
+  "source_ref": "",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

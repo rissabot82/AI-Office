@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Integration Record",
+  "type": "object",
+  "required": [
+    "integration_id",
+    "name",
+    "integration_type",
+    "status",
+    "capabilities",
+    "created_at",
+    "updated_at"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "notification_id": "OPSNOT-YYYYMMDD-HHMMSS-ABC123",
+  "title": "",
+  "message": "",
+  "priority": "normal",
+  "status": "unread",
+  "channel": "dashboard",
+  "source_ref": "",
+  "created_at": ""
+}

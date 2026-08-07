@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Operational Dispatch",
+  "type": "object",
+  "required": [
+    "dispatch_id",
+    "intake_id",
+    "destination_type",
+    "destination",
+    "status",
+    "attempts",
+    "created_at",
+    "updated_at"
+  ]
+}
