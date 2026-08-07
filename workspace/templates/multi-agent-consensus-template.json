@@ -1,0 +1,10 @@
+{
+  "consensus_id": "CNS-YYYYMMDD-HHMMSS-ABC123",
+  "topic": "",
+  "participants": [],
+  "votes": [],
+  "threshold": 0.67,
+  "status": "open",
+  "created_at": "",
+  "updated_at": ""
+}

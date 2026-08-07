@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Agent Conflict",
+  "type": "object",
+  "required": [
+    "conflict_id",
+    "title",
+    "participants",
+    "status",
+    "resolution",
+    "created_at",
+    "updated_at"
+  ]
+}

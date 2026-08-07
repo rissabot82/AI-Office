@@ -1,0 +1,54 @@
+.multi-agent-section {
+  margin-bottom: 16px;
+}
+
+.ma-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ma-metrics > div {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+  background: rgba(8, 16, 22, 0.44);
+}
+
+.ma-metrics span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.ma-metrics small {
+  color: var(--muted);
+}
+
+.ma-departments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 18px;
+}
+
+.ma-department-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.ma-department-row strong {
+  color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .ma-metrics,
+  .ma-departments {
+    grid-template-columns: 1fr 1fr;
+  }
+}

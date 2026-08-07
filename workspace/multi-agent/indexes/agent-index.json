@@ -1,0 +1,18 @@
+﻿{
+    "version":  "1.6.0",
+    "updated_at":  "2026-08-07T12:50:03.2016533-05:00",
+    "status":  "ready",
+    "agent_count":  0,
+    "available_count":  0,
+    "busy_count":  0,
+    "assignment_count":  0,
+    "open_assignment_count":  0,
+    "collaboration_count":  0,
+    "active_collaboration_count":  0,
+    "department_counts":  {
+
+                          },
+    "role_counts":  {
+
+                    }
+}

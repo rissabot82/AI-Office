@@ -1,0 +1,11 @@
+{
+  "assignment_id": "ASN-YYYYMMDD-HHMMSS-ABC123",
+  "agent_id": "",
+  "work_type": "",
+  "work_ref": "",
+  "status": "assigned",
+  "priority": "normal",
+  "instructions": "",
+  "created_at": "",
+  "updated_at": ""
+}

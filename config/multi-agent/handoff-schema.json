@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Agent Handoff",
+  "type": "object",
+  "required": [
+    "handoff_id",
+    "from_agent_id",
+    "to_agent_id",
+    "status",
+    "reason",
+    "context",
+    "created_at",
+    "updated_at"
+  ]
+}

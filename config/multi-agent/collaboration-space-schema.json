@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Collaboration Space",
+  "type": "object",
+  "required": [
+    "collaboration_id",
+    "title",
+    "participants",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

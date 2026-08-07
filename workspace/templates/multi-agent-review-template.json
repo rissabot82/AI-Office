@@ -1,0 +1,10 @@
+{
+  "review_id": "REVAGT-YYYYMMDD-HHMMSS-ABC123",
+  "reviewer_agent_id": "",
+  "subject_type": "",
+  "subject_ref": "",
+  "verdict": "approved",
+  "score": 0,
+  "comments": "",
+  "created_at": ""
+}

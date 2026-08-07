@@ -1,0 +1,17 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "product":  "AI Office",
+    "version":  "1.6.0",
+    "release_name":  "Multi-Agent Collaboration",
+    "parts":  {
+                  "A":  "Multi-Agent Architecture",
+                  "B":  "Collaboration Runtime",
+                  "C":  "Dashboard, Certification, and Release"
+              },
+    "status":  "released",
+    "certification_required":  true,
+    "dashboard_integration":  true,
+    "next_release":  "1.7.0",
+    "next_release_name":  "Personal Financial Office",
+    "released_at":  "2026-08-07T12:50:03.5822581-05:00"
+}

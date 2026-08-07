@@ -1,0 +1,10 @@
+{
+  "handoff_id": "HOF-YYYYMMDD-HHMMSS-ABC123",
+  "from_agent_id": "",
+  "to_agent_id": "",
+  "status": "pending",
+  "reason": "",
+  "context": {},
+  "created_at": "",
+  "updated_at": ""
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Agent Consensus",
+  "type": "object",
+  "required": [
+    "consensus_id",
+    "topic",
+    "participants",
+    "votes",
+    "threshold",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.6.0",
+  "part": "B",
+  "handoffs": {
+    "enabled": true,
+    "preserve_context": true
+  },
+  "peer_review": {
+    "enabled": true,
+    "minimum_reviewers": 1
+  },
+  "debate": {
+    "enabled": true,
+    "maximum_rounds": 3
+  },
+  "consensus": {
+    "enabled": true,
+    "default_threshold": 0.67
+  },
+  "conflict_resolution": {
+    "enabled": true,
+    "escalate_to_chief_of_staff": true
+  },
+  "parallel_execution": {
+    "enabled": true,
+    "maximum_parallel_agents": 4
+  },
+  "workload_balancing": {
+    "enabled": true,
+    "prefer_available_agents": true
+  },
+  "chief_of_staff_coordination": true
+}

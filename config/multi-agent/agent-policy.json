@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.6.0",
+  "part": "A",
+  "coordination_model": "chief_of_staff_supervised",
+  "allow_parallel_work": true,
+  "allow_agent_handoffs": true,
+  "allow_peer_review": true,
+  "allow_consensus_workflows": true,
+  "allow_cross_department_collaboration": true,
+  "human_approval_required_for_high_risk_actions": true,
+  "default_agent_status": "available",
+  "maximum_active_assignments_per_agent": 5,
+  "roles": [
+    "executive",
+    "strategist",
+    "specialist",
+    "reviewer",
+    "operator",
+    "analyst"
+  ]
+}

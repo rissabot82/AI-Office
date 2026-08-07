@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Agent Review",
+  "type": "object",
+  "required": [
+    "review_id",
+    "reviewer_agent_id",
+    "subject_type",
+    "subject_ref",
+    "verdict",
+    "score",
+    "comments",
+    "created_at"
+  ]
+}

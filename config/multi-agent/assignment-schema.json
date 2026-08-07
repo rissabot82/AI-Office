@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Agent Assignment",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "agent_id",
+    "work_type",
+    "status",
+    "priority",
+    "created_at",
+    "updated_at"
+  ]
+}
