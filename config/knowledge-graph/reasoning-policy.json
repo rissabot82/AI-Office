@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.5.0",
+  "part": "B",
+  "entity_extraction": {
+    "enabled": true,
+    "deduplicate_by_normalized_name": true,
+    "default_confidence": 0.72,
+    "minimum_name_length": 2
+  },
+  "relationship_extraction": {
+    "enabled": true,
+    "default_confidence": 0.68
+  },
+  "reasoning": {
+    "maximum_traversal_depth": 4,
+    "maximum_context_results": 25,
+    "contradiction_detection": true,
+    "decision_scoring": true,
+    "causal_links": true,
+    "context_ranking": true
+  },
+  "scoring": {
+    "confidence_weight": 0.35,
+    "recency_weight": 0.2,
+    "relationship_weight": 0.25,
+    "scope_weight": 0.2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Decision Score",
+  "type": "object",
+  "required": [
+    "decision_score_id",
+    "title",
+    "score",
+    "factors",
+    "created_at"
+  ]
+}

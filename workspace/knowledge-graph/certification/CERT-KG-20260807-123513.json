@@ -1,0 +1,31 @@
+﻿{
+    "certification_id":  "CERT-KG-20260807-123513",
+    "version":  "1.5.0",
+    "release_name":  "Knowledge Graph and Reasoning",
+    "certified_at":  "2026-08-07T12:35:15.3404015-05:00",
+    "status":  "failed",
+    "passed_checks":  2,
+    "failed_checks":  2,
+    "checks":  [
+                   {
+                       "name":  "Part A Knowledge Graph Architecture",
+                       "passed":  false,
+                       "details":  "Architecture validation returned a non-zero exit code."
+                   },
+                   {
+                       "name":  "Part B Extraction and Reasoning",
+                       "passed":  false,
+                       "details":  "Reasoning validation returned a non-zero exit code."
+                   },
+                   {
+                       "name":  "Knowledge Graph Dashboard Snapshot",
+                       "passed":  true,
+                       "details":  "entities=0; relationships=0"
+                   },
+                   {
+                       "name":  "Release Manifest",
+                       "passed":  true,
+                       "details":  "version=1.5.0"
+                   }
+               ]
+}

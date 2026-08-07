@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Contradiction",
+  "type": "object",
+  "required": [
+    "contradiction_id",
+    "entity_id",
+    "field",
+    "value_a",
+    "value_b",
+    "status",
+    "created_at"
+  ]
+}

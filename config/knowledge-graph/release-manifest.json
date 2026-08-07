@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "product": "AI Office",
+  "version": "1.5.0",
+  "release_name": "Knowledge Graph and Reasoning",
+  "parts": {
+    "A": "Knowledge Graph Architecture",
+    "B": "Extraction and Reasoning",
+    "C": "Dashboard, Certification, and Release"
+  },
+  "status": "installed",
+  "certification_required": true,
+  "dashboard_integration": true,
+  "next_release": "1.6.0",
+  "next_release_name": "Multi-Agent Collaboration"
+}

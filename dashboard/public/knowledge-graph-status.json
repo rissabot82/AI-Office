@@ -1,0 +1,33 @@
+﻿{
+    "generated_at":  "2026-08-07T12:36:46.5198056-05:00",
+    "status":  "ready",
+    "entity_count":  0,
+    "relationship_count":  0,
+    "inference_count":  0,
+    "contradiction_count":  0,
+    "decision_score_count":  0,
+    "entity_type_counts":  {
+
+                           },
+    "relationship_type_counts":  {
+
+                                 },
+    "scope_counts":  {
+
+                     },
+    "recent_entities":  [
+
+                        ],
+    "recent_relationships":  [
+
+                             ],
+    "recent_inferences":  [
+
+                          ],
+    "contradictions":  [
+
+                       ],
+    "decision_scores":  [
+
+                        ]
+}

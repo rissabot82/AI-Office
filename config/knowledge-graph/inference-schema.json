@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Knowledge Graph Inference",
+  "type": "object",
+  "required": [
+    "inference_id",
+    "inference_type",
+    "summary",
+    "confidence",
+    "evidence",
+    "created_at"
+  ]
+}
