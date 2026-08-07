@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "ENTCHK-YYYYMMDD-HHMMSS-ABC123",
+  "enterprise_run_id": "",
+  "status": "",
+  "current_step": "",
+  "completed_steps": [],
+  "failed_steps": [],
+  "created_at": ""
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.0.0",
+  "part": "A",
+  "release_name": "Autonomous AI Enterprise",
+  "operating_model": "chief_of_staff_supervised_autonomous_enterprise",
+  "autonomy": {
+    "enabled": true,
+    "default_mode": "supervised",
+    "allow_cross_department_planning": true,
+    "allow_multi_agent_execution": true,
+    "allow_long_running_workflows": true,
+    "allow_memory_and_knowledge_context": true,
+    "allow_operations_dispatch": true,
+    "human_approval_for_high_risk_actions": true
+  },
+  "enterprise_work_statuses": [
+    "captured",
+    "planned",
+    "approved",
+    "running",
+    "waiting",
+    "review",
+    "completed",
+    "failed",
+    "cancelled"
+  ],
+  "enterprise_priorities": [
+    "low",
+    "normal",
+    "high",
+    "critical"
+  ],
+  "enterprise_domains": [
+    "chief-of-staff",
+    "marketing",
+    "creative",
+    "web-development",
+    "analytics",
+    "google-ads",
+    "financial-office",
+    "business-incubator",
+    "monthly-reporting",
+    "operations-integrations",
+    "personal-assistant",
+    "side-hustles",
+    "youtube-studio",
+    "business"
+  ],
+  "context_sources": [
+    "long-term-memory",
+    "knowledge-graph",
+    "message-bus",
+    "autonomous-workflows",
+    "multi-agent",
+    "operations-integrations"
+  ],
+  "safety": {
+    "require_approval_for_external_writes": true,
+    "require_approval_for_financial_transactions": true,
+    "require_approval_for_destructive_actions": true,
+    "require_approval_for_secret_changes": true
+  }
+}

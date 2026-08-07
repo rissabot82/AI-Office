@@ -1,0 +1,19 @@
+﻿{
+    "department_id":  "ENTDEPT-20260807-140124-67E049",
+    "name":  "chief-of-staff",
+    "status":  "active",
+    "capabilities":  [
+                         "routing",
+                         "prioritization",
+                         "approval",
+                         "coordination"
+                     ],
+    "agent_ids":  [
+
+                  ],
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-07T14:01:24.6827425-05:00",
+    "updated_at":  "2026-08-07T14:01:24.6827425-05:00"
+}

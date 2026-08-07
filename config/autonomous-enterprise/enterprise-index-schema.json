@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Enterprise Index",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "status",
+    "work_item_count",
+    "plan_count",
+    "department_count",
+    "capability_count"
+  ]
+}

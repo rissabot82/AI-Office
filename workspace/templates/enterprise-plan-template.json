@@ -1,0 +1,11 @@
+{
+  "enterprise_plan_id": "ENTPLAN-YYYYMMDD-HHMMSS-ABC123",
+  "enterprise_work_id": "",
+  "status": "planned",
+  "steps": [],
+  "participating_departments": [],
+  "participating_agents": [],
+  "approval_required": false,
+  "created_at": "",
+  "updated_at": ""
+}

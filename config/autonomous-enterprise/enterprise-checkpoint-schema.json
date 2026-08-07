@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Enterprise Checkpoint",
+  "type": "object",
+  "required": [
+    "checkpoint_id",
+    "enterprise_run_id",
+    "status",
+    "current_step",
+    "created_at"
+  ]
+}

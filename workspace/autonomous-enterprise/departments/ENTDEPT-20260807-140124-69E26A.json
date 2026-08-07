@@ -1,0 +1,18 @@
+﻿{
+    "department_id":  "ENTDEPT-20260807-140124-69E26A",
+    "name":  "creative",
+    "status":  "active",
+    "capabilities":  [
+                         "creative_direction",
+                         "image_briefs",
+                         "brand_assets"
+                     ],
+    "agent_ids":  [
+
+                  ],
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-07T14:01:24.8989373-05:00",
+    "updated_at":  "2026-08-07T14:01:24.8989373-05:00"
+}

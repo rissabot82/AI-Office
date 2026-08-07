@@ -1,0 +1,19 @@
+﻿{
+    "department_id":  "ENTDEPT-20260807-140125-E8E338",
+    "name":  "google-ads",
+    "status":  "active",
+    "capabilities":  [
+                         "search",
+                         "pmax",
+                         "vla",
+                         "optimization"
+                     ],
+    "agent_ids":  [
+
+                  ],
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-07T14:01:25.0409403-05:00",
+    "updated_at":  "2026-08-07T14:01:25.0409403-05:00"
+}

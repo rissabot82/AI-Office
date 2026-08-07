@@ -1,0 +1,13 @@
+{
+  "enterprise_run_id": "ENTRUN-YYYYMMDD-HHMMSS-ABC123",
+  "enterprise_plan_id": "",
+  "enterprise_work_id": "",
+  "status": "queued",
+  "current_step": "",
+  "completed_steps": [],
+  "failed_steps": [],
+  "context": {},
+  "created_at": "",
+  "updated_at": "",
+  "completed_at": ""
+}

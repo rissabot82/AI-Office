@@ -1,0 +1,10 @@
+{
+  "department_id": "ENTDEPT-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "status": "active",
+  "capabilities": [],
+  "agent_ids": [],
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Enterprise Plan",
+  "type": "object",
+  "required": [
+    "enterprise_plan_id",
+    "enterprise_work_id",
+    "status",
+    "steps",
+    "created_at",
+    "updated_at"
+  ]
+}

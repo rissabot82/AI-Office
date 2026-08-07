@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Enterprise Department",
+  "type": "object",
+  "required": [
+    "department_id",
+    "name",
+    "status",
+    "capabilities",
+    "created_at",
+    "updated_at"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "capability_id": "ENTCAP-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "owner_department": "",
+  "status": "active",
+  "description": "",
+  "requires_approval": false,
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

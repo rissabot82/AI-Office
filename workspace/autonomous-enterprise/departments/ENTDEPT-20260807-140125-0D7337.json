@@ -1,0 +1,20 @@
+﻿{
+    "department_id":  "ENTDEPT-20260807-140125-0D7337",
+    "name":  "monthly-reporting",
+    "status":  "active",
+    "capabilities":  [
+                         "collect",
+                         "normalize",
+                         "validate",
+                         "populate",
+                         "summarize"
+                     ],
+    "agent_ids":  [
+
+                  ],
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-07T14:01:25.1943325-05:00",
+    "updated_at":  "2026-08-07T14:01:25.1943325-05:00"
+}

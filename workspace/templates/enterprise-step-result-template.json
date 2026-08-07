@@ -1,0 +1,11 @@
+{
+  "step_result_id": "ENTSTEP-YYYYMMDD-HHMMSS-ABC123",
+  "enterprise_run_id": "",
+  "step_id": "",
+  "department": "",
+  "action": "",
+  "status": "completed",
+  "result": {},
+  "error": "",
+  "created_at": ""
+}

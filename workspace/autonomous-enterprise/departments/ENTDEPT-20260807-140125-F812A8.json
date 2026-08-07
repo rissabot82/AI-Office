@@ -1,0 +1,19 @@
+﻿{
+    "department_id":  "ENTDEPT-20260807-140125-F812A8",
+    "name":  "financial-office",
+    "status":  "active",
+    "capabilities":  [
+                         "cash_flow",
+                         "budgets",
+                         "debt",
+                         "goals"
+                     ],
+    "agent_ids":  [
+
+                  ],
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-07T14:01:25.0910448-05:00",
+    "updated_at":  "2026-08-07T14:01:25.0910448-05:00"
+}
