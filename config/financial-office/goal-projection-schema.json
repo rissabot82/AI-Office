@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Goal Projection",
+  "type": "object",
+  "required": [
+    "projection_id",
+    "goal_id",
+    "remaining_amount",
+    "monthly_contribution",
+    "months_to_goal",
+    "created_at"
+  ]
+}

@@ -1,0 +1,62 @@
+.financial-office-section {
+  margin-bottom: 16px;
+}
+
+.fin-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.fin-metrics > div {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+  background: rgba(8, 16, 22, 0.44);
+}
+
+.fin-metrics span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.fin-metrics small,
+.fin-row small {
+  color: var(--muted);
+}
+
+.fin-list {
+  display: grid;
+  gap: 2px;
+}
+
+.fin-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.fin-row > div {
+  display: grid;
+  gap: 3px;
+}
+
+.fin-row > span {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .fin-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fin-row {
+    align-items: flex-start;
+  }
+}

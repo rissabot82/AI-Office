@@ -1,0 +1,12 @@
+{
+  "account_id": "FINACC-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "account_type": "checking",
+  "institution": "",
+  "status": "active",
+  "current_balance": 0.0,
+  "currency": "USD",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

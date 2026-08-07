@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Side Hustle Performance",
+  "type": "object",
+  "required": [
+    "side_hustle_id",
+    "name",
+    "gross_revenue",
+    "expenses",
+    "hours",
+    "net_profit",
+    "hourly_rate",
+    "profit_margin",
+    "created_at"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "product":  "AI Office",
+    "version":  "1.7.0",
+    "release_name":  "Personal Financial Office",
+    "parts":  {
+                  "A":  "Personal Financial Office Architecture",
+                  "B":  "Planning and Analysis",
+                  "C":  "Dashboard, Certification, and Release"
+              },
+    "status":  "released",
+    "certification_required":  true,
+    "dashboard_integration":  true,
+    "next_release":  "1.8.0",
+    "next_release_name":  "Business Incubator",
+    "released_at":  "2026-08-07T13:01:55.0178927-05:00"
+}

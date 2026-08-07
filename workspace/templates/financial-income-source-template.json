@@ -1,0 +1,12 @@
+{
+  "income_source_id": "FININC-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "source_type": "salary",
+  "expected_amount": 0.0,
+  "frequency": "monthly",
+  "next_expected_date": "",
+  "status": "active",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

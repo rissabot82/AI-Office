@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Financial Account",
+  "type": "object",
+  "required": [
+    "account_id",
+    "name",
+    "account_type",
+    "status",
+    "current_balance",
+    "currency",
+    "created_at",
+    "updated_at"
+  ]
+}

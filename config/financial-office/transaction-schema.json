@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Financial Transaction",
+  "type": "object",
+  "required": [
+    "transaction_id",
+    "account_id",
+    "transaction_type",
+    "amount",
+    "date",
+    "category",
+    "description",
+    "created_at"
+  ]
+}

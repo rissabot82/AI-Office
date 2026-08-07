@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Paycheck Plan",
+  "type": "object",
+  "required": [
+    "paycheck_plan_id",
+    "pay_date",
+    "net_pay",
+    "allocations",
+    "remaining_cash",
+    "created_at"
+  ]
+}

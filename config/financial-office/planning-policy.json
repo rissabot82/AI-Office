@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.7.0",
+  "part": "B",
+  "paycheck_planning": {
+    "enabled": true,
+    "default_reserve_percent": 5.0,
+    "prioritize_overdue_bills": true,
+    "prioritize_minimum_debt_payments": true
+  },
+  "cash_flow": {
+    "default_horizon_days": 90,
+    "warning_balance": 100.0
+  },
+  "debt_analysis": {
+    "strategies": [
+      "snowball",
+      "avalanche"
+    ],
+    "default_strategy": "avalanche"
+  },
+  "goal_projection": {
+    "enabled": true,
+    "minimum_monthly_contribution": 0.0
+  },
+  "side_hustle": {
+    "enabled": true,
+    "track_gross_revenue": true,
+    "track_expenses": true,
+    "track_hours": true,
+    "calculate_hourly_rate": true,
+    "calculate_profit_margin": true
+  },
+  "recommendations": {
+    "enabled": true,
+    "maximum_recommendations": 10,
+    "include_cash_risk": true,
+    "include_debt_risk": true,
+    "include_goal_progress": true
+  }
+}

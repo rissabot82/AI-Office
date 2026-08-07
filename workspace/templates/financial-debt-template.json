@@ -1,0 +1,11 @@
+{
+  "debt_id": "FINDEBT-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "balance": 0.0,
+  "minimum_payment": 0.0,
+  "interest_rate": 0.0,
+  "due_rule": "",
+  "status": "active",
+  "created_at": "",
+  "updated_at": ""
+}

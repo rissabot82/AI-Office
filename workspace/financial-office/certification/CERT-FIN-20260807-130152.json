@@ -1,0 +1,31 @@
+﻿{
+    "certification_id":  "CERT-FIN-20260807-130152",
+    "version":  "1.7.0",
+    "release_name":  "Personal Financial Office",
+    "certified_at":  "2026-08-07T13:01:54.8108271-05:00",
+    "status":  "certified",
+    "passed_checks":  4,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Part A Financial Office Architecture",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part B Planning and Analysis",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Financial Office Dashboard Snapshot",
+                       "passed":  true,
+                       "details":  "accounts=0; debts=0; goals=0"
+                   },
+                   {
+                       "name":  "Release Manifest",
+                       "passed":  true,
+                       "details":  "version=1.7.0"
+                   }
+               ]
+}

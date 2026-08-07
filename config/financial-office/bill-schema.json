@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Bill",
+  "type": "object",
+  "required": [
+    "bill_id",
+    "name",
+    "amount",
+    "frequency",
+    "due_rule",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

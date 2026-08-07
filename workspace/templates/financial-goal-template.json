@@ -1,0 +1,12 @@
+{
+  "goal_id": "FINGOAL-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "goal_type": "savings",
+  "target_amount": 0.0,
+  "current_amount": 0.0,
+  "target_date": "",
+  "priority": "normal",
+  "status": "active",
+  "created_at": "",
+  "updated_at": ""
+}

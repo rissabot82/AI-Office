@@ -1,12 +1,12 @@
 ﻿{
     "schema_version":  "1.0.0",
     "product":  "AI Office",
-    "version":  "1.6.0",
-    "current_phase":  "Preparing Personal Financial Office",
-    "current_milestone":  "Multi-Agent Collaboration Certified",
+    "version":  "1.7.0",
+    "current_phase":  "Preparing Business Incubator",
+    "current_milestone":  "Personal Financial Office Certified",
     "release_status":  "operational",
-    "next_release":  "1.7.0",
-    "next_milestone":  "Personal Financial Office",
+    "next_release":  "1.8.0",
+    "next_milestone":  "Business Incubator",
     "resume_component":  "v1.5 Part A",
     "discord_integration_planned":  true,
     "self_hosting_after":  "2.0.0"

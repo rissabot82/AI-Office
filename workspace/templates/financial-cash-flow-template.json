@@ -1,0 +1,9 @@
+{
+  "forecast_id": "FINCF-YYYYMMDD-HHMMSS-ABC123",
+  "start_date": "",
+  "end_date": "",
+  "opening_balance": 0.0,
+  "projected_closing_balance": 0.0,
+  "entries": [],
+  "created_at": ""
+}

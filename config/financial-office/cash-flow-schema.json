@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Cash Flow Forecast",
+  "type": "object",
+  "required": [
+    "forecast_id",
+    "start_date",
+    "end_date",
+    "opening_balance",
+    "projected_closing_balance",
+    "entries",
+    "created_at"
+  ]
+}

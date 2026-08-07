@@ -1,0 +1,12 @@
+{
+  "transaction_id": "FINTXN-YYYYMMDD-HHMMSS-ABC123",
+  "account_id": "",
+  "transaction_type": "expense",
+  "amount": 0.0,
+  "date": "",
+  "category": "other",
+  "description": "",
+  "source": "manual",
+  "metadata": {},
+  "created_at": ""
+}

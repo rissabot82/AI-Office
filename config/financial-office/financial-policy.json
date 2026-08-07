@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.7.0",
+  "part": "A",
+  "currency": "USD",
+  "account_types": [
+    "checking",
+    "savings",
+    "cash",
+    "credit_card",
+    "loan",
+    "investment",
+    "other"
+  ],
+  "transaction_types": [
+    "income",
+    "expense",
+    "transfer",
+    "debt_payment",
+    "savings_contribution",
+    "adjustment"
+  ],
+  "budget_categories": [
+    "housing",
+    "utilities",
+    "transportation",
+    "insurance",
+    "food",
+    "medical",
+    "communications",
+    "debt",
+    "savings",
+    "personal",
+    "children",
+    "side_hustle",
+    "business",
+    "subscriptions",
+    "other"
+  ],
+  "goal_types": [
+    "emergency_fund",
+    "debt_payoff",
+    "vehicle_fund",
+    "savings",
+    "purchase",
+    "custom"
+  ],
+  "income_sources": [
+    "salary",
+    "side_hustle",
+    "freelance",
+    "business",
+    "refund",
+    "other"
+  ],
+  "privacy": {
+    "store_full_account_numbers": false,
+    "store_credentials": false,
+    "redact_sensitive_fields_in_logs": true
+  },
+  "forecasting": {
+    "default_horizon_days": 90,
+    "minimum_cash_buffer": 0.0
+  }
+}

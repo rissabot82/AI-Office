@@ -1,0 +1,12 @@
+{
+  "bill_id": "FINBILL-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "amount": 0.0,
+  "frequency": "monthly",
+  "due_rule": "",
+  "category": "other",
+  "status": "active",
+  "autopay": false,
+  "created_at": "",
+  "updated_at": ""
+}

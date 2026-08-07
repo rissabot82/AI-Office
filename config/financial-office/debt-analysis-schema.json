@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Debt Analysis",
+  "type": "object",
+  "required": [
+    "analysis_id",
+    "strategy",
+    "total_debt",
+    "ordered_debts",
+    "created_at"
+  ]
+}

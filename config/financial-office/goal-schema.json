@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Financial Goal",
+  "type": "object",
+  "required": [
+    "goal_id",
+    "name",
+    "goal_type",
+    "target_amount",
+    "current_amount",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paycheck_plan_id": "FINPAY-YYYYMMDD-HHMMSS-ABC123",
+  "pay_date": "",
+  "net_pay": 0.0,
+  "allocations": [],
+  "remaining_cash": 0.0,
+  "created_at": ""
+}
