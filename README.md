@@ -1,12 +1,12 @@
 ﻿# AI Office
 
-**Current Version:** v2.0.0 — Autonomous AI Enterprise  
+**Current Version:** v2.2.0 — Self-Hosted AI Office  
 **Status:** Operational / Certified  
 **Platform:** Windows + WSL2 + OpenClaw
 
 AI Office is a private, modular AI operations platform designed to coordinate specialized AI departments, persistent knowledge, autonomous workflows, personal financial planning, business development, integrations, and cross-department reasoning from a locally controlled environment.
 
-The project has progressed from an AI assistant framework into a functioning **Autonomous AI Enterprise architecture**.
+The project has progressed from an AI assistant framework into a functioning **self-hosted hybrid AI operations platform** with local inference, cloud escalation, autonomous orchestration, and persistent services.
 
 ---
 
@@ -228,7 +228,7 @@ Enterprise-wide planning and orchestration connecting AI Office departments into
 
 ---
 
-## Next Phase: Self-Hosting
+## Next Phase: Conversational AI Office
 
 With v2.0 certified, development moves into the **Self-Hosted AI Office** phase.
 
@@ -330,4 +330,5 @@ This phase will provide a unified interface for submitting objectives to AI Offi
 ---
 
 **AI Office v2.2.0 — Self-Hosted AI Office**
+
 
