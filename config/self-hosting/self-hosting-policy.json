@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "Self-Hosted AI Office",
+  "part": "A",
+  "status": "architecture",
+  "local_inference": {
+    "enabled": true,
+    "default_provider": "ollama",
+    "allow_cloud_fallback": true,
+    "prefer_local_for_private_context": true,
+    "require_explicit_approval_for_new_external_endpoints": true
+  },
+  "routing": {
+    "modes": [
+      "local_only",
+      "local_preferred",
+      "balanced",
+      "cloud_preferred",
+      "cloud_only"
+    ],
+    "default_mode": "local_preferred",
+    "consider_context_sensitivity": true,
+    "consider_task_complexity": true,
+    "consider_latency": true,
+    "consider_model_capability": true,
+    "consider_gpu_memory": true
+  },
+  "security": {
+    "bind_local_services_to_loopback_by_default": true,
+    "store_api_keys_in_plaintext": false,
+    "allow_lan_binding": false,
+    "allow_public_binding": false
+  },
+  "operations": {
+    "health_checks": true,
+    "startup_validation": true,
+    "resource_monitoring": true,
+    "model_inventory": true
+  }
+}

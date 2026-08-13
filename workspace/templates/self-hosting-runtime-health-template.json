@@ -1,0 +1,8 @@
+{
+  "health_id": "SHHEALTH-YYYYMMDD-HHMMSS-ABC123",
+  "provider_type": "ollama",
+  "endpoint": "http://127.0.0.1:11434",
+  "status": "unknown",
+  "models": [],
+  "checked_at": ""
+}

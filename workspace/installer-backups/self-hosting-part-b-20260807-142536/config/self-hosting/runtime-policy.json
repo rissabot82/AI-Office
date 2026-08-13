@@ -1,0 +1,23 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "phase":  "Self-Hosted AI Office",
+    "part":  "B",
+    "release_name":  "Local Inference Runtime",
+    "provider_type":  "ollama",
+    "endpoint":  "http://127.0.0.1:11434",
+    "default_model":  "qwen2.5:3b",
+    "runtime":  {
+                    "install_if_missing":  true,
+                    "start_if_stopped":  true,
+                    "pull_default_model":  true,
+                    "request_timeout_seconds":  180,
+                    "startup_timeout_seconds":  45,
+                    "loopback_only":  true
+                },
+    "validation":  {
+                       "require_provider_health":  true,
+                       "require_model_inventory":  true,
+                       "require_generation_test":  true,
+                       "test_prompt":  "Reply with exactly: AI OFFICE LOCAL INFERENCE OK"
+                   }
+}

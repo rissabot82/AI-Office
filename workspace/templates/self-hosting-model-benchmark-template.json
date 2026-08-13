@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "SHBENCH-YYYYMMDD-HHMMSS-ABC123",
+  "model": "",
+  "provider": "ollama",
+  "status": "completed",
+  "tests": [],
+  "summary": {},
+  "created_at": ""
+}

@@ -1,0 +1,11 @@
+{
+  "workload_metric_id": "SHMET-YYYYMMDD-HHMMSS-ABC123",
+  "provider": "",
+  "model": "",
+  "task_type": "",
+  "status": "",
+  "elapsed_ms": 0,
+  "prompt_tokens": 0,
+  "response_tokens": 0,
+  "created_at": ""
+}

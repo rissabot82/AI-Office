@@ -1,0 +1,11 @@
+﻿{
+    "health_id":  "SHHEALTH-20260813-143323-62C59D",
+    "provider_type":  "ollama",
+    "endpoint":  "http://127.0.0.1:11434",
+    "status":  "healthy",
+    "models":  [
+                   "qwen2.5:3b"
+               ],
+    "details":  "Ollama API reachable.",
+    "checked_at":  "2026-08-13T14:33:23.4087395-05:00"
+}

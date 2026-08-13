@@ -1,0 +1,13 @@
+{
+  "routing_decision_id": "SHDEC-YYYYMMDD-HHMMSS-ABC123",
+  "task_type": "",
+  "sensitivity": "normal",
+  "complexity": "medium",
+  "explicit_mode": "",
+  "selected_provider": "",
+  "selected_mode": "",
+  "selected_model": "",
+  "reason": "",
+  "local_health": "",
+  "created_at": ""
+}

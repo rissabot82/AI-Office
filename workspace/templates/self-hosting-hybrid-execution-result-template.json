@@ -1,0 +1,11 @@
+{
+  "hybrid_execution_id": "SHHYB-YYYYMMDD-HHMMSS-ABC123",
+  "routing_decision_id": "",
+  "provider": "",
+  "model": "",
+  "status": "completed",
+  "prompt": "",
+  "response": "",
+  "fallback_used": false,
+  "created_at": ""
+}

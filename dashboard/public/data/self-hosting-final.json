@@ -1,0 +1,49 @@
+﻿{
+    "version":  "2.2.0",
+    "release_name":  "Self-Hosted AI Office",
+    "generated_at":  "2026-08-13T16:05:05.9787642-05:00",
+    "overall_status":  "operational",
+    "services":  {
+                     "ollama":  true,
+                     "openclaw_gateway":  true,
+                     "dashboard":  true
+                 },
+    "resources":  {
+                      "cpu_percent":  2,
+                      "memory_percent":  46.14,
+                      "system_drive_free_gb":  2.83,
+                      "ai_drive_free_gb":  30.48,
+                      "gpu":  {
+                                  "available":  true,
+                                  "name":  "NVIDIA GeForce GTX 1060 6GB",
+                                  "memory_used_mb":  4664,
+                                  "memory_total_mb":  6144,
+                                  "memory_percent":  75.91,
+                                  "utilization_percent":  0,
+                                  "temperature_c":  43
+                              },
+                      "warnings":  [
+                                       "System drive free space is below configured minimum."
+                                   ]
+                  },
+    "local_inference":  {
+                            "providers":  1,
+                            "connected_providers":  1,
+                            "registered_models":  3,
+                            "ready_models":  3,
+                            "routing_rules":  2,
+                            "fleet_models":  3,
+                            "ready_fleet_models":  3
+                        },
+    "optimization":  {
+                         "routing_decisions":  0,
+                         "model_selections":  0,
+                         "benchmarks":  2,
+                         "latest_benchmark_success_rate":  100
+                     },
+    "resilience":  {
+                       "failover_events":  2,
+                       "recovery_records":  4,
+                       "failed_recoveries":  0
+                   }
+}

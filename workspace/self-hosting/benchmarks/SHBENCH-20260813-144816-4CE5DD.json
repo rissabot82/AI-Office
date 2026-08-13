@@ -1,0 +1,37 @@
+﻿{
+    "benchmark_id":  "SHBENCH-20260813-144816-4CE5DD",
+    "model":  "qwen2.5:3b",
+    "provider":  "ollama",
+    "status":  "completed",
+    "tests":  [
+                  {
+                      "name":  "classification",
+                      "task_type":  "classification",
+                      "status":  "completed",
+                      "elapsed_ms":  446.72,
+                      "response":  "SERVICE"
+                  },
+                  {
+                      "name":  "summarization",
+                      "task_type":  "summarization",
+                      "status":  "completed",
+                      "elapsed_ms":  857.73,
+                      "response":  "AI Office routes tasks seamlessly between on-premises and cloud-based computing models."
+                  },
+                  {
+                      "name":  "drafting",
+                      "task_type":  "drafting",
+                      "status":  "completed",
+                      "elapsed_ms":  563.12,
+                      "response":  "Summer Sale: Cars Now!"
+                  }
+              ],
+    "summary":  {
+                    "total_tests":  3,
+                    "completed_tests":  3,
+                    "failed_tests":  0,
+                    "average_elapsed_ms":  622.52,
+                    "success_rate":  100
+                },
+    "created_at":  "2026-08-13T14:48:16.4924924-05:00"
+}

@@ -1,0 +1,12 @@
+﻿{
+    "provider_id":  "SHPROV-20260807-141800-50B482",
+    "name":  "Local Ollama",
+    "provider_type":  "ollama",
+    "status":  "connected",
+    "endpoint":  "http://127.0.0.1:11434",
+    "metadata":  {
+                     "purpose":  "primary_local_inference"
+                 },
+    "created_at":  "2026-08-07T14:18:00.0681872-05:00",
+    "updated_at":  "2026-08-13T13:19:17.3273424-05:00"
+}

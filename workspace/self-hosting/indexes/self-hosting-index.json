@@ -1,0 +1,11 @@
+﻿{
+    "version":  "1.0.0",
+    "updated_at":  "2026-08-13T16:05:00.4088660-05:00",
+    "status":  "ready",
+    "provider_count":  1,
+    "connected_provider_count":  1,
+    "model_count":  3,
+    "ready_model_count":  3,
+    "routing_rule_count":  2,
+    "hardware_profile_count":  1
+}

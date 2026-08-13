@@ -1,0 +1,31 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "phase":  "Self-Hosted AI Office",
+    "part":  "H",
+    "release_name":  "Self-Hosted AI Office",
+    "version":  "2.2.0",
+    "status":  "released",
+    "certification":  {
+                          "required_parts":  [
+                                                 "A",
+                                                 "B",
+                                                 "C",
+                                                 "D",
+                                                 "E",
+                                                 "F",
+                                                 "G"
+                                             ],
+                          "required_services":  [
+                                                    "ollama",
+                                                    "openclaw_gateway",
+                                                    "dashboard"
+                                                ],
+                          "require_local_inference":  true,
+                          "require_hybrid_routing":  true,
+                          "require_model_fleet":  true,
+                          "require_resilience":  true
+                      },
+    "next_milestone":  "Discord Mobile Task Intake and Remote Operations",
+    "released_at":  "2026-08-13T16:05:04.6447761-05:00",
+    "certification_id":  "CERT-SHFINAL-20260813-160504"
+}

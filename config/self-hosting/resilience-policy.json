@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "Self-Hosted AI Office",
+  "part": "G",
+  "release_name": "Resilience, Failover and Resource Management",
+  "health": {
+    "ollama_endpoint": "http://127.0.0.1:11434",
+    "gateway_port": 18789,
+    "dashboard_port": 18880,
+    "check_interval_seconds": 60,
+    "max_consecutive_failures": 3
+  },
+  "failover": {
+    "enabled": true,
+    "local_failure_action": "cloud_fallback",
+    "cloud_failure_action": "queue",
+    "queue_on_total_failure": true,
+    "auto_recovery": true
+  },
+  "resources": {
+    "minimum_free_system_drive_gb": 5,
+    "minimum_free_ai_drive_gb": 10,
+    "maximum_gpu_memory_percent": 92,
+    "maximum_system_memory_percent": 90,
+    "maximum_cpu_percent": 95,
+    "warning_gpu_temperature_c": 82
+  },
+  "recovery": {
+    "restart_ollama_if_unreachable": true,
+    "restart_dashboard_if_unreachable": true,
+    "preserve_failed_workloads": true,
+    "create_recovery_records": true
+  }
+}

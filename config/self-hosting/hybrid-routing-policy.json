@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "Self-Hosted AI Office",
+  "part": "D",
+  "release_name": "Model Routing and Hybrid Execution",
+  "routing": {
+    "default_mode": "local_preferred",
+    "local_provider": "ollama",
+    "cloud_provider": "openclaw",
+    "local_health_required": true,
+    "cloud_fallback_enabled": true,
+    "persist_routing_decisions": true
+  },
+  "decision_order": [
+    "explicit_mode",
+    "sensitive_context",
+    "local_health",
+    "task_complexity",
+    "task_type",
+    "fallback"
+  ],
+  "task_types": {
+    "local_preferred": [
+      "classification",
+      "summarization",
+      "drafting",
+      "data_cleanup",
+      "simple_reasoning",
+      "private_context"
+    ],
+    "cloud_preferred": [
+      "deep_reasoning",
+      "complex_strategy",
+      "long_context",
+      "advanced_code_review",
+      "cross_domain_analysis"
+    ]
+  },
+  "sensitivity": {
+    "private": "local_only",
+    "sensitive": "local_preferred",
+    "normal": "balanced",
+    "public": "balanced"
+  },
+  "complexity": {
+    "low": "local_preferred",
+    "medium": "balanced",
+    "high": "cloud_preferred"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "provider_id": "SHPROV-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "provider_type": "ollama",
+  "status": "configured",
+  "endpoint": "http://127.0.0.1:11434",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

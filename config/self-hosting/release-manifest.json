@@ -1,0 +1,16 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "phase":  "Self-Hosted AI Office",
+    "part":  "C",
+    "release_name":  "Self-Hosted AI Office Foundation",
+    "status":  "released",
+    "components":  [
+                       "Local Inference Architecture",
+                       "Local Inference Runtime",
+                       "Self-Hosting Dashboard",
+                       "Self-Hosting Certification",
+                       "Self-Hosting Release Publisher"
+                   ],
+    "released_at":  "2026-08-13T14:33:30.3355882-05:00",
+    "certification_id":  "CERT-SH-20260813-143330"
+}

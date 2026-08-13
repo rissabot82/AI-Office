@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Failover Event",
+  "type": "object",
+  "required": [
+    "failover_event_id",
+    "source_provider",
+    "target_provider",
+    "reason",
+    "status",
+    "created_at"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "fleet_id": "SHFLEET-YYYYMMDD-HHMMSS-ABC123",
+  "provider": "ollama",
+  "status": "ready",
+  "models": [],
+  "created_at": "",
+  "updated_at": ""
+}

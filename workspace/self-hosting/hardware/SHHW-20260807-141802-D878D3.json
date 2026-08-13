@@ -1,0 +1,26 @@
+﻿{
+    "hardware_profile_id":  "SHHW-20260807-141802-D878D3",
+    "hostname":  "DESKTOP-D7J9TAI",
+    "cpu":  {
+                "name":  "AMD FX(tm)-8350 Eight-Core Processor           ",
+                "logical_processors":  8,
+                "cores":  1
+            },
+    "memory":  {
+                   "total_bytes":  34251567104,
+                   "total_gb":  31.9
+               },
+    "gpu":  [
+                {
+                    "name":  "NVIDIA GeForce GTX 1060 6GB",
+                    "adapter_ram_bytes":  4293918720,
+                    "driver_version":  "32.0.15.6636"
+                },
+                {
+                    "name":  "Fresco Logic IDDCX Adapter",
+                    "adapter_ram_bytes":  0,
+                    "driver_version":  "2.1.36287.0"
+                }
+            ],
+    "captured_at":  "2026-08-07T14:18:03.0224901-05:00"
+}

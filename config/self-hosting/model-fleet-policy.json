@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "Self-Hosted AI Office",
+  "part": "F",
+  "release_name": "Local Model Fleet and Specialized Models",
+  "provider": "ollama",
+  "fleet": {
+    "enabled": true,
+    "auto_register_after_pull": true,
+    "preserve_existing_models": true,
+    "allow_optional_models": true
+  },
+  "profiles": [
+    {
+      "role": "general",
+      "model": "qwen2.5:3b",
+      "required": true,
+      "capabilities": [
+        "chat",
+        "generation",
+        "summarization",
+        "classification"
+      ],
+      "workloads": [
+        "drafting",
+        "summarization",
+        "classification",
+        "simple_reasoning",
+        "private_context"
+      ]
+    },
+    {
+      "role": "code",
+      "model": "qwen2.5-coder:3b",
+      "required": true,
+      "capabilities": [
+        "code",
+        "generation",
+        "chat"
+      ],
+      "workloads": [
+        "code",
+        "html",
+        "powershell",
+        "javascript",
+        "debugging"
+      ]
+    },
+    {
+      "role": "reasoning",
+      "model": "deepseek-r1:1.5b",
+      "required": false,
+      "capabilities": [
+        "reasoning",
+        "chat",
+        "generation"
+      ],
+      "workloads": [
+        "deep_reasoning",
+        "analysis",
+        "planning"
+      ]
+    }
+  ]
+}

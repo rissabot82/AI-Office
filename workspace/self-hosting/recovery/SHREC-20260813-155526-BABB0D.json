@@ -1,0 +1,8 @@
+﻿{
+    "recovery_id":  "SHREC-20260813-155526-BABB0D",
+    "component":  "ollama",
+    "action":  "ensure_running",
+    "status":  "completed",
+    "details":  "Ollama runtime already healthy.",
+    "created_at":  "2026-08-13T15:55:26.1089882-05:00"
+}

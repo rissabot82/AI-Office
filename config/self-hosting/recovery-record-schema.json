@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Recovery Record",
+  "type": "object",
+  "required": [
+    "recovery_id",
+    "component",
+    "action",
+    "status",
+    "created_at"
+  ]
+}

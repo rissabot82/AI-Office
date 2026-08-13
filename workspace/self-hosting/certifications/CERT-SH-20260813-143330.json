@@ -1,0 +1,31 @@
+﻿{
+    "certification_id":  "CERT-SH-20260813-143330",
+    "phase":  "Self-Hosted AI Office",
+    "release_name":  "Self-Hosted AI Office Foundation",
+    "certified_at":  "2026-08-13T14:33:30.3197839-05:00",
+    "status":  "certified",
+    "passed_checks":  4,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Part A Local Inference Architecture",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part B Local Inference Runtime",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Self-Hosting Dashboard",
+                       "passed":  true,
+                       "details":  "Dashboard validation passed."
+                   },
+                   {
+                       "name":  "Release Manifest",
+                       "passed":  true,
+                       "details":  "status=release_candidate"
+                   }
+               ]
+}

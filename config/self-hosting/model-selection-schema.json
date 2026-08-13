@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Model Selection Decision",
+  "type": "object",
+  "required": [
+    "model_selection_id",
+    "task_type",
+    "workload_profile",
+    "selected_provider",
+    "selected_model",
+    "score",
+    "reason",
+    "created_at"
+  ]
+}

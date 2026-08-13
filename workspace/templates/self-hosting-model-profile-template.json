@@ -1,0 +1,11 @@
+{
+  "model_profile_id": "SHMODEL-YYYYMMDD-HHMMSS-ABC123",
+  "provider_id": "",
+  "model_name": "",
+  "status": "configured",
+  "capabilities": [],
+  "resource_profile": {},
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

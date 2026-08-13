@@ -1,0 +1,14 @@
+﻿{
+    "routing_rule_id":  "SHROUTE-20260807-141800-E0D2EF",
+    "name":  "Private Context Local Preferred",
+    "priority":  10,
+    "conditions":  {
+                       "sensitive_context":  true
+                   },
+    "destination":  {
+                        "mode":  "local_preferred",
+                        "provider_id":  "SHPROV-20260807-141800-50B482"
+                    },
+    "created_at":  "2026-08-07T14:18:00.2014781-05:00",
+    "updated_at":  "2026-08-07T14:18:00.2014781-05:00"
+}

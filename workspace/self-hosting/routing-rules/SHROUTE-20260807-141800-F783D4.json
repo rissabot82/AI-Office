@@ -1,0 +1,14 @@
+﻿{
+    "routing_rule_id":  "SHROUTE-20260807-141800-F783D4",
+    "name":  "Complex Reasoning Cloud Fallback",
+    "priority":  50,
+    "conditions":  {
+                       "complexity":  "high"
+                   },
+    "destination":  {
+                        "mode":  "balanced",
+                        "allow_cloud_fallback":  true
+                    },
+    "created_at":  "2026-08-07T14:18:00.2498905-05:00",
+    "updated_at":  "2026-08-07T14:18:00.2498905-05:00"
+}

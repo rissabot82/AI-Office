@@ -1,0 +1,11 @@
+{
+  "resource_snapshot_id": "SHRES-YYYYMMDD-HHMMSS-ABC123",
+  "hostname": "",
+  "cpu_percent": 0,
+  "memory_percent": 0,
+  "gpu": {},
+  "system_drive_free_gb": 0,
+  "ai_drive_free_gb": 0,
+  "warnings": [],
+  "created_at": ""
+}

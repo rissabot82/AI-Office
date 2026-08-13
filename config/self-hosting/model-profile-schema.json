@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Local Model Profile",
+  "type": "object",
+  "required": [
+    "model_profile_id",
+    "provider_id",
+    "model_name",
+    "status",
+    "capabilities",
+    "resource_profile",
+    "created_at",
+    "updated_at"
+  ]
+}

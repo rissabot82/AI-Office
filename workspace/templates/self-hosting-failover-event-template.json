@@ -1,0 +1,8 @@
+{
+  "failover_event_id": "SHFAIL-YYYYMMDD-HHMMSS-ABC123",
+  "source_provider": "",
+  "target_provider": "",
+  "reason": "",
+  "status": "completed",
+  "created_at": ""
+}

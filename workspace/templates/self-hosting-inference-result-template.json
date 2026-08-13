@@ -1,0 +1,10 @@
+{
+  "inference_id": "SHINF-YYYYMMDD-HHMMSS-ABC123",
+  "provider_type": "ollama",
+  "model": "",
+  "prompt": "",
+  "response": "",
+  "status": "completed",
+  "metrics": {},
+  "created_at": ""
+}

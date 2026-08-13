@@ -1,0 +1,9 @@
+{
+  "routing_rule_id": "SHROUTE-YYYYMMDD-HHMMSS-ABC123",
+  "name": "",
+  "priority": 100,
+  "conditions": {},
+  "destination": {},
+  "created_at": "",
+  "updated_at": ""
+}

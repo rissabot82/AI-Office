@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Self-Hosted Provider",
+  "type": "object",
+  "required": [
+    "provider_id",
+    "name",
+    "provider_type",
+    "status",
+    "endpoint",
+    "created_at",
+    "updated_at"
+  ]
+}

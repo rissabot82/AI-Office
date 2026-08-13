@@ -1,0 +1,39 @@
+﻿{
+    "phase":  "Self-Hosted AI Office",
+    "generated_at":  "2026-08-13T14:33:30.4277204-05:00",
+    "status":  "operational",
+    "runtime":  {
+                    "provider":  "ollama",
+                    "endpoint":  "http://127.0.0.1:11434",
+                    "health":  "healthy",
+                    "available_models":  1
+                },
+    "metrics":  {
+                    "providers":  1,
+                    "connected_providers":  1,
+                    "models":  1,
+                    "ready_models":  1,
+                    "routing_rules":  2,
+                    "hardware_profiles":  1,
+                    "inference_results":  0
+                },
+    "hardware":  {
+                     "hostname":  "DESKTOP-D7J9TAI",
+                     "memory_gb":  31.9,
+                     "gpu":  [
+                                 {
+                                     "name":  "NVIDIA GeForce GTX 1060 6GB",
+                                     "adapter_ram_bytes":  4293918720,
+                                     "driver_version":  "32.0.15.6636"
+                                 },
+                                 {
+                                     "name":  "Fresco Logic IDDCX Adapter",
+                                     "adapter_ram_bytes":  0,
+                                     "driver_version":  "2.1.36287.0"
+                                 }
+                             ]
+                 },
+    "recent_inference":  [
+
+                         ]
+}

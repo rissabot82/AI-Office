@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Workload Metric",
+  "type": "object",
+  "required": [
+    "workload_metric_id",
+    "provider",
+    "model",
+    "task_type",
+    "status",
+    "elapsed_ms",
+    "created_at"
+  ]
+}

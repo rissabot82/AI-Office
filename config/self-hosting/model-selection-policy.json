@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "Self-Hosted AI Office",
+  "part": "E",
+  "release_name": "Intelligent Model Selection and Workload Optimization",
+  "selection": {
+    "enabled": true,
+    "default_local_model": "qwen2.5:3b",
+    "prefer_ready_models": true,
+    "require_local_health_for_local_selection": true,
+    "allow_cloud_escalation": true,
+    "persist_selection_decisions": true
+  },
+  "weights": {
+    "capability_match": 0.35,
+    "resource_fit": 0.25,
+    "latency_fit": 0.15,
+    "privacy_fit": 0.15,
+    "historical_success": 0.1
+  },
+  "workload_profiles": {
+    "quick": {
+      "max_complexity": "medium",
+      "preferred_size_gb": 4,
+      "latency_priority": "high"
+    },
+    "balanced": {
+      "max_complexity": "high",
+      "preferred_size_gb": 8,
+      "latency_priority": "medium"
+    },
+    "quality": {
+      "max_complexity": "high",
+      "preferred_size_gb": 16,
+      "latency_priority": "low"
+    }
+  },
+  "capability_map": {
+    "classification": [
+      "classification",
+      "chat"
+    ],
+    "summarization": [
+      "summarization",
+      "chat"
+    ],
+    "drafting": [
+      "generation",
+      "chat"
+    ],
+    "simple_reasoning": [
+      "chat",
+      "generation"
+    ],
+    "data_cleanup": [
+      "classification",
+      "generation"
+    ],
+    "private_context": [
+      "chat",
+      "summarization"
+    ],
+    "code": [
+      "code",
+      "generation",
+      "chat"
+    ],
+    "deep_reasoning": [
+      "reasoning",
+      "chat"
+    ],
+    "complex_strategy": [
+      "reasoning",
+      "chat"
+    ],
+    "long_context": [
+      "long_context",
+      "chat"
+    ]
+  }
+}

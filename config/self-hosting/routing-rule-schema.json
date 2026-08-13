@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Model Routing Rule",
+  "type": "object",
+  "required": [
+    "routing_rule_id",
+    "name",
+    "priority",
+    "conditions",
+    "destination",
+    "created_at",
+    "updated_at"
+  ]
+}

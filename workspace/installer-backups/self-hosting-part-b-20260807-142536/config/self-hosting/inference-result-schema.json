@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Local Inference Result",
+  "type": "object",
+  "required": [
+    "inference_id",
+    "provider_type",
+    "model",
+    "prompt",
+    "response",
+    "status",
+    "created_at"
+  ]
+}

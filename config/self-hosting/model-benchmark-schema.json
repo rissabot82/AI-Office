@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Model Benchmark",
+  "type": "object",
+  "required": [
+    "benchmark_id",
+    "model",
+    "provider",
+    "status",
+    "tests",
+    "summary",
+    "created_at"
+  ]
+}

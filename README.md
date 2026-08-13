@@ -263,3 +263,71 @@ AI Office should ultimately be capable of receiving an objective, gathering rele
 ---
 
 **AI Office v2.0.0 — Autonomous AI Enterprise**
+
+---
+
+## AI Office v2.2 — Self-Hosted AI Office
+
+**Status:** Certified / Operational  
+**Version:** 2.2.0  
+**Current Milestone:** Self-Hosted AI Office
+
+AI Office now includes a functioning hybrid local/cloud AI runtime.
+
+### Self-Hosting Capabilities
+
+- Ollama local inference
+- NVIDIA GPU-accelerated generation
+- Local model storage on the E: drive
+- General-purpose local model
+- Specialized coding model
+- Specialized reasoning model
+- Intelligent model selection
+- Workload optimization
+- Model benchmarking
+- Privacy-aware routing
+- Local/cloud hybrid execution
+- OpenClaw cloud fallback
+- Resource monitoring
+- Service health monitoring
+- Runtime recovery
+- Failover handling
+- Persistent OpenClaw WSL gateway
+- Self-hosting dashboard integration
+
+### Local Runtime
+
+Ollama:
+
+    http://127.0.0.1:11434
+
+OpenClaw Gateway:
+
+    http://127.0.0.1:18789
+
+AI Office Dashboard:
+
+    http://127.0.0.1:18880
+
+Local models are stored under:
+
+    E:\AI\Ollama\Models
+
+### Talk to a Local Model
+
+Interactive local inference can already be started with:
+
+    ollama run qwen2.5:3b
+
+The next major interface milestone is a unified AI Office conversational intake layer connecting the Chief of Staff, enterprise orchestrator, departments, and hybrid model router.
+
+### Next Milestone
+
+**Conversational AI Office + Discord Mobile Task Intake**
+
+This phase will provide a unified interface for submitting objectives to AI Office and routing them through the Chief of Staff and autonomous enterprise architecture.
+
+---
+
+**AI Office v2.2.0 — Self-Hosted AI Office**
+

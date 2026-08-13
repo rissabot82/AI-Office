@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Resource Snapshot",
+  "type": "object",
+  "required": [
+    "resource_snapshot_id",
+    "hostname",
+    "cpu_percent",
+    "memory_percent",
+    "system_drive_free_gb",
+    "ai_drive_free_gb",
+    "created_at"
+  ]
+}

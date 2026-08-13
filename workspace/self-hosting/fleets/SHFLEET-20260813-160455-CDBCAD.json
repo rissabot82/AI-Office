@@ -1,0 +1,68 @@
+﻿{
+    "fleet_id":  "SHFLEET-20260813-160455-CDBCAD",
+    "provider":  "ollama",
+    "status":  "ready",
+    "models":  [
+                   {
+                       "role":  "general",
+                       "configured_model":  "qwen2.5:3b",
+                       "required":  true,
+                       "installed":  true,
+                       "model_profile_id":  "SHMODEL-20260813-131917-15717A",
+                       "status":  "ready",
+                       "capabilities":  [
+                                            "chat",
+                                            "generation",
+                                            "summarization",
+                                            "classification"
+                                        ],
+                       "workloads":  [
+                                         "drafting",
+                                         "summarization",
+                                         "classification",
+                                         "simple_reasoning",
+                                         "private_context"
+                                     ]
+                   },
+                   {
+                       "role":  "code",
+                       "configured_model":  "qwen2.5-coder:3b",
+                       "required":  true,
+                       "installed":  true,
+                       "model_profile_id":  "SHMODEL-20260813-152003-A92137",
+                       "status":  "ready",
+                       "capabilities":  [
+                                            "code",
+                                            "generation",
+                                            "chat"
+                                        ],
+                       "workloads":  [
+                                         "code",
+                                         "html",
+                                         "powershell",
+                                         "javascript",
+                                         "debugging"
+                                     ]
+                   },
+                   {
+                       "role":  "reasoning",
+                       "configured_model":  "deepseek-r1:1.5b",
+                       "required":  false,
+                       "installed":  true,
+                       "model_profile_id":  "SHMODEL-20260813-152003-BC2439",
+                       "status":  "ready",
+                       "capabilities":  [
+                                            "reasoning",
+                                            "chat",
+                                            "generation"
+                                        ],
+                       "workloads":  [
+                                         "deep_reasoning",
+                                         "analysis",
+                                         "planning"
+                                     ]
+                   }
+               ],
+    "created_at":  "2026-08-13T16:04:55.6283245-05:00",
+    "updated_at":  "2026-08-13T16:04:55.6283245-05:00"
+}

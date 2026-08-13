@@ -1,0 +1,14 @@
+﻿{
+    "workload_metric_id":  "SHMET-20260813-144814-09514E",
+    "provider":  "ollama",
+    "model":  "qwen2.5:3b",
+    "task_type":  "classification",
+    "status":  "completed",
+    "elapsed_ms":  446.72,
+    "prompt_tokens":  0,
+    "response_tokens":  0,
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-13T14:48:14.9938371-05:00"
+}

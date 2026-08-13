@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Hybrid Execution Result",
+  "type": "object",
+  "required": [
+    "hybrid_execution_id",
+    "routing_decision_id",
+    "provider",
+    "status",
+    "prompt",
+    "response",
+    "created_at"
+  ]
+}

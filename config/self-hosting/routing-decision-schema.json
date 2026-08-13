@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Hybrid Routing Decision",
+  "type": "object",
+  "required": [
+    "routing_decision_id",
+    "task_type",
+    "sensitivity",
+    "complexity",
+    "selected_provider",
+    "selected_mode",
+    "reason",
+    "created_at"
+  ]
+}

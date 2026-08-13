@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Local Model Fleet",
+  "type": "object",
+  "required": [
+    "fleet_id",
+    "provider",
+    "status",
+    "models",
+    "created_at",
+    "updated_at"
+  ]
+}

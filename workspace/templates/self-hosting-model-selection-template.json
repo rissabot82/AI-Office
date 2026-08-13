@@ -1,0 +1,13 @@
+{
+  "model_selection_id": "SHSEL-YYYYMMDD-HHMMSS-ABC123",
+  "task_type": "",
+  "sensitivity": "normal",
+  "complexity": "medium",
+  "workload_profile": "balanced",
+  "selected_provider": "",
+  "selected_model": "",
+  "score": 0,
+  "reason": "",
+  "candidates": [],
+  "created_at": ""
+}

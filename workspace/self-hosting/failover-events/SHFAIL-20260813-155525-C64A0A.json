@@ -1,0 +1,8 @@
+﻿{
+    "failover_event_id":  "SHFAIL-20260813-155525-C64A0A",
+    "source_provider":  "ollama",
+    "target_provider":  "openclaw",
+    "reason":  "Certification failover simulation.",
+    "status":  "completed",
+    "created_at":  "2026-08-13T15:55:25.9879217-05:00"
+}
