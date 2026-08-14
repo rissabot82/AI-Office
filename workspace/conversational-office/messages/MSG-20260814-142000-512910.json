@@ -1,0 +1,22 @@
+﻿{
+    "message_id":  "MSG-20260814-142000-512910",
+    "session_id":  "CONV-20260814-100129-1E104E",
+    "role":  "assistant",
+    "content":  "Sure! Here are three dinner ideas:\n\n1. **Grilled Salmon with Roasted Vegetables**:  \n   - Cook salmon fillets on a grill or in the oven.\n   - Serve alongside roasted vegetables like broccoli, carrots, and bell peppers.\n\n2. **Baked Chicken with Garlic Herb Mash**:  \n   - Bake chicken thighs until crispy.\n   - Serve with a creamy garlic herb mash made from mashed potatoes and herbs.\n\n3. **Vegetable Stir-Fry**:  \n   - Sauté a variety of colorful vegetables like broccoli, bell peppers, onions, and mushrooms.\n   - Add tofu or chicken for extra protein if desired.",
+    "metadata":  {
+                     "provider":  "ollama",
+                     "model":  "qwen2.5-coder:3b",
+                     "task_type":  "simple_reasoning",
+                     "complexity":  "medium",
+                     "workload_profile":  "balanced",
+                     "optimized_execution_id":  "",
+                     "intelligence_v25_enabled":  true,
+                     "intelligent_task_family":  "creative",
+                     "intelligent_quality_tier":  "standard",
+                     "intelligent_selected_model":  "qwen2.5-coder:3b",
+                     "intelligent_requires_escalation":  false,
+                     "intelligence_fallback_used":  false,
+                     "intelligence_fallback_reason":  ""
+                 },
+    "created_at":  "2026-08-14T14:20:00.5034802-05:00"
+}

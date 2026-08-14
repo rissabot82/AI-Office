@@ -1,4 +1,4 @@
-param(
+﻿param(
     [Parameter(Mandatory=$true)][string]$Response
 )
 
@@ -20,8 +20,23 @@ if ($Text.Length -lt [int]$Policy.quality_control.minimum_response_characters) {
 }
 
 foreach ($Prefix in @($Policy.quality_control.reject_role_prefixes)) {
-    if ($Text.StartsWith([string]$Prefix, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $EscapedPrefix = [regex]::Escape([string]$Prefix)
+
+    if ($Text -match "(?im)^\s*$EscapedPrefix") {
         $Reasons.Add("Response contains an exposed role prefix: $Prefix")
+    }
+}
+
+$InternalMarkers = @(
+    "BEGIN CONVERSATION PROMPT",
+    "END CONVERSATION PROMPT",
+    "RESPONSE QUALITY RULES:",
+    "IMPORTANT RETRY INSTRUCTION:"
+)
+
+foreach ($Marker in $InternalMarkers) {
+    if ($Text.IndexOf($Marker, [System.StringComparison]::OrdinalIgnoreCase) -ge 0) {
+        $Reasons.Add("Response contains exposed internal prompt material: $Marker")
     }
 }
 
@@ -36,3 +51,4 @@ return [pscustomobject]@{
     reasons = $Reasons.ToArray()
     response_length = $Text.Length
 }
+

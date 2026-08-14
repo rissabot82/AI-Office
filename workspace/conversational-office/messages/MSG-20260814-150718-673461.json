@@ -1,0 +1,22 @@
+﻿{
+    "message_id":  "MSG-20260814-150718-673461",
+    "session_id":  "CONV-20260814-150715-82DE37",
+    "role":  "assistant",
+    "content":  "Hello! How can I assist you today?",
+    "metadata":  {
+                     "provider":  "ollama",
+                     "model":  "qwen2.5-coder:3b",
+                     "task_type":  "simple_reasoning",
+                     "complexity":  "medium",
+                     "workload_profile":  "balanced",
+                     "optimized_execution_id":  "",
+                     "intelligence_v25_enabled":  true,
+                     "intelligent_task_family":  "conversation",
+                     "intelligent_quality_tier":  "fast",
+                     "intelligent_selected_model":  "qwen2.5-coder:3b",
+                     "intelligent_requires_escalation":  false,
+                     "intelligence_fallback_used":  false,
+                     "intelligence_fallback_reason":  ""
+                 },
+    "created_at":  "2026-08-14T15:07:18.2418388-05:00"
+}

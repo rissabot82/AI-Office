@@ -1,11 +1,10 @@
 ﻿{
     "product":  "AI Office",
-    "version":  "2.5.0",
-    "release_name":  "Intelligence Upgrade",
+    "version":  "2.5.1",
+    "release_name":  "Discord Reliability Hotfix",
     "release_type":  "minor_feature",
     "status":  "released",
     "installed_at":  "2026-08-07T14:05:34.1364291-05:00",
-    "previous_version":  "1.3.0",
     "next_planned_milestone":  "Memory \u0026 Context Integration",
     "compatibility":  {
                           "windows_powershell":  "5.1+",
@@ -13,5 +12,6 @@
                           "repository_layout":  "AI Office v1.0",
                           "openclaw_gateway":  "2026.6.10"
                       },
-    "released_at":  "2026-08-14T13:43:05.7790854-05:00"
+    "previous_version":  "2.5.0",
+    "released_at":  "2026-08-14T15:11:19.1797880-05:00"
 }

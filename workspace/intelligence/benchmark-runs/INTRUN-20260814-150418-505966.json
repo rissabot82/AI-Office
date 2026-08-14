@@ -1,0 +1,87 @@
+﻿{
+    "run_id":  "INTRUN-20260814-150418-505966",
+    "mode":  "smoke",
+    "models":  [
+                   "deepseek-r1:1.5b",
+                   "qwen2.5-coder:3b",
+                   "qwen2.5:3b"
+               ],
+    "case_count":  1,
+    "result_count":  3,
+    "completed_count":  3,
+    "failed_count":  0,
+    "average_elapsed_ms":  4456.82,
+    "started_at":  "2026-08-14T15:04:18.3367845-05:00",
+    "completed_at":  "2026-08-14T15:04:31.8316883-05:00",
+    "results":  [
+                    {
+                        "benchmark_id":  "INTBENCH-20260814-150418-C074F1",
+                        "model":  "deepseek-r1:1.5b",
+                        "provider":  "ollama",
+                        "case_id":  "INT-SMOKE-001",
+                        "family":  "conversation",
+                        "quality_tier":  "fast",
+                        "status":  "completed",
+                        "elapsed_ms":  5492.61,
+                        "prompt":  "Reply with exactly: BENCHMARK OK",
+                        "response":  "BENCHMARK OK",
+                        "error":  "",
+                        "ollama_metrics":  {
+                                               "total_duration_ns":  5441202600,
+                                               "load_duration_ns":  5230914300,
+                                               "prompt_eval_count":  10,
+                                               "prompt_eval_duration_ns":  54922000,
+                                               "eval_count":  8,
+                                               "eval_duration_ns":  142068000,
+                                               "done_reason":  "stop"
+                                           },
+                        "created_at":  "2026-08-14T15:04:23.8697471-05:00"
+                    },
+                    {
+                        "benchmark_id":  "INTBENCH-20260814-150423-A7F605",
+                        "model":  "qwen2.5-coder:3b",
+                        "provider":  "ollama",
+                        "case_id":  "INT-SMOKE-001",
+                        "family":  "conversation",
+                        "quality_tier":  "fast",
+                        "status":  "completed",
+                        "elapsed_ms":  3939.93,
+                        "prompt":  "Reply with exactly: BENCHMARK OK",
+                        "response":  "BENCHMARK OK",
+                        "error":  "",
+                        "ollama_metrics":  {
+                                               "total_duration_ns":  3936745400,
+                                               "load_duration_ns":  3752123800,
+                                               "prompt_eval_count":  36,
+                                               "prompt_eval_duration_ns":  97592000,
+                                               "eval_count":  4,
+                                               "eval_duration_ns":  82255000,
+                                               "done_reason":  "stop"
+                                           },
+                        "created_at":  "2026-08-14T15:04:27.8269916-05:00"
+                    },
+                    {
+                        "benchmark_id":  "INTBENCH-20260814-150427-B610C1",
+                        "model":  "qwen2.5:3b",
+                        "provider":  "ollama",
+                        "case_id":  "INT-SMOKE-001",
+                        "family":  "conversation",
+                        "quality_tier":  "fast",
+                        "status":  "completed",
+                        "elapsed_ms":  3937.91,
+                        "prompt":  "Reply with exactly: BENCHMARK OK",
+                        "response":  "BENCHMARK OK",
+                        "error":  "",
+                        "ollama_metrics":  {
+                                               "total_duration_ns":  3934684000,
+                                               "load_duration_ns":  3761269700,
+                                               "prompt_eval_count":  36,
+                                               "prompt_eval_duration_ns":  91354000,
+                                               "eval_count":  4,
+                                               "eval_duration_ns":  76911000,
+                                               "done_reason":  "stop"
+                                           },
+                        "created_at":  "2026-08-14T15:04:31.7962495-05:00"
+                    }
+                ]
+}

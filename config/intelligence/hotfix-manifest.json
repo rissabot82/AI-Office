@@ -1,0 +1,16 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "2.5.1",
+    "release_name":  "Discord Reliability Hotfix",
+    "release_type":  "hotfix",
+    "status":  "released",
+    "base_version":  "2.5.0",
+    "fixes":  [
+                  "Discord API JSON requests explicitly encoded as UTF-8",
+                  "Failed Discord messages quarantined instead of retried forever",
+                  "Internal prompt leakage detected in responses",
+                  "Final output sanitizer blocks leaked prompt material"
+              ],
+    "certification_id":  "CERT-HOTFIX-20260814-150758",
+    "released_at":  "2026-08-14T15:11:19.1402489-05:00"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-150711-4F5554",
+    "benchmark_id":  "INTBENCH-20260814-150615-87F670",
+    "model":  "qwen2.5-coder:3b",
+    "case_id":  "INT-ANALYSIS-001",
+    "family":  "analysis",
+    "quality_tier":  "standard",
+    "requirement_score":  1,
+    "quality_score":  1,
+    "latency_score":  1,
+    "overall_score":  1,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T15:07:11.6572068-05:00"
+}

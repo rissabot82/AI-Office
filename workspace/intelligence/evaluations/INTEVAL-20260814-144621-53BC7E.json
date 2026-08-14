@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-144621-53BC7E",
+    "benchmark_id":  "INTBENCH-20260814-144500-69BEBB",
+    "model":  "qwen2.5-coder:3b",
+    "case_id":  "INT-CONV-001",
+    "family":  "conversation",
+    "quality_tier":  "fast",
+    "requirement_score":  1,
+    "quality_score":  0.6267,
+    "latency_score":  1,
+    "overall_score":  0.9067,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T14:46:21.2911002-05:00"
+}

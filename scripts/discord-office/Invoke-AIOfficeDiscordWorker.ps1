@@ -62,17 +62,62 @@ try {
                         catch {}
                     }
 
-                    & "E:\AI\AI-Office\scripts\discord-office\Invoke-AIOfficeDiscordInboundMessage.ps1" `
-                        -DiscordMessageId ([string]$Message.id) `
-                        -DiscordUserId ([string]$Message.author.id) `
-                        -DiscordGuildId ([string]$Allowlist.allowed_guild_ids[0]) `
-                        -DiscordChannelId ([string]$ChannelId) `
-                        -Content ([string]$Message.content) |
-                        Out-Null
+                    try {
+                        & "E:\AI\AI-Office\scripts\discord-office\Invoke-AIOfficeDiscordInboundMessage.ps1" `
+                            -DiscordMessageId ([string]$Message.id) `
+                            -DiscordUserId ([string]$Message.author.id) `
+                            -DiscordGuildId ([string]$Allowlist.allowed_guild_ids[0]) `
+                            -DiscordChannelId ([string]$ChannelId) `
+                            -Content ([string]$Message.content) |
+                            Out-Null
 
-                    $State.last_message_id = [string]$Message.id
-                    $State.processed_messages = [long]$State.processed_messages + 1
-                    Save-WorkerState -Value $State
+                        $State.last_message_id = [string]$Message.id
+                        $State.processed_messages = [long]$State.processed_messages + 1
+                        $State.last_error = ""
+                        Save-WorkerState -Value $State
+                    }
+                    catch {
+                        $MessageError = $_.Exception.Message
+
+                        $State.errors = [long]$State.errors + 1
+                        $State.last_error = $MessageError
+
+                        # Quarantine this Discord message instead of retrying it forever.
+                        $State.last_message_id = [string]$Message.id
+
+                        $FailedDirectory = "E:\AI\AI-Office\workspace\discord-office\failed-messages"
+                        New-Item `
+                            -ItemType Directory `
+                            -Path $FailedDirectory `
+                            -Force |
+                            Out-Null
+
+                        $FailedRecord = [ordered]@{
+                            discord_message_id = [string]$Message.id
+                            discord_user_id = [string]$Message.author.id
+                            discord_channel_id = [string]$ChannelId
+                            content = [string]$Message.content
+                            error = $MessageError
+                            quarantined_at = (Get-Date).ToString("o")
+                        }
+
+                        $FailedRecord |
+                            ConvertTo-Json -Depth 20 |
+                            Set-Content `
+                                -LiteralPath (Join-Path $FailedDirectory ("FAILED-" + [string]$Message.id + ".json")) `
+                                -Encoding UTF8
+
+                        Save-WorkerState -Value $State
+
+                        Write-Host (
+                            "[QUARANTINED] Discord message " +
+                            [string]$Message.id +
+                            " | " +
+                            $MessageError
+                        ) -ForegroundColor Yellow
+
+                        continue
+                    }
                 }
             }
 
@@ -94,5 +139,6 @@ finally {
     $State.status = "stopped"
     Save-WorkerState -Value $State
 }
+
 
 

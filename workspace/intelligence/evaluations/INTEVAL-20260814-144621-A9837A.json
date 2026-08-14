@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-144621-A9837A",
+    "benchmark_id":  "INTBENCH-20260814-144338-0F46CE",
+    "model":  "deepseek-r1:1.5b",
+    "case_id":  "INT-REASON-001",
+    "family":  "reasoning",
+    "quality_tier":  "fast",
+    "requirement_score":  1,
+    "quality_score":  1,
+    "latency_score":  1,
+    "overall_score":  1,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T14:46:21.2092077-05:00"
+}

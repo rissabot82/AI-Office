@@ -1,4 +1,4 @@
-$script:AIOfficeDiscordRuntimeRoot = "E:\AI\AI-Office"
+﻿$script:AIOfficeDiscordRuntimeRoot = "E:\AI\AI-Office"
 
 function Get-AIOfficeDiscordLiveRuntimePolicy {
     return Get-Content `
@@ -45,12 +45,15 @@ function Invoke-AIOfficeDiscordApi {
         return Invoke-RestMethod -Uri $Uri -Method $Method -Headers $Headers -TimeoutSec 60
     }
 
+    $Json = $Body | ConvertTo-Json -Depth 20 -Compress
+    $Utf8Body = [System.Text.Encoding]::UTF8.GetBytes($Json)
+
     return Invoke-RestMethod `
         -Uri $Uri `
         -Method $Method `
         -Headers $Headers `
-        -ContentType "application/json" `
-        -Body ($Body | ConvertTo-Json -Depth 20 -Compress) `
+        -ContentType "application/json; charset=utf-8" `
+        -Body $Utf8Body `
         -TimeoutSec 60
 }
 
@@ -95,3 +98,4 @@ function Send-AIOfficeDiscordChannelMessage {
 
     return @($Responses | ForEach-Object { $_ })
 }
+

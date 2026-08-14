@@ -1,0 +1,64 @@
+﻿{
+    "validation_id":  "INTLIVE-20260814-150750-2DB5B2",
+    "session_id":  "CONV-20260814-150715-82DE37",
+    "passed":  5,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "conversation",
+                        "task_family":  "conversation",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "conversation",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Hello! How can I assist you today?"
+                    },
+                    {
+                        "name":  "reasoning",
+                        "task_family":  "reasoning",
+                        "model":  "deepseek-r1:1.5b",
+                        "expected_family":  "reasoning",
+                        "expected_model":  "deepseek-r1:1.5b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Doubling both numbers in a ratio leaves it unchanged because ratios represent proportional relationships. When you scale both parts of a ratio by the same factor, their relative proportions remain consistent. For example, if you have a ratio like 2:4 (which simplifies to 1:2), doubling both gives you 4:8, which also simplifies back to 1:2. This shows that the proportion between the two quantities remains the same, hence the ratio is unaffected by scaling."
+                    },
+                    {
+                        "name":  "creative",
+                        "task_family":  "creative",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "creative",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Sure! Here\u0027s your silly poem:\n\nIn a world where cats drive,\nThere was one feline named Kia.\nWith wheels that spun and danced,\nHe drove his car with grace.\n\nHis tail wagged as he raced,\nThrough the streets of a city so vast.\nBut remember, cars are not for cats,\nAnd Kia would never be called a cat."
+                    },
+                    {
+                        "name":  "drafting",
+                        "task_family":  "drafting",
+                        "model":  "qwen2.5:3b",
+                        "expected_family":  "drafting",
+                        "expected_model":  "qwen2.5:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Certainly! Here’s a draft of a concise professional follow-up email:\n\n---\n\nSubject: Request for Overdue Pricing Explanation\n\nDear [Vendor\u0027s Name],\n\nI hope this message finds you well.\n\nI am writing to inquire about the overdue pricing explanation we received on [specific date]. It has been several days since your initial response, and I would greatly appreciate an update or further clarification regarding our inquiry. \n\nCould you please provide more details on why the explanation was not provided earlier? Additionally, if there are any specific documents or information that need to be reviewed, could you kindly share them with us?\n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n[Your Full Name]  \n[Your Position]  \n[Company Name]  \n[Contact Information]\n\n---\n\nFeel free to adjust the details as necessary."
+                    },
+                    {
+                        "name":  "coding",
+                        "task_family":  "coding",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "coding",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  true,
+                        "passed":  true,
+                        "response":  "To debug a PowerShell variable parser issue involving a colon after a variable name, you can follow these steps:\n\n1. **Check Variable Declaration**: Ensure that the variable is declared correctly without any typos or extra characters.\n\n2. **Use `Get-Variable`**: Use the `Get-Variable` cmdlet to check if the variable exists and what its value is:\n   ```powershell\n   Get-Variable -Name YourVariableName\n   ```\n\n3. **Check for Typos**: Ensure there are no typos in the variable name or any surrounding characters.\n\n4. **Use `Test-Path`**: Check if the variable name is a valid PowerShell variable by using `Test-Path`:\n   ```powershell\n   Test-Path Variable:YourVariableName\n   ```\n\n5. **Review Script Context**: Ensure that the script context in which the variable is being used is correct.\n\n6. **Check for Scope Issues**: If the variable is defined within a function or block, ensure it is accessible where you are trying to use it.\n\n7. **Use `Write-Output`**: Output the variable name and its value to see if there are any unexpected characters:\n   ```powershell\n   Write-Output \"YourVariableName: $(Get-Variable -Name YourVariableName).Value\"\n   ```\n\n8. **Check for Errors in Previous Commands**: Ensure that there are no errors or exceptions before reaching the problematic line of code.\n\nBy following these steps, you should be able to identify and resolve the issue with your PowerShell variable parser."
+                    }
+                ],
+    "created_at":  "2026-08-14T15:07:50.2797023-05:00"
+}

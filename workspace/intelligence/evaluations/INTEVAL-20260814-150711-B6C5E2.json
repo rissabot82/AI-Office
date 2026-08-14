@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-150711-B6C5E2",
+    "benchmark_id":  "INTBENCH-20260814-150621-9CD164",
+    "model":  "qwen2.5-coder:3b",
+    "case_id":  "INT-CODE-001",
+    "family":  "coding",
+    "quality_tier":  "high",
+    "requirement_score":  0.6667,
+    "quality_score":  1,
+    "latency_score":  1,
+    "overall_score":  0.8,
+    "passed":  false,
+    "notes":  [
+                  "Requirement failed: correct_example"
+              ],
+    "created_at":  "2026-08-14T15:07:11.6672151-05:00"
+}
