@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "H",
+  "release_name": "Intelligence Upgrade",
+  "mode": "advisory",
+  "automatic_external_escalation_enabled": false,
+  "principle": "Use local models by default; identify requests whose expected quality exceeds current local capability.",
+  "family_thresholds": {
+    "conversation": 0.82,
+    "reasoning": 0.9,
+    "creative": 0.94,
+    "drafting": 0.94,
+    "analysis": 0.94,
+    "classification": 0.9,
+    "coding": 0.85
+  },
+  "complexity_escalation": {
+    "high": true,
+    "medium": false,
+    "low": false
+  },
+  "quality_sensitive_keywords": [
+    "campaign",
+    "strategy",
+    "production",
+    "final",
+    "polished",
+    "professional",
+    "complex",
+    "debug",
+    "architecture",
+    "creative",
+    "headline",
+    "advertising",
+    "legal"
+  ],
+  "external_provider": {
+    "configured": false,
+    "provider": "",
+    "model": "",
+    "note": "No cloud/external provider is activated by Part H. Escalation remains advisory until a provider is deliberately configured."
+  }
+}

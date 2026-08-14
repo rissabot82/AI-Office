@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "J",
+  "release_name": "Intelligence Upgrade",
+  "enabled": false,
+  "provider": "openai",
+  "model": "gpt-5.6-luna",
+  "local_first": true,
+  "fallback_to_local_on_external_failure": true,
+  "require_quality_escalation": true,
+  "cost_guardrails": {
+    "daily_budget_usd": 0.5,
+    "monthly_budget_usd": 5.0,
+    "max_estimated_request_cost_usd": 0.1,
+    "allow_when_cost_unknown": false
+  },
+  "pricing_usd_per_million_tokens": {
+    "input": 1.0,
+    "cached_input": 0.1,
+    "output": 6.0
+  },
+  "request_limits": {
+    "max_output_tokens": 1200,
+    "timeout_seconds": 120
+  },
+  "credential_environment_variable": "AI_OFFICE_OPENAI_API_KEY",
+  "usage_ledger": "workspace/intelligence/external-usage/openai-usage.jsonl"
+}

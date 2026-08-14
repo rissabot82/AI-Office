@@ -1,0 +1,14 @@
+﻿{
+    "event_id":  "DCEVT-20260814-100129-C28EC9",
+    "direction":  "inbound",
+    "discord_message_id":  "1537837563530973244",
+    "discord_user_id":  "274978692151902210",
+    "discord_guild_id":  "1537835193338036284",
+    "discord_channel_id":  "1537835316671680583",
+    "conversation_session_id":  "CONV-20260814-100129-1E104E",
+    "content":  "Hello AI Office. Reply with exactly: DISCORD AI OFFICE ONLINE",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T10:01:29.7699394-05:00"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "B",
+  "release_name": "Intelligence Upgrade",
+  "benchmark_runtime": {
+    "provider": "ollama",
+    "temperature": 0.2,
+    "smoke_prompt": "Reply with exactly: BENCHMARK OK",
+    "smoke_timeout_seconds": 90,
+    "full_case_timeout_seconds": 180,
+    "persist_prompts": true,
+    "persist_responses": true,
+    "production_routing_changes_allowed": false
+  }
+}

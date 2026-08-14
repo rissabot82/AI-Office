@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-111858-C6767C",
+    "benchmark_id":  "INTBENCH-20260814-111813-5712A6",
+    "model":  "qwen2.5-coder:3b",
+    "case_id":  "INT-ROUTE-001",
+    "family":  "classification",
+    "quality_tier":  "fast",
+    "requirement_score":  1,
+    "quality_score":  0.5067,
+    "latency_score":  1,
+    "overall_score":  0.8767,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T11:18:58.6091713-05:00"
+}

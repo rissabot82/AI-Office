@@ -1,0 +1,24 @@
+﻿{
+    "version":  "2.3.0",
+    "release_name":  "Conversational AI Office",
+    "generated_at":  "2026-08-14T08:50:56.3556907-05:00",
+    "status":  "operational",
+    "metrics":  {
+                    "sessions":  1,
+                    "active_sessions":  1,
+                    "messages":  12,
+                    "turns":  6,
+                    "completed_turns":  6,
+                    "failed_turns":  0
+                },
+    "recent_sessions":  [
+                            {
+                                "session_id":  "CONV-20260814-084616-E5EB0B",
+                                "title":  "AI Office Conversation",
+                                "status":  "active",
+                                "message_count":  12,
+                                "turn_count":  6,
+                                "updated_at":  "2026-08-14T08:50:20.8209079-05:00"
+                            }
+                        ]
+}

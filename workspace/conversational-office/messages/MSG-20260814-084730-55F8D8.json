@@ -1,0 +1,15 @@
+﻿{
+    "message_id":  "MSG-20260814-084730-55F8D8",
+    "session_id":  "CONV-20260814-084616-E5EB0B",
+    "role":  "assistant",
+    "content":  "My name is Qwen. How may I help you today?",
+    "metadata":  {
+                     "provider":  "ollama",
+                     "model":  "qwen2.5:3b",
+                     "task_type":  "simple_reasoning",
+                     "complexity":  "medium",
+                     "workload_profile":  "balanced",
+                     "optimized_execution_id":  "SHOPT-20260814-084730-627363"
+                 },
+    "created_at":  "2026-08-14T08:47:30.8628866-05:00"
+}

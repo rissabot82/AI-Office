@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "H",
+  "activation": {
+    "require_bot_token": true,
+    "require_connection_health": true,
+    "require_allowlist": true,
+    "require_worker_policy": true,
+    "require_routing_policy": true,
+    "require_safety_policy": true,
+    "start_worker_only_when_explicitly_requested": true,
+    "certification_timeout_seconds": 15
+  }
+}

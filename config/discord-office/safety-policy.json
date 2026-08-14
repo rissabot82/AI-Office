@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "G",
+  "safety": {
+    "require_allowlist": true,
+    "audit_inbound_messages": true,
+    "audit_commands": true,
+    "audit_routing": true,
+    "audit_denied_messages": true,
+    "redact_token_like_values": true,
+    "maximum_audit_files": 5000
+  }
+}

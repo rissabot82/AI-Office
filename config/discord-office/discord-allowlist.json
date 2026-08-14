@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0.0",
+  "guilds": [],
+  "channels": [],
+  "users": [],
+  "notes": "Populate during Part B live Discord connection. Default deny remains active until IDs are explicitly configured."
+}

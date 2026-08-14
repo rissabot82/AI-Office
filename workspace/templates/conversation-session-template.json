@@ -1,0 +1,9 @@
+{
+  "session_id": "CONV-YYYYMMDD-HHMMSS-ABC123",
+  "title": "AI Office Conversation",
+  "status": "active",
+  "entrypoint": "chief-of-staff",
+  "metadata": {},
+  "created_at": "",
+  "updated_at": ""
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Discord Connection",
+  "type": "object",
+  "required": [
+    "status",
+    "bot_user_id",
+    "bot_username",
+    "guild_count",
+    "connected_at"
+  ]
+}

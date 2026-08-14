@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "C",
+  "release_name": "Intelligence Upgrade",
+  "scoring": {
+    "scale_min": 0.0,
+    "scale_max": 1.0,
+    "weights": {
+      "requirement_coverage": 0.6,
+      "response_quality": 0.25,
+      "latency_efficiency": 0.15
+    },
+    "latency_reference_ms": {
+      "fast": 5000,
+      "standard": 10000,
+      "high": 20000
+    },
+    "pass_thresholds": {
+      "fast": 0.65,
+      "standard": 0.78,
+      "high": 0.88
+    }
+  },
+  "heuristics": {
+    "forbidden_phrases": [
+      "appropriate department",
+      "will coordinate",
+      "does not belong in the ai office",
+      "need more information to proceed"
+    ]
+  }
+}

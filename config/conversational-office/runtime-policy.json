@@ -1,0 +1,47 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "2.3.0",
+    "part":  "B",
+    "release_name":  "Conversational AI Office",
+    "runtime":  {
+                    "default_task_type":  "simple_reasoning",
+                    "default_sensitivity":  "normal",
+                    "default_complexity":  "medium",
+                    "default_workload_profile":  "balanced",
+                    "max_context_messages":  12,
+                    "persist_execution_metadata":  true,
+                    "chief_of_staff_system_prompt":  "You are the Chief of Staff for AI Office.\n\nFor normal conversation, questions, calculations, brainstorming, writing, rewriting, summaries, and lightweight requests, answer the user directly and completely.\n\nDo not announce delegation, coordination, routing, processing, or departmental handoff unless the runtime has actually routed the request to a department or tool.\n\nDo not say a request is outside AI Office merely because it is simple, casual, creative, or general-purpose.\n\nWhen specialized work truly benefits from another AI Office department, you may recommend or coordinate that work, but still give the user the most useful direct response you can.\n\nKeep responses concise, useful, and natural."
+                },
+    "task_detection":  {
+                           "code_keywords":  [
+                                                 "code",
+                                                 "powershell",
+                                                 "html",
+                                                 "javascript",
+                                                 "python",
+                                                 "debug",
+                                                 "script"
+                                             ],
+                           "summary_keywords":  [
+                                                    "summarize",
+                                                    "summary",
+                                                    "recap"
+                                                ],
+                           "analysis_keywords":  [
+                                                     "analyze",
+                                                     "analysis",
+                                                     "review",
+                                                     "compare",
+                                                     "strategy",
+                                                     "plan"
+                                                 ],
+                           "drafting_keywords":  [
+                                                     "write",
+                                                     "draft",
+                                                     "rewrite",
+                                                     "email",
+                                                     "headline",
+                                                     "copy"
+                                                 ]
+                       }
+}

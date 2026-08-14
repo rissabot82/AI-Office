@@ -1,0 +1,26 @@
+﻿{
+    "inventory_id":  "INTINV-20260814-110424",
+    "provider":  "ollama",
+    "model_count":  3,
+    "models":  [
+                   {
+                       "model":  "deepseek-r1:1.5b",
+                       "provider":  "ollama",
+                       "available":  true,
+                       "source":  "ollama list"
+                   },
+                   {
+                       "model":  "qwen2.5-coder:3b",
+                       "provider":  "ollama",
+                       "available":  true,
+                       "source":  "ollama list"
+                   },
+                   {
+                       "model":  "qwen2.5:3b",
+                       "provider":  "ollama",
+                       "available":  true,
+                       "source":  "ollama list"
+                   }
+               ],
+    "created_at":  "2026-08-14T11:04:24.1613507-05:00"
+}

@@ -120,3 +120,14 @@ volumes/
 !README*
 
 dashboard/runtime/dashboard.pid
+
+# AI Office generated/runtime state
+workspace/installer-backups/
+workspace/documentation-backups/
+workspace/self-hosting/model-selections/
+workspace/self-hosting/optimized-results/
+workspace/self-hosting/workload-metrics/
+workspace/intelligence/benchmarks/
+workspace/intelligence/certifications/
+workspace/intelligence/quality-runs/
+workspace/intelligence/model-selections/

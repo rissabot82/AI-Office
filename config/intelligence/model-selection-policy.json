@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "D",
+  "release_name": "Intelligence Upgrade",
+  "selection": {
+    "default_model": "qwen2.5:3b",
+    "default_provider": "ollama",
+    "preserve_local_first": true,
+    "require_available_model": true,
+    "require_quality_evidence": true,
+    "production_integration_enabled": false,
+    "fallback_model_order": [
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b",
+      "qwen2.5-coder:3b"
+    ]
+  },
+  "task_preferences": {
+    "conversation": [
+      "qwen2.5-coder:3b",
+      "deepseek-r1:1.5b",
+      "qwen2.5:3b"
+    ],
+    "reasoning": [
+      "deepseek-r1:1.5b",
+      "qwen2.5:3b",
+      "qwen2.5-coder:3b"
+    ],
+    "creative": [
+      "qwen2.5-coder:3b",
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b"
+    ],
+    "drafting": [
+      "qwen2.5:3b",
+      "qwen2.5-coder:3b",
+      "deepseek-r1:1.5b"
+    ],
+    "analysis": [
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b",
+      "qwen2.5-coder:3b"
+    ],
+    "classification": [
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b",
+      "qwen2.5-coder:3b"
+    ],
+    "coding": [
+      "qwen2.5-coder:3b",
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b"
+    ],
+    "summarization": [
+      "qwen2.5:3b",
+      "deepseek-r1:1.5b",
+      "qwen2.5-coder:3b"
+    ]
+  },
+  "quality_thresholds": {
+    "fast": 0.65,
+    "standard": 0.78,
+    "high": 0.88
+  },
+  "known_limitations": {
+    "coding": {
+      "all_current_models_below_target": true,
+      "observed_score": 0.6,
+      "action": "Prefer qwen2.5-coder:3b locally but mark coding as escalation-preferred until a stronger model is benchmarked."
+    }
+  }
+}

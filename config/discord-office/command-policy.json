@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "C",
+  "release_name": "Discord Mobile Operations",
+  "commands": {
+    "new": {
+      "enabled": true,
+      "description": "Start a new AI Office conversation"
+    },
+    "session": {
+      "enabled": true,
+      "description": "Show the active AI Office conversation session"
+    },
+    "status": {
+      "enabled": true,
+      "description": "Show Discord and conversational runtime status"
+    },
+    "history": {
+      "enabled": true,
+      "description": "Show recent conversation messages"
+    },
+    "help": {
+      "enabled": true,
+      "description": "Show available AI Office Discord commands"
+    }
+  },
+  "history": {
+    "default_messages": 8,
+    "maximum_messages": 20
+  }
+}

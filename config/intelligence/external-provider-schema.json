@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "required_fields": [
+    "provider",
+    "supported",
+    "enabled",
+    "credential_configured",
+    "model_configured",
+    "activation_ready"
+  ],
+  "provider_values": [
+    "openai",
+    "anthropic"
+  ]
+}

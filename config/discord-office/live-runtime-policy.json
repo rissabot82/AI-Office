@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "B",
+  "release_name": "Discord Mobile Operations",
+  "runtime": {
+    "transport": "discord_gateway",
+    "poll_interval_seconds": 2,
+    "response_timeout_seconds": 120,
+    "conversation_sensitivity": "normal",
+    "auto_create_session": true,
+    "ignore_bots": true,
+    "ignore_empty_messages": true
+  },
+  "discord": {
+    "api_base": "https://discord.com/api/v10",
+    "gateway_url": "wss://gateway.discord.gg/?v=10&encoding=json",
+    "intents": 33280,
+    "reply_mode": "channel_message"
+  }
+}

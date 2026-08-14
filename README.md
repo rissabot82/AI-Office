@@ -1,10 +1,10 @@
-# AI Office
+﻿# AI Office
 
-**Current Version:** v2.4.0 — Discord Mobile Operations  
+**Current Version:** v2.5.0 - Intelligence Upgrade
 **Status:** Certified / Operational  
 **Platform:** Windows + WSL2 + OpenClaw + Ollama  
 **Remote Interface:** Live Discord  
-**Next Release:** v2.5.0 — Intelligence Upgrade
+**Next Release:** v2.6.0 - Memory and Context Integration
 
 AI Office is a private, modular, local-first AI operations platform designed to coordinate executive planning, specialized departments, persistent knowledge, autonomous workflows, personal operations, business development, connected services, and cross-department reasoning from a locally controlled environment.
 
@@ -52,15 +52,15 @@ Private remote access through Discord with explicit allowlists, persistent sessi
 
 ```text
 Discord / PowerShell
-        ↓
+        â†“
 Conversational Intake
-        ↓
+        â†“
 Chief of Staff / Department Routing
-        ↓
+        â†“
 Hybrid Model Selection
-        ↓
+        â†“
 Ollama / OpenClaw
-        ↓
+        â†“
 Response / Task Output
 ```
 
@@ -79,47 +79,47 @@ The v2.4 release has been certified with:
 - Persistent conversation sessions working
 - Explicit department routing working
 - Discord safety and audit infrastructure working
-- Live end-to-end Discord → AI Office → inference → Discord messaging working
+- Live end-to-end Discord â†’ AI Office â†’ inference â†’ Discord messaging working
 
 ---
 
 ## Completed Major Releases
 
-### v1.x — Core AI Office Foundation
+### v1.x â€” Core AI Office Foundation
 Established the executive operating model, OpenClaw bridge, department intelligence, long-term memory, autonomous workflows, knowledge graph and reasoning, multi-agent collaboration, personal financial office, business incubation, and operations/integration foundations.
 
-### v2.0 — Autonomous AI Enterprise
+### v2.0 â€” Autonomous AI Enterprise
 Unified enterprise orchestration, governance, cross-department coordination, autonomous operating cycles, and control-center concepts.
 
-### v2.2 — Self-Hosted AI Office
+### v2.2 â€” Self-Hosted AI Office
 Added local Ollama inference, hybrid routing, workload optimization, resilience, failover, recovery, and self-hosting infrastructure.
 
-### v2.3 — Conversational AI Office
+### v2.3 â€” Conversational AI Office
 Added persistent conversational intake, session history, live local responses, and an interactive AI Office conversation front door.
 
-### v2.4 — Discord Mobile Operations
+### v2.4 â€” Discord Mobile Operations
 Added a live remote conversational interface through a private Discord server, persistent Discord sessions, department routing, worker services, operations controls, safety/audit, and live activation.
 
 ---
 
 ## Forward Roadmap
 
-### v2.5 — Intelligence Upgrade
+### v2.5 â€” Intelligence Upgrade
 Improve model quality, model selection, task classification, response quality, Chief of Staff behavior, and benchmark-driven routing.
 
-### v2.6 — Memory & Context Integration
+### v2.6 â€” Memory & Context Integration
 Connect conversational work to durable project, organization, dealership, personal, and operational context with controlled retrieval and context injection.
 
-### v2.7 — Data & Connector Layer
+### v2.7 â€” Data & Connector Layer
 Connect AI Office to real operational systems and external data so departments can read, analyze, and act on approved information sources.
 
-### v2.8 — First Production Department
+### v2.8 â€” First Production Department
 Turn one department into a genuinely useful end-to-end production system using real context, tools, workflows, outputs, and approvals.
 
-### v2.9 — Department Expansion
+### v2.9 â€” Department Expansion
 Apply the production department framework across Marketing, Analytics, Web Development, Creative, Finance, Side Hustles, Business Incubator, YouTube, Personal Assistant, and related functions.
 
-### v3.0 — Autonomous Operational AI Office
+### v3.0 â€” Autonomous Operational AI Office
 Unify intelligent routing, memory, connectors, departments, approvals, recurring work, multi-step execution, monitoring, self-maintenance, and remote operations into a mature operational system.
 
 ---
@@ -154,3 +154,20 @@ Do not commit:
 - Local installer backups
 
 The repository is the engineering source of truth. Private operational data remains local unless explicitly approved for another secure destination.
+
+## AI Office v2.5 â€
+
+Intelligence
+
+## AI Office v2.5 - Intelligence Upgrade
+
+**Status:** Certified / Operational
+**Version:** 2.5.0
+
+AI Office now uses benchmark-driven model selection, task-family routing, response-quality control, quality escalation, external-provider architecture, and cost guardrails.
+
+Final certification: **14 passed / 0 failed**.
+
+**Next:** v2.6 - Memory and Context Integration.
+
+

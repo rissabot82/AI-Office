@@ -1,4 +1,4 @@
-# AI Office Project Status
+﻿# AI Office Project Status
 
 ## Current Status
 
@@ -12,7 +12,7 @@
 | Conversational runtime | Operational |
 | Remote interface | Live Discord |
 | Discord worker | Operational |
-| Next release | v2.5.0 — Intelligence Upgrade |
+| Next release | v2.5.0 â€” Intelligence Upgrade |
 | Resume target | v2.5 Part A |
 
 ## Current Operational Capabilities
@@ -46,21 +46,21 @@
 
 ## v2.4 Certification State
 
-AI Office v2.4 — Discord Mobile Operations is certified and operational.
+AI Office v2.4 â€” Discord Mobile Operations is certified and operational.
 
 The live runtime has demonstrated end-to-end:
 
 ```text
 Discord
-  ↓
+  â†“
 AI Office Worker
-  ↓
+  â†“
 Conversational Intake
-  ↓
+  â†“
 Chief of Staff / Department Router
-  ↓
+  â†“
 Local / Hybrid Inference
-  ↓
+  â†“
 Discord Response
 ```
 
@@ -70,13 +70,24 @@ The remote interface is functional, but local response quality is not yet at the
 
 ## Resume Point
 
-Begin **AI Office v2.5 Part A — Intelligence Upgrade Architecture**.
+Begin **AI Office v2.5 Part A â€” Intelligence Upgrade Architecture**.
 
 ## Forward Build Sequence
 
-- v2.5 — Intelligence Upgrade
-- v2.6 — Memory & Context Integration
-- v2.7 — Data & Connector Layer
-- v2.8 — First Production Department
-- v2.9 — Department Expansion
-- v3.0 — Autonomous Operational AI Office
+- v2.5 â€” Intelligence Upgrade
+- v2.6 â€” Memory & Context Integration
+- v2.7 â€” Data & Connector Layer
+- v2.8 â€” First Production Department
+- v2.9 â€” Department Expansion
+- v3.0 â€” Autonomous Operational AI Office
+
+## Current Release - v2.5.0
+
+**Release:** Intelligence Upgrade
+**Status:** Certified / Operational
+**Certification:** 14 passed / 0 failed
+
+The conversational runtime is benchmark-driven, quality-controlled, and able to identify when current local intelligence is insufficient.
+
+**Next release:** v2.6.0 - Memory and Context Integration.
+

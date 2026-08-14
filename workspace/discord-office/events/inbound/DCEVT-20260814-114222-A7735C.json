@@ -1,0 +1,14 @@
+﻿{
+    "event_id":  "DCEVT-20260814-114222-A7735C",
+    "direction":  "inbound",
+    "discord_message_id":  "1537863959389151462",
+    "discord_user_id":  "274978692151902210",
+    "discord_guild_id":  "1537835193338036284",
+    "discord_channel_id":  "1537835316671680583",
+    "conversation_session_id":  "CONV-20260814-100129-1E104E",
+    "content":  "4. Give me three creative names for a summer car sale involving dogs.",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T11:42:22.7269010-05:00"
+}

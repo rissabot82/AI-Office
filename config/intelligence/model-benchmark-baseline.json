@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "source": "v2.5 Part C benchmark",
+  "models": {
+    "qwen2.5:3b": {
+      "average": 0.8987,
+      "passed_cases": 7,
+      "total_cases": 8,
+      "family_scores": {
+        "conversation": 0.8658,
+        "reasoning": 0.7675,
+        "creative": 0.9783,
+        "drafting": 1.0,
+        "analysis": 1.0,
+        "coding": 0.6,
+        "classification": 1.0
+      }
+    },
+    "deepseek-r1:1.5b": {
+      "average": 0.8982,
+      "passed_cases": 7,
+      "total_cases": 8,
+      "family_scores": {
+        "conversation": 0.8767,
+        "reasoning": 0.9908,
+        "creative": 0.9077,
+        "drafting": 1.0,
+        "analysis": 1.0,
+        "coding": 0.6,
+        "classification": 0.9024
+      }
+    },
+    "qwen2.5-coder:3b": {
+      "average": 0.8939,
+      "passed_cases": 7,
+      "total_cases": 8,
+      "family_scores": {
+        "conversation": 0.8992,
+        "reasoning": 0.775,
+        "creative": 1.0,
+        "drafting": 1.0,
+        "analysis": 1.0,
+        "coding": 0.6,
+        "classification": 0.8767
+      }
+    }
+  }
+}

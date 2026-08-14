@@ -1,0 +1,14 @@
+﻿{
+    "event_id":  "DCEVT-20260814-101556-A046A7",
+    "direction":  "inbound",
+    "discord_message_id":  "1537842214007472269",
+    "discord_user_id":  "274978692151902210",
+    "discord_guild_id":  "1537835193338036284",
+    "discord_channel_id":  "1537835316671680583",
+    "conversation_session_id":  "CONV-20260814-100129-1E104E",
+    "content":  "/department marketing Give me three campaign ideas for a summer car sale.",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T10:15:56.3539643-05:00"
+}

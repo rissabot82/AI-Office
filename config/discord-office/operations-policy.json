@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "F",
+  "operations": {
+    "health_stale_after_seconds": 30,
+    "worker_error_warning_threshold": 3,
+    "include_self_hosting_health": true,
+    "include_local_inference_health": true
+  }
+}

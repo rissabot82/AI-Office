@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Discord Session Mapping",
+  "type": "object",
+  "required": [
+    "mapping_id",
+    "discord_user_id",
+    "discord_channel_id",
+    "conversation_session_id",
+    "status",
+    "created_at",
+    "updated_at"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+    "event_id":  "DCEVT-20260814-100547-6D9E34",
+    "direction":  "inbound",
+    "discord_message_id":  "1537839654122823711",
+    "discord_user_id":  "274978692151902210",
+    "discord_guild_id":  "1537835193338036284",
+    "discord_channel_id":  "1537835316671680583",
+    "conversation_session_id":  "CONV-20260814-100129-1E104E",
+    "content":  "Please write me a poem",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T10:05:47.6055792-05:00"
+}

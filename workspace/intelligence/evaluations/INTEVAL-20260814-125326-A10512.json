@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-125326-A10512",
+    "benchmark_id":  "INTBENCH-20260814-125208-E66E20",
+    "model":  "qwen2.5-coder:3b",
+    "case_id":  "INT-DRAFT-001",
+    "family":  "drafting",
+    "quality_tier":  "standard",
+    "requirement_score":  1,
+    "quality_score":  1,
+    "latency_score":  1,
+    "overall_score":  1,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T12:53:26.6109477-05:00"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "E",
+  "worker": {
+    "poll_interval_seconds": 3,
+    "error_backoff_seconds": 10,
+    "startup_delay_seconds": 2,
+    "max_messages_per_cycle": 25,
+    "ignore_bot_messages": true
+  }
+}

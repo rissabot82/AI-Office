@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-131024-9474BF",
+    "benchmark_id":  "INTBENCH-20260814-130950-01DD99",
+    "model":  "qwen2.5:3b",
+    "case_id":  "INT-MKT-001",
+    "family":  "creative",
+    "quality_tier":  "standard",
+    "requirement_score":  1,
+    "quality_score":  1,
+    "latency_score":  0.818,
+    "overall_score":  0.9727,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T13:10:24.1326207-05:00"
+}

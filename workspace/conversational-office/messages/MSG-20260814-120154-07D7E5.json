@@ -1,0 +1,10 @@
+﻿{
+    "message_id":  "MSG-20260814-120154-07D7E5",
+    "session_id":  "CONV-20260814-120136-C04FA7",
+    "role":  "user",
+    "content":  "Debug this PowerShell variable parser issue involving a colon after a variable name.",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T12:01:54.9014392-05:00"
+}

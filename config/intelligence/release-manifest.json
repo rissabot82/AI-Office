@@ -1,0 +1,15 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "2.5.0",
+    "release_name":  "Intelligence Upgrade",
+    "status":  "released",
+    "certification":  {
+                          "required_status":  "passed",
+                          "passed_checks":  14,
+                          "failed_checks":  0
+                      },
+    "next_release":  "2.6.0",
+    "next_milestone":  "Memory \u0026 Context Integration",
+    "certification_id":  "CERT-INTELLIGENCE-20260814-130713",
+    "released_at":  "2026-08-14T13:43:05.7406289-05:00"
+}

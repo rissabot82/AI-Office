@@ -1,0 +1,19 @@
+{
+  "model_id": "",
+  "provider": "ollama",
+  "availability": "unknown",
+  "parameter_size": null,
+  "context_window": null,
+  "capabilities": {
+    "conversation": 0.0,
+    "reasoning": 0.0,
+    "drafting": 0.0,
+    "creative": 0.0,
+    "coding": 0.0,
+    "analysis": 0.0,
+    "summarization": 0.0,
+    "classification": 0.0
+  },
+  "notes": [],
+  "updated_at": ""
+}

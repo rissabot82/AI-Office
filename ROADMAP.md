@@ -1,8 +1,8 @@
-# AI Office Roadmap
+﻿# AI Office Roadmap
 
 ## Current Release
 
-### v2.4 — Discord Mobile Operations
+### v2.4 â€” Discord Mobile Operations
 **Status: Certified / Operational**
 
 Private Discord remote interface, bot-token security, guild/channel/user allowlists, persistent Discord sessions, remote commands, Chief-of-Staff-first intake, explicit department routing, worker services, operations monitoring, safety/audit controls, and live activation.
@@ -11,7 +11,7 @@ Private Discord remote interface, bot-token security, guild/channel/user allowli
 
 ## Completed Foundation
 
-### v1.x — Core AI Office Platform
+### v1.x â€” Core AI Office Platform
 The v1.x generation established the core operational system, including:
 
 - Executive Operating System
@@ -25,23 +25,23 @@ The v1.x generation established the core operational system, including:
 - Business Incubator
 - Operations & Integrations foundations
 
-### v2.0 — Autonomous AI Enterprise
+### v2.0 â€” Autonomous AI Enterprise
 Unified executive orchestration, enterprise work items, department governance, cross-department planning, continuous operating concepts, and control-center architecture.
 
-### v2.2 — Self-Hosted AI Office
+### v2.2 â€” Self-Hosted AI Office
 Local Ollama runtime, hybrid model routing, workload optimization, resilience, resource monitoring, failover, recovery, and self-hosting infrastructure.
 
-### v2.3 — Conversational AI Office
+### v2.3 â€” Conversational AI Office
 Persistent conversation sessions, message history, turn records, Chief-of-Staff conversational intake, local inference, and an interactive PowerShell conversation interface.
 
-### v2.4 — Discord Mobile Operations
+### v2.4 â€” Discord Mobile Operations
 Live remote conversational access through Discord, persistent Discord session mapping, commands, department routing, background worker, operations controls, safety/audit, and live certification.
 
 ---
 
 ## Active Roadmap
 
-### v2.5 — Intelligence Upgrade
+### v2.5 â€” Intelligence Upgrade
 **Goal:** Make AI Office materially smarter.
 
 Planned focus:
@@ -56,7 +56,7 @@ Planned focus:
 - Establish quality tiers and fallback behavior
 - Preserve efficient lightweight local inference for simple work
 
-### v2.6 — Memory & Context Integration
+### v2.6 â€” Memory & Context Integration
 **Goal:** Give AI Office durable useful context.
 
 Planned focus:
@@ -70,7 +70,7 @@ Planned focus:
 - Department-specific context packets
 - Controlled context injection
 
-### v2.7 — Data & Connector Layer
+### v2.7 â€” Data & Connector Layer
 **Goal:** Give AI Office access to real operational information.
 
 Planned focus:
@@ -85,7 +85,7 @@ Planned focus:
 - Data validation and provenance
 - Connector health monitoring
 
-### v2.8 — First Production Department
+### v2.8 â€” First Production Department
 **Goal:** Make one department genuinely useful end-to-end.
 
 Expected characteristics:
@@ -98,7 +98,7 @@ Expected characteristics:
 - Monitoring
 - Production-quality responses
 
-### v2.9 — Department Expansion
+### v2.9 â€” Department Expansion
 **Goal:** Scale the production framework across AI Office.
 
 Target departments include:
@@ -114,7 +114,7 @@ Target departments include:
 - Personal Assistant
 - Reporting and operational support functions
 
-### v3.0 — Autonomous Operational AI Office
+### v3.0 â€” Autonomous Operational AI Office
 **Goal:** Mature AI Office into a dependable autonomous operational system.
 
 Target capabilities:
@@ -136,3 +136,13 @@ Target capabilities:
 ## North-Star Outcome
 
 AI Office should be able to receive a goal from a phone or computer, understand the relevant context, select the right model and department, retrieve approved knowledge, use connected tools, execute or coordinate multi-step work, request approval where required, recover from interruptions, and report useful results through one control center.
+
+## v2.5 - Intelligence Upgrade
+
+**Status: COMPLETE**
+
+Delivered model benchmarking, intelligent model selection, live integration, response-quality control, escalation architecture, provider abstraction, cost guardrails, and end-to-end certification.
+
+### Next
+**v2.6 - Memory and Context Integration**
+

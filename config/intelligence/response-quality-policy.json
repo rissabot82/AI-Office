@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "G",
+  "release_name": "Intelligence Upgrade",
+  "quality_control": {
+    "enabled": true,
+    "minimum_response_characters": 8,
+    "reject_role_prefixes": [
+      "ASSISTANT:",
+      "USER:",
+      "SYSTEM:"
+    ],
+    "reject_non_answer_patterns": [
+      "I need more information to proceed",
+      "This request does not belong in the AI Office",
+      "will coordinate it appropriately",
+      "appropriate department"
+    ],
+    "retry_once_on_quality_failure": true,
+    "preserve_live_fallback": true
+  },
+  "response_principles": [
+    "Answer the user's actual request directly.",
+    "Do not narrate internal routing, delegation, departments, or model selection unless asked.",
+    "Do not claim another department will handle work when the current model can answer it.",
+    "Use conversation context naturally.",
+    "Prefer useful completed work over procedural acknowledgments.",
+    "Be concise unless the request requires detail.",
+    "Never prefix the response with ASSISTANT, USER, or SYSTEM."
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-125326-A83C16",
+    "benchmark_id":  "INTBENCH-20260814-125133-9AF107",
+    "model":  "deepseek-r1:1.5b",
+    "case_id":  "INT-ROUTE-001",
+    "family":  "classification",
+    "quality_tier":  "fast",
+    "requirement_score":  0.5,
+    "quality_score":  1,
+    "latency_score":  0.1964,
+    "overall_score":  0.5795,
+    "passed":  false,
+    "notes":  [
+                  "Requirement failed: marketing_or_drafting_classification"
+              ],
+    "created_at":  "2026-08-14T12:53:26.5779436-05:00"
+}

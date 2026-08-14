@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "I",
+  "release_name": "Intelligence Upgrade",
+  "mode": "architecture_only",
+  "enabled": false,
+  "local_first": true,
+  "automatic_paid_inference": false,
+  "require_explicit_activation": true,
+  "credential_storage": {
+    "allow_plaintext_repository_secrets": false,
+    "preferred_sources": [
+      "environment_variable",
+      "user_secret_store"
+    ],
+    "never_log_secret_values": true
+  },
+  "providers": {
+    "openai": {
+      "supported": true,
+      "enabled": false,
+      "api_key_environment_variable": "AI_OFFICE_OPENAI_API_KEY",
+      "default_model": "",
+      "base_url": "https://api.openai.com/v1"
+    },
+    "anthropic": {
+      "supported": true,
+      "enabled": false,
+      "api_key_environment_variable": "AI_OFFICE_ANTHROPIC_API_KEY",
+      "default_model": "",
+      "base_url": "https://api.anthropic.com"
+    }
+  },
+  "guardrails": {
+    "daily_budget_usd": 0.0,
+    "monthly_budget_usd": 0.0,
+    "max_request_cost_usd": 0.0,
+    "allow_when_cost_unknown": false,
+    "fallback_to_local_on_external_failure": true
+  }
+}

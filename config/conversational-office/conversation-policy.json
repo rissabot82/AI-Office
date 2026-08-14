@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.3.0",
+  "part": "A",
+  "release_name": "Conversational AI Office",
+  "status": "architecture",
+  "intake": {
+    "default_entrypoint": "chief-of-staff",
+    "persist_sessions": true,
+    "persist_messages": true,
+    "allow_local_inference": true,
+    "allow_hybrid_execution": true,
+    "require_session_id": true
+  },
+  "routing": {
+    "chief_of_staff_first": true,
+    "enterprise_orchestration_enabled": true,
+    "department_delegation_enabled": true,
+    "hybrid_model_routing_enabled": true
+  },
+  "session": {
+    "default_title": "AI Office Conversation",
+    "max_recent_messages": 50,
+    "status_values": [
+      "active",
+      "completed",
+      "archived",
+      "failed"
+    ]
+  }
+}

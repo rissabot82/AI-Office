@@ -1,4 +1,4 @@
-# AI Office Vision
+﻿# AI Office Vision
 
 ## Purpose
 
@@ -115,3 +115,10 @@ AI Office becomes an autonomous operational AI organization that coordinates pro
 The target is not maximum automation for its own sake.
 
 The target is **useful leverage**: less repetitive work, better information, better decisions, faster execution, stronger continuity, and more time for work that actually requires human judgment.
+
+## Intelligence State After v2.5
+
+AI Office now measures local model capability, selects models by task family, validates response behavior, and identifies work that exceeds current local capability.
+
+The next intelligence leap is contextual: v2.6 will connect conversations to durable project, dealership, organization, workflow, and user-approved context.
+

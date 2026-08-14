@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Conversation Turn",
+  "type": "object",
+  "required": [
+    "turn_id",
+    "session_id",
+    "user_message_id",
+    "status",
+    "created_at"
+  ]
+}

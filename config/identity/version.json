@@ -1,17 +1,17 @@
 ﻿{
     "product":  "AI Office",
-    "version":  "2.2.0",
-    "release_name":  "Self-Hosted AI Office",
+    "version":  "2.5.0",
+    "release_name":  "Intelligence Upgrade",
     "release_type":  "minor_feature",
     "status":  "released",
     "installed_at":  "2026-08-07T14:05:34.1364291-05:00",
     "previous_version":  "1.3.0",
-    "next_planned_milestone":  "Discord Mobile Task Intake and Remote Operations",
+    "next_planned_milestone":  "Memory \u0026 Context Integration",
     "compatibility":  {
                           "windows_powershell":  "5.1+",
                           "powershell":  "7.x supported",
                           "repository_layout":  "AI Office v1.0",
                           "openclaw_gateway":  "2026.6.10"
                       },
-    "released_at":  "2026-08-13T16:05:04.6566332-05:00"
+    "released_at":  "2026-08-14T13:43:05.7790854-05:00"
 }

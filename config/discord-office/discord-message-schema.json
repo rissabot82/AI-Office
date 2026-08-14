@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Discord Message Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "direction",
+    "discord_message_id",
+    "discord_user_id",
+    "discord_channel_id",
+    "content",
+    "created_at"
+  ]
+}

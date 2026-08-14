@@ -1,0 +1,14 @@
+﻿{
+    "event_id":  "DCEVT-20260814-114239-C47F4A",
+    "direction":  "outbound",
+    "discord_message_id":  "LOCAL-57fc48ab3ac4",
+    "discord_user_id":  "274978692151902210",
+    "discord_guild_id":  "1537835193338036284",
+    "discord_channel_id":  "1537835316671680583",
+    "conversation_session_id":  "CONV-20260814-100129-1E104E",
+    "content":  "```powershell\nGet-ChildItem -Path \"E:\\AI\\AI-Office\" | Sort-Object Length -Descending | Select-Object -First 10\r\n```",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T11:42:39.8789225-05:00"
+}

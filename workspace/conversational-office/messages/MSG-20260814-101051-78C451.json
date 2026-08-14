@@ -1,0 +1,10 @@
+﻿{
+    "message_id":  "MSG-20260814-101051-78C451",
+    "session_id":  "CONV-20260814-100129-1E104E",
+    "role":  "user",
+    "content":  "You are operating as the AI Office marketing department.\n\nRespond directly to the user\u0027s request.\nDo not reject ordinary requests merely because they are simple.\nDo not discuss the routing system unless the user asks about it.\n\nUser request:\nGive me three summer sale campaign ideas for a car dealership.",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T10:10:51.8867910-05:00"
+}

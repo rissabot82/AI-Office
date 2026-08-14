@@ -1,0 +1,16 @@
+﻿{
+    "module":  "intelligence",
+    "version":  "2.5.0",
+    "release_name":  "Intelligence Upgrade",
+    "certification_status":  "passed",
+    "certification_id":  "CERT-INTELLIGENCE-20260814-130713",
+    "passed_checks":  14,
+    "failed_checks":  0,
+    "tracked_selections":  60,
+    "intelligent_turns":  25,
+    "fallback_turns":  0,
+    "escalation_recommendations":  9,
+    "next_release":  "2.6.0",
+    "next_milestone":  "Memory \u0026 Context Integration",
+    "updated_at":  "2026-08-14T13:43:06.0878232-05:00"
+}

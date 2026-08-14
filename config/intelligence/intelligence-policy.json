@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "A",
+  "release_name": "Intelligence Upgrade",
+  "architecture": {
+    "principle": "Use the least resource-intensive model that can still meet the required quality tier.",
+    "default_quality_tier": "standard",
+    "allow_escalation": true,
+    "preserve_local_first": true,
+    "require_benchmark_evidence": true
+  },
+  "quality_tiers": {
+    "fast": {
+      "description": "Simple conversation, classification, extraction, formatting, and lightweight utility work.",
+      "minimum_score": 0.65
+    },
+    "standard": {
+      "description": "General drafting, planning, summarization, marketing ideation, and ordinary reasoning.",
+      "minimum_score": 0.78
+    },
+    "high": {
+      "description": "Complex reasoning, coding, strategic work, high-value drafting, and specialized department work.",
+      "minimum_score": 0.88
+    }
+  },
+  "task_families": [
+    "conversation",
+    "reasoning",
+    "drafting",
+    "creative",
+    "coding",
+    "analysis",
+    "summarization",
+    "classification"
+  ],
+  "routing": {
+    "simple_conversation": "fast",
+    "simple_calculation": "fast",
+    "classification": "fast",
+    "summarization": "standard",
+    "drafting": "standard",
+    "creative": "standard",
+    "analysis": "standard",
+    "coding": "high",
+    "complex_reasoning": "high",
+    "explicit_department_work": "standard"
+  }
+}

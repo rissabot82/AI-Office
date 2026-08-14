@@ -1,0 +1,11 @@
+{
+  "selection_id": "",
+  "task_family": "",
+  "quality_tier": "standard",
+  "selected_model": "",
+  "provider": "ollama",
+  "selection_reason": "",
+  "candidate_models": [],
+  "requires_escalation": false,
+  "created_at": ""
+}

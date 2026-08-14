@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-125326-DDB4BE",
+    "benchmark_id":  "INTBENCH-20260814-125020-77A227",
+    "model":  "deepseek-r1:1.5b",
+    "case_id":  "INT-DRAFT-001",
+    "family":  "drafting",
+    "quality_tier":  "standard",
+    "requirement_score":  1,
+    "quality_score":  1,
+    "latency_score":  0.5057,
+    "overall_score":  0.9258,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T12:53:26.5289426-05:00"
+}

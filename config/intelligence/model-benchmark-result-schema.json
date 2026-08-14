@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Office Model Benchmark Result",
+  "type": "object",
+  "required": [
+    "benchmark_id",
+    "model",
+    "provider",
+    "case_id",
+    "family",
+    "quality_tier",
+    "status",
+    "elapsed_ms",
+    "response",
+    "created_at"
+  ],
+  "properties": {
+    "benchmark_id": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "quality_tier": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "elapsed_ms": {
+      "type": "number"
+    },
+    "response": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

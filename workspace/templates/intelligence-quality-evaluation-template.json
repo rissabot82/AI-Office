@@ -1,0 +1,14 @@
+{
+  "evaluation_id": "",
+  "benchmark_id": "",
+  "model": "",
+  "case_id": "",
+  "quality_tier": "",
+  "requirement_score": 0.0,
+  "quality_score": 0.0,
+  "latency_score": 0.0,
+  "overall_score": 0.0,
+  "passed": false,
+  "notes": [],
+  "created_at": ""
+}

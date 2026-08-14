@@ -1,0 +1,14 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "version":  "2.3.0",
+    "release_name":  "Conversational AI Office",
+    "status":  "released",
+    "parts":  {
+                  "A":  "Conversational Intake Architecture",
+                  "B":  "Live Conversational Runtime",
+                  "C":  "Dashboard Integration, Certification and Release"
+              },
+    "next_milestone":  "Discord Mobile Operations",
+    "released_at":  "2026-08-14T08:50:56.2507864-05:00",
+    "certification_id":  "CERT-CONV-20260814-085056"
+}

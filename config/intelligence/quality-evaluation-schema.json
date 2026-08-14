@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Office Intelligence Quality Evaluation",
+  "type": "object",
+  "required": [
+    "evaluation_id",
+    "benchmark_id",
+    "model",
+    "case_id",
+    "quality_tier",
+    "requirement_score",
+    "quality_score",
+    "latency_score",
+    "overall_score",
+    "passed",
+    "created_at"
+  ]
+}

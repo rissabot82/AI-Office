@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "suite_name": "AI Office Intelligence Baseline",
+  "cases": [
+    {
+      "id": "INT-CONV-001",
+      "family": "conversation",
+      "quality_tier": "fast",
+      "prompt": "Hello! How are you today?",
+      "requirements": [
+        "direct_answer",
+        "natural_language",
+        "no_fake_delegation"
+      ]
+    },
+    {
+      "id": "INT-REASON-001",
+      "family": "reasoning",
+      "quality_tier": "fast",
+      "prompt": "What is 12 times 7?",
+      "requirements": [
+        "correct_answer",
+        "direct_answer"
+      ]
+    },
+    {
+      "id": "INT-CREATIVE-001",
+      "family": "creative",
+      "quality_tier": "standard",
+      "prompt": "Write a short silly poem about a cat driving a Kia.",
+      "requirements": [
+        "fulfills_request",
+        "creative_output",
+        "no_fake_delegation"
+      ]
+    },
+    {
+      "id": "INT-DRAFT-001",
+      "family": "drafting",
+      "quality_tier": "standard",
+      "prompt": "Write a concise professional follow-up asking a vendor for an overdue pricing explanation.",
+      "requirements": [
+        "fulfills_request",
+        "professional",
+        "concise"
+      ]
+    },
+    {
+      "id": "INT-MKT-001",
+      "family": "creative",
+      "quality_tier": "standard",
+      "prompt": "Give me three distinct summer sale campaign concepts for a car dealership.",
+      "requirements": [
+        "three_distinct_ideas",
+        "automotive_relevance",
+        "non_generic"
+      ]
+    },
+    {
+      "id": "INT-ANALYSIS-001",
+      "family": "analysis",
+      "quality_tier": "standard",
+      "prompt": "A campaign spent $1000 and generated 25 leads. Another spent $1500 and generated 50 leads. Compare cost per lead and identify the more efficient campaign.",
+      "requirements": [
+        "correct_math",
+        "comparison",
+        "direct_conclusion"
+      ]
+    },
+    {
+      "id": "INT-CODE-001",
+      "family": "coding",
+      "quality_tier": "high",
+      "prompt": "Explain why a PowerShell variable immediately followed by a colon can cause a parser error and give a corrected example.",
+      "requirements": [
+        "technical_accuracy",
+        "correct_example",
+        "concise"
+      ]
+    },
+    {
+      "id": "INT-ROUTE-001",
+      "family": "classification",
+      "quality_tier": "fast",
+      "prompt": "Classify this request: Write three Google Business Profile posts for a dealership sale.",
+      "requirements": [
+        "marketing_or_drafting_classification",
+        "direct_answer"
+      ]
+    }
+  ]
+}

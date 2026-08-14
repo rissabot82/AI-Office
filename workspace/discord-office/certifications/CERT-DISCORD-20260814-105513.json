@@ -1,0 +1,61 @@
+﻿{
+    "certification_id":  "CERT-DISCORD-20260814-105513",
+    "version":  "2.4.0",
+    "release_name":  "Discord Mobile Operations",
+    "status":  "certified",
+    "passed_checks":  10,
+    "failed_checks":  0,
+    "checks":  [
+                   {
+                       "name":  "Part A Discord Gateway Architecture",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part B Live Discord Intake",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part C Persistent Sessions and Commands",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part D Department Routing",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part E Discord Worker Service",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part F Discord Operations and Control",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part G Discord Safety and Audit",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part H Live Activation",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Live Activation Readiness",
+                       "passed":  true,
+                       "details":  "Ready=True; Passed=6; Failed=0"
+                   },
+                   {
+                       "name":  "Live End-to-End Operations",
+                       "passed":  true,
+                       "details":  "Discord=True; Worker=running; SelfHosting=healthy; Ollama=True; Gateway=True; Dashboard=True"
+                   }
+               ],
+    "certified_at":  "2026-08-14T10:55:13.5220106-05:00"
+}

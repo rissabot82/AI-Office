@@ -1,0 +1,15 @@
+﻿{
+    "message_id":  "MSG-20260814-101526-3C7522",
+    "session_id":  "CONV-20260814-100129-1E104E",
+    "role":  "assistant",
+    "content":  "Certainly! Here are three ideas for dinner tonight:\n\n1. **BBQ Pasta**: Cook some zucchini noodles and serve them with a homemade marinara sauce. Add some cooked chicken or shrimp on top for protein.\n2. **Stuffed Bell Peppers**: Fill bell peppers with a mixture of quinoa, black beans, corn, diced tomatoes, and cheese. Bake until heated through.\n3. **Vegetable Stir-Fry**: Heat up some oil in a pan, add your favorite vegetables like broccoli, carrots, and snap peas. Serve over brown rice or noodles for a complete meal.",
+    "metadata":  {
+                     "provider":  "ollama",
+                     "model":  "qwen2.5:3b",
+                     "task_type":  "simple_reasoning",
+                     "complexity":  "medium",
+                     "workload_profile":  "balanced",
+                     "optimized_execution_id":  "SHOPT-20260814-101526-F44887"
+                 },
+    "created_at":  "2026-08-14T10:15:26.9205155-05:00"
+}

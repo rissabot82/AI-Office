@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "K",
+  "release_name": "Intelligence Upgrade",
+  "certification_name": "End-to-End Intelligence Certification",
+  "require_parts": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "require_local_models": true,
+  "require_quality_control": true,
+  "require_local_fallback": true,
+  "require_cost_guardrails": true,
+  "allow_external_provider_disabled": true,
+  "live_external_call_required": false,
+  "discord_runtime_must_remain_available": true
+}

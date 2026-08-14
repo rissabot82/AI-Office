@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.5.0",
+  "part": "F",
+  "release_name": "Intelligence Upgrade",
+  "operations": {
+    "track_live_model_selections": true,
+    "track_fallback_usage": true,
+    "track_escalation_recommendations": true,
+    "validation_prompt_count": 5,
+    "require_discord_runtime_healthy": true
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "evaluation_id":  "INTEVAL-20260814-125326-A0B490",
+    "benchmark_id":  "INTBENCH-20260814-124958-8381B1",
+    "model":  "deepseek-r1:1.5b",
+    "case_id":  "INT-CONV-001",
+    "family":  "conversation",
+    "quality_tier":  "fast",
+    "requirement_score":  1,
+    "quality_score":  0.5067,
+    "latency_score":  0.8093,
+    "overall_score":  0.8481,
+    "passed":  true,
+    "notes":  [
+
+              ],
+    "created_at":  "2026-08-14T12:53:26.4989954-05:00"
+}

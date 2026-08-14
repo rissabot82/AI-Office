@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.4.0",
+  "part": "D",
+  "release_name": "Discord Mobile Operations",
+  "routing": {
+    "default_route": "chief-of-staff",
+    "chief_of_staff_first": true,
+    "allow_explicit_department_command": true,
+    "fallback_to_conversational_office": true
+  },
+  "departments": [
+    {
+      "id": "chief-of-staff",
+      "aliases": [
+        "chief",
+        "cos"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "marketing",
+      "aliases": [
+        "mktg"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "creative-design",
+      "aliases": [
+        "creative",
+        "design"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "web-development",
+      "aliases": [
+        "web",
+        "dev"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "google-ads",
+      "aliases": [
+        "ads",
+        "ppc"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "analytics",
+      "aliases": [
+        "gtm",
+        "ga4"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "personal-finance",
+      "aliases": [
+        "finance"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "side-hustles",
+      "aliases": [
+        "hustles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "business-incubator",
+      "aliases": [
+        "business"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "youtube-studio",
+      "aliases": [
+        "youtube"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "personal-assistant",
+      "aliases": [
+        "assistant"
+      ],
+      "enabled": true
+    }
+  ]
+}

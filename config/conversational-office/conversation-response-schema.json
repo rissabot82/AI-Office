@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Conversation Response",
+  "type": "object",
+  "required": [
+    "session_id",
+    "turn_id",
+    "user_message_id",
+    "assistant_message_id",
+    "provider",
+    "model",
+    "status",
+    "response",
+    "created_at"
+  ]
+}

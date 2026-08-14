@@ -1,0 +1,25 @@
+﻿{
+    "turn_id":  "TURN-20260814-113151-5CF0DC",
+    "session_id":  "CONV-20260814-113151-6073BE",
+    "user_message_id":  "MSG-20260814-113151-7220DD",
+    "assistant_message_id":  "MSG-20260814-113153-D592E5",
+    "status":  "completed",
+    "routing":  {
+                    "provider":  "ollama",
+                    "model":  "qwen2.5-coder:3b",
+                    "task_type":  "simple_reasoning",
+                    "intelligent_task_family":  "conversation",
+                    "intelligent_quality_tier":  "fast",
+                    "intelligent_requires_escalation":  false,
+                    "intelligence_fallback_used":  false
+                },
+    "execution":  {
+                      "optimized_execution_id":  "",
+                      "elapsed_ms":  1001.95,
+                      "workload_profile":  "balanced",
+                      "intelligence_source":  "v2.5-intelligent-selection",
+                      "fallback_reason":  ""
+                  },
+    "created_at":  "2026-08-14T11:31:51.8084288-05:00",
+    "completed_at":  "2026-08-14T11:31:53.4134607-05:00"
+}

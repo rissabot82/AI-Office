@@ -1,0 +1,10 @@
+﻿{
+    "message_id":  "MSG-20260814-100427-EB281A",
+    "session_id":  "CONV-20260814-100129-1E104E",
+    "role":  "user",
+    "content":  "AI Office routing context:\nDepartment: chief-of-staff\nRouting reason: default_chief_of_staff\n\nAct as the AI Office department identified above. If the request belongs elsewhere, coordinate through the Chief of Staff rather than silently changing the requested objective.\n\nUser request:\nWhat can you currently do for me through Discord?",
+    "metadata":  {
+
+                 },
+    "created_at":  "2026-08-14T10:04:27.0752557-05:00"
+}

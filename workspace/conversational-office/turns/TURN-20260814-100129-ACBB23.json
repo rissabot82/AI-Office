@@ -1,0 +1,19 @@
+﻿{
+    "turn_id":  "TURN-20260814-100129-ACBB23",
+    "session_id":  "CONV-20260814-100129-1E104E",
+    "user_message_id":  "MSG-20260814-100129-073F91",
+    "assistant_message_id":  "MSG-20260814-100136-F0521A",
+    "status":  "completed",
+    "routing":  {
+                    "provider":  "ollama",
+                    "model":  "qwen2.5:3b",
+                    "task_type":  "simple_reasoning"
+                },
+    "execution":  {
+                      "optimized_execution_id":  "SHOPT-20260814-100136-203BFE",
+                      "elapsed_ms":  6505.22,
+                      "workload_profile":  "balanced"
+                  },
+    "created_at":  "2026-08-14T10:01:29.9743957-05:00",
+    "completed_at":  "2026-08-14T10:01:36.9669798-05:00"
+}

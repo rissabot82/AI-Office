@@ -1,0 +1,61 @@
+﻿{
+    "certification_id":  "CERT-DISCORD-20260814-104616",
+    "version":  "2.4.0",
+    "release_name":  "Discord Mobile Operations",
+    "status":  "failed",
+    "passed_checks":  9,
+    "failed_checks":  1,
+    "checks":  [
+                   {
+                       "name":  "Part A Discord Gateway Architecture",
+                       "passed":  false,
+                       "details":  "Testing AI Office v2.4 Part A Discord Gateway Architecture...\r\n\r\n[VALID JSON] .\\config\\discord-office\\discord-policy.json\r\n[VALID JSON] .\\config\\discord-office\\discord-allowlist.json\r\n[VALID JSON] .\\config\\discord-office\\discord-message-schema.json\r\n[VALID JSON] .\\config\\discord-office\\discord-session-map-schema.json\r\n[VALID JSON] .\\config\\discord-office\\discord-runtime-state-schema.json\r\n[VALID JSON] .\\workspace\\discord-office\\indexes\\discord-index.json\r\n[VALID JSON] .\\workspace\\discord-office\\state\\runtime-state.json\r\n[VALID JSON] .\\workspace\\templates\\discord-message-template.json\r\n[VALID JSON] .\\workspace\\templates\\discord-session-map-template.json\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\AIOfficeDiscord.Common.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\New-AIOfficeDiscordMessageEvent.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\New-AIOfficeDiscordSessionMapping.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\Get-AIOfficeDiscordSessionMapping.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\Update-AIOfficeDiscordIndex.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\Test-AIOfficeDiscordAuthorization.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\Get-AIOfficeDiscordStatus.ps1\r\n[FOUND SCRIPT] .\\scripts\\discord-office\\Test-AIOfficeDiscordGatewayArchitecture.ps1\r\nConversation index updated: 3 sessions | 42 messages | 21 turns\r\nConversation session created: CONV-20260814-104609-1FE027 | Discord Architecture Certification\r\nDiscord session mapping created: DCMAP-20260814-104609-C378EA -\u003e CONV-20260814-104609-1FE027\r\nDiscord event recorded: DCEVT-20260814-104609-6315D6 | inbound\r\n[MAPPING OK] Discord-to-conversation mapping passed.\r\n[EVENT OK] Discord event persistence passed.\r\n[SECURITY OK] Default-deny authorization passed.\r\nConversation index updated: 2 sessions | 42 messages | 21 turns\r\n[STATUS ERR] Part A runtime state should remain not_connected before live Discord configuration.\r\n\r\n1 Discord Gateway Architecture error(s) found."
+                   },
+                   {
+                       "name":  "Part B Live Discord Intake",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part C Persistent Sessions and Commands",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part D Department Routing",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part E Discord Worker Service",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part F Discord Operations and Control",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part G Discord Safety and Audit",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Part H Live Activation",
+                       "passed":  true,
+                       "details":  "Validation passed."
+                   },
+                   {
+                       "name":  "Live Activation Readiness",
+                       "passed":  true,
+                       "details":  "Ready=True; Passed=6; Failed=0"
+                   },
+                   {
+                       "name":  "Live End-to-End Operations",
+                       "passed":  true,
+                       "details":  "Discord=True; Worker=running; SelfHosting=healthy; Ollama=True; Gateway=True; Dashboard=True"
+                   }
+               ],
+    "certified_at":  "2026-08-14T10:46:16.0190911-05:00"
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Office Model Capability Record",
+  "type": "object",
+  "required": [
+    "model_id",
+    "provider",
+    "availability",
+    "capabilities",
+    "updated_at"
+  ],
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "string",
+      "enum": [
+        "available",
+        "unavailable",
+        "unknown"
+      ]
+    },
+    "parameter_size": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_window": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

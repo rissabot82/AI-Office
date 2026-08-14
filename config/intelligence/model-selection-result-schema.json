@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Office Intelligent Model Selection Result",
+  "type": "object",
+  "required": [
+    "selection_id",
+    "task_family",
+    "quality_tier",
+    "selected_model",
+    "provider",
+    "selection_reason",
+    "created_at"
+  ]
+}

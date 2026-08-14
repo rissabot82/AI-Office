@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Office Conversation Session",
+  "type": "object",
+  "required": [
+    "session_id",
+    "title",
+    "status",
+    "entrypoint",
+    "created_at",
+    "updated_at"
+  ]
+}

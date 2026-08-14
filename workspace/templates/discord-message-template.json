@@ -1,0 +1,12 @@
+{
+  "event_id": "DCEVT-YYYYMMDD-HHMMSS-ABC123",
+  "direction": "inbound",
+  "discord_message_id": "",
+  "discord_user_id": "",
+  "discord_guild_id": "",
+  "discord_channel_id": "",
+  "conversation_session_id": "",
+  "content": "",
+  "metadata": {},
+  "created_at": ""
+}

@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "",
+  "model": "",
+  "provider": "ollama",
+  "case_id": "",
+  "family": "",
+  "quality_tier": "",
+  "status": "completed",
+  "elapsed_ms": 0,
+  "prompt": "",
+  "response": "",
+  "error": "",
+  "created_at": ""
+}

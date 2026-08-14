@@ -1,0 +1,64 @@
+﻿{
+    "validation_id":  "INTLIVE-20260814-120201-10B505",
+    "session_id":  "CONV-20260814-120136-C04FA7",
+    "passed":  5,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "conversation",
+                        "task_family":  "conversation",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "conversation",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Hello there! How can I assist you today?"
+                    },
+                    {
+                        "name":  "reasoning",
+                        "task_family":  "reasoning",
+                        "model":  "deepseek-r1:1.5b",
+                        "expected_family":  "reasoning",
+                        "expected_model":  "deepseek-r1:1.5b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Doubling both numbers in a ratio keeps it unchanged because ratios represent proportional relationships. For example, if you have a ratio \\(a:b\\), doubling them to \\(2a:2b\\) maintains their proportionality since both parts are scaled equally. This ensures the relationship remains consistent regardless of the magnitude."
+                    },
+                    {
+                        "name":  "creative",
+                        "task_family":  "creative",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "creative",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Here\u0027s your silly poem:\n\nIn a world where cats drive,\nA Kia was found to be quite rare.\nIt drove with its tail wagging,\nAnd it had a license plate that read \"Kitty.\"\n\nThe driver, a cat named Whiskers,\nHad a plan to make the most of his time.\nHe\u0027d race around town,\nWith his new friend, a dog named Fido.\n\nBut as he drove, he realized,\nThat cats and cars don\u0027t mix very well.\nSo he stopped for a drink,\nAnd decided to go home instead."
+                    },
+                    {
+                        "name":  "drafting",
+                        "task_family":  "drafting",
+                        "model":  "qwen2.5:3b",
+                        "expected_family":  "drafting",
+                        "expected_model":  "qwen2.5:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  false,
+                        "passed":  true,
+                        "response":  "Certainly! Here’s a draft of a concise professional follow-up email:\n\n---\n\nSubject: Request for Overdue Pricing Explanation\n\nDear [Vendor\u0027s Name],\n\nI hope this message finds you well.\n\nI am writing to inquire about the overdue pricing explanation we requested on [specific date or project name]. We have not yet received it and would greatly appreciate your assistance in providing a detailed breakdown of our charges. \n\nCould you please provide us with an update on when we can expect this information? Your prompt attention to this matter is highly appreciated.\n\nThank you for your cooperation, and I look forward to your response.\n\nBest regards,\n\n[Your Full Name]  \n[Your Position]  \n[Company Name]  \n[Contact Information]\n\n---\n\nFeel free to adjust any details as necessary."
+                    },
+                    {
+                        "name":  "coding",
+                        "task_family":  "coding",
+                        "model":  "qwen2.5-coder:3b",
+                        "expected_family":  "coding",
+                        "expected_model":  "qwen2.5-coder:3b",
+                        "fallback_used":  false,
+                        "requires_escalation":  true,
+                        "passed":  true,
+                        "response":  "To debug a PowerShell variable parser issue involving a colon after a variable name, you can follow these steps:\n\n1. **Check Syntax**: Ensure that the variable name does not contain any special characters or spaces before the colon.\n2. **Use Quotes**: If the variable name contains spaces or special characters, enclose it in quotes to avoid syntax errors.\n3. **Verify Declaration**: Double-check that the variable is properly declared and initialized before using it.\n\nHere\u0027s an example of how you can modify your PowerShell script:\n\n```powershell\n# Correct way to declare and use a variable with a colon\n$variableName: value = \"example\"\n\n# Check if the variable exists\nif ($variableName:) {\n    Write-Output \"Variable exists: $variableName\"\n} else {\n    Write-Output \"Variable does not exist.\"\n}\n```\n\nBy following these steps, you should be able to resolve the variable parser issue in your PowerShell script."
+                    }
+                ],
+    "created_at":  "2026-08-14T12:02:01.6183494-05:00"
+}

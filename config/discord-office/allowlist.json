@@ -1,0 +1,13 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "allowed_guild_ids":  [
+                              "1537835193338036284"
+                          ],
+    "allowed_channel_ids":  [
+                                "1537835316671680583"
+                            ],
+    "allowed_user_ids":  [
+                             "274978692151902210"
+                         ],
+    "notes":  "AI Office private Discord server allowlist."
+}
