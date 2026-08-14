@@ -1,10 +1,10 @@
 ﻿{
     "status":  "running",
-    "started_at":  "2026-08-14T16:59:06.5557169-05:00",
-    "last_poll_at":  "2026-08-14T17:00:46.3582695-05:00",
-    "last_message_id":  "1537943938659520602",
-    "processed_messages":  26,
+    "started_at":  "2026-08-14T17:50:41.1735037-05:00",
+    "last_poll_at":  "2026-08-14T17:52:28.1527037-05:00",
+    "last_message_id":  "1537956839277334680",
+    "processed_messages":  30,
     "errors":  1,
     "last_error":  "",
-    "updated_at":  "2026-08-14T17:00:46.3582695-05:00"
+    "updated_at":  "2026-08-14T17:52:28.1527037-05:00"
 }

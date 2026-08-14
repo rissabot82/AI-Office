@@ -1,9 +1,7 @@
 ﻿param(
     [Parameter(Mandatory=$true)][string]$Model,
     [Parameter(Mandatory=$true)][string]$Prompt,
-    [Parameter(Mandatory=$true)][string]$TaskFamily,
-    [string]$UserContent = "",
-    [bool]$MemoryUsed = $false
+    [Parameter(Mandatory=$true)][string]$TaskFamily
 )
 
 $ErrorActionPreference = "Stop"
@@ -21,9 +19,7 @@ $Execution = & "E:\AI\AI-Office\scripts\intelligence\Invoke-AIOfficeSelectedLoca
     -Prompt $QualityPrompt
 
 $Quality = & "E:\AI\AI-Office\scripts\intelligence\Test-AIOfficeResponseQuality.ps1" `
-    -Response ([string]$Execution.response) `
-    -UserContent $UserContent `
-    -MemoryUsed $MemoryUsed
+    -Response ([string]$Execution.response)
 
 $RetryUsed = $false
 
@@ -43,43 +39,11 @@ if (
         -Prompt $RetryPrompt
 
     $Quality = & "E:\AI\AI-Office\scripts\intelligence\Test-AIOfficeResponseQuality.ps1" `
-        -Response ([string]$Execution.response) `
-        -UserContent $UserContent `
-        -MemoryUsed $MemoryUsed
+        -Response ([string]$Execution.response)
 }
 
 if (-not [bool]$Quality.passed) {
-
-    $NormalizedUser = ([string]$UserContent).Trim().ToLowerInvariant()
-
-    $MemoryMetaQuestion = (
-        $MemoryUsed -and
-        $NormalizedUser -match '\b(memory|remember|remembered|recall)\b' -and
-        $NormalizedUser -match '\b(work|working|works|remember|recall|know)\b'
-    )
-
-    if ($MemoryMetaQuestion) {
-        $RememberedEvidence = ([string]$Execution.response).Trim()
-
-        if ([string]::IsNullOrWhiteSpace($RememberedEvidence)) {
-            $Execution.response = "Yes. My memory is working."
-        }
-        else {
-            $Execution.response = (
-                "Yes. My memory is working. For example, I remember: " +
-                $RememberedEvidence
-            )
-        }
-
-        $Quality = [pscustomobject]@{
-            passed = $true
-            reasons = @()
-            response_length = ([string]$Execution.response).Length
-        }
-    }
-    else {
-        throw ("Response quality validation failed: " + (@($Quality.reasons) -join "; "))
-    }
+    throw ("Response quality validation failed: " + (@($Quality.reasons) -join "; "))
 }
 
 # Final user-facing output boundary.
@@ -123,6 +87,4 @@ $Execution | Add-Member -NotePropertyName quality_retry_used -NotePropertyValue 
 $Execution | Add-Member -NotePropertyName output_sanitized -NotePropertyValue ($FirstLeakIndex -ge 0) -Force
 
 return $Execution
-
-
 

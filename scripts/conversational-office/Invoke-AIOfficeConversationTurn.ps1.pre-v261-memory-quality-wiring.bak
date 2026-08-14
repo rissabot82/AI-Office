@@ -97,9 +97,7 @@ try {
             $Execution = & "E:\AI\AI-Office\scripts\intelligence\Invoke-AIOfficeQualityControlledInference.ps1" `
                 -Model ([string]$IntelligentSelection.selected_model) `
                 -Prompt $Prompt `
-                -TaskFamily ([string]$IntelligentSelection.task_family) `
-                -UserContent $Content `
-                -MemoryUsed $MemoryUsed
+                -TaskFamily ([string]$IntelligentSelection.task_family)
         }
         catch {
             if (-not [bool]$IntelligencePolicy.live_integration.preserve_v24_fallback) {
@@ -213,6 +211,5 @@ catch {
 
     throw
 }
-
 
 

@@ -1,7 +1,5 @@
 ﻿param(
-    [Parameter(Mandatory=$true)][string]$Response,
-    [string]$UserContent = "",
-    [bool]$MemoryUsed = $false
+    [Parameter(Mandatory=$true)][string]$Response
 )
 
 $ErrorActionPreference = "Stop"
@@ -12,48 +10,6 @@ $Policy = Get-Content `
 
 $Reasons = New-Object System.Collections.Generic.List[string]
 $Text = $Response.Trim()
-
-if (
-    $MemoryUsed -and
-    -not [string]::IsNullOrWhiteSpace($UserContent)
-) {
-    $NormalizedUser = $UserContent.Trim().ToLowerInvariant()
-    $NormalizedResponse = $Text.Trim().ToLowerInvariant()
-
-    $MemoryMetaQuestion = (
-        $NormalizedUser -match '\b(memory|remember|remembered|recall)\b' -and
-        (
-            $NormalizedUser -match '\b(work|working|works|remember|recall|know)\b'
-        )
-    )
-
-    if ($MemoryMetaQuestion) {
-        $DirectAnswerSignals = @(
-            "yes",
-            "no",
-            "it works",
-            "it is working",
-            "memory works",
-            "memory is working",
-            "i remember",
-            "i can remember",
-            "i can recall"
-        )
-
-        $HasDirectAnswer = $false
-
-        foreach ($Signal in $DirectAnswerSignals) {
-            if ($NormalizedResponse.Contains($Signal)) {
-                $HasDirectAnswer = $true
-                break
-            }
-        }
-
-        if (-not $HasDirectAnswer) {
-            $Reasons.Add("Response used remembered information without directly answering the user's memory question.")
-        }
-    }
-}
 
 if ([string]::IsNullOrWhiteSpace($Text)) {
     $Reasons.Add("Response is empty.")
@@ -95,5 +51,4 @@ return [pscustomobject]@{
     reasons = $Reasons.ToArray()
     response_length = $Text.Length
 }
-
 
