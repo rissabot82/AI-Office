@@ -4,33 +4,79 @@
 
 | Field | Value |
 |---|---|
-| Current phase | Preparing Knowledge Graph and Reasoning |
-| Current milestone | Core AI Office Platform Certified |
-| Version | 1.4.0 |
+| Current phase | Discord Mobile Operations Complete |
+| Current milestone | Remote Conversational AI Office Certified and Operational |
+| Version | 2.4.0 |
 | Operational state | Operational |
-| Development state | Paused for scheduled personal commitments |
-| Resume target | v1.5 Part A — Knowledge Graph Architecture |
+| Self-hosted runtime | Operational |
+| Conversational runtime | Operational |
+| Remote interface | Live Discord |
+| Discord worker | Operational |
+| Next release | v2.5.0 — Intelligence Upgrade |
+| Resume target | v2.5 Part A |
 
-## Completed
+## Current Operational Capabilities
 
 - OpenClaw Gateway running in WSL
 - Certified authenticated OpenClaw bridge
-- Live execution and result processing
+- Local Ollama inference
+- Hybrid model routing
+- Workload optimization and model selection
+- Resilience, failover, and recovery
 - Chief of Staff
 - Department Intelligence
 - Long-Term Memory
+- Knowledge Graph & Reasoning
+- Multi-Agent Collaboration
 - Autonomous Workflows
 - Human approval gates
-- Checkpoint and recovery system
-- Worker runtime
+- Checkpoint and restart recovery
+- Background worker infrastructure
 - Monitoring and executive reports
 - Local dashboard
-- Gateway token rotation utility
+- Personal Financial Office
+- Business Incubator
+- Conversational AI Office
+- Persistent conversation sessions and message history
+- Live Discord remote interface
+- Discord allowlist security
+- Discord department routing
+- Discord worker operations and monitoring
+- Discord safety and audit tooling
+
+## v2.4 Certification State
+
+AI Office v2.4 — Discord Mobile Operations is certified and operational.
+
+The live runtime has demonstrated end-to-end:
+
+```text
+Discord
+  ↓
+AI Office Worker
+  ↓
+Conversational Intake
+  ↓
+Chief of Staff / Department Router
+  ↓
+Local / Hybrid Inference
+  ↓
+Discord Response
+```
+
+## Current Limitation
+
+The remote interface is functional, but local response quality is not yet at the desired production level for all tasks. This is the primary reason v2.5 focuses on intelligence quality rather than additional transport infrastructure.
 
 ## Resume Point
 
-Begin AI Office v1.5 Part A.
+Begin **AI Office v2.5 Part A — Intelligence Upgrade Architecture**.
 
-## Required Future Mobile Integration
+## Forward Build Sequence
 
-Discord must become a mobile command, task creation, status, approval, and notification channel.
+- v2.5 — Intelligence Upgrade
+- v2.6 — Memory & Context Integration
+- v2.7 — Data & Connector Layer
+- v2.8 — First Production Department
+- v2.9 — Department Expansion
+- v3.0 — Autonomous Operational AI Office

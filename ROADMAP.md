@@ -1,35 +1,138 @@
 # AI Office Roadmap
 
-## Completed
+## Current Release
 
-### v1.1 — OpenClaw Bridge
-Authenticated bridge, live execution, result processing, artifacts, and certification.
+### v2.4 — Discord Mobile Operations
+**Status: Certified / Operational**
 
-### v1.2 — Department Intelligence
-Department identities, routing, knowledge, learning, reusable lessons, and reporting.
+Private Discord remote interface, bot-token security, guild/channel/user allowlists, persistent Discord sessions, remote commands, Chief-of-Staff-first intake, explicit department routing, worker services, operations monitoring, safety/audit controls, and live activation.
 
-### v1.3 — Long-Term Memory
-Memory scopes, capture, search, recall, context packets, confidence, feedback, health, and conflict detection.
+---
 
-### v1.4 — Autonomous Workflows
-Goals, plans, persistent runs, approvals, checkpoints, retries, recovery, worker cycles, monitoring, dashboard, and operational utilities.
+## Completed Foundation
 
-## Planned
+### v1.x — Core AI Office Platform
+The v1.x generation established the core operational system, including:
 
-### v1.5 — Knowledge Graph and Reasoning
-Entity and relationship schemas, provenance, extraction, contradiction detection, causal links, decision scoring, context ranking, inference records, graph explorer, certification, and dashboard integration.
-
-### v1.6 — Multi-Agent Collaboration
-Specialized agent identities, roles, permissions, task ownership, shared workspaces, agent handoffs, debate, review, consensus, conflict resolution, parallel execution, and agent monitoring.
-
-### v1.7 — Personal Financial Office
-Accounts, income, expenses, bills, debt, savings goals, side-hustle income, paycheck planning, cash-flow forecasts, profitability analysis, recommendations, alerts, and financial dashboard.
-
-### v1.8 — Business Incubator
-Idea capture, opportunity scoring, market assumptions, research, competitive analysis, validation experiments, launch budgets, brand development, content pipelines, revenue tests, and performance scorecards.
+- Executive Operating System
+- OpenClaw Bridge
+- Department Intelligence
+- Long-Term Memory
+- Autonomous Workflows
+- Knowledge Graph & Reasoning
+- Multi-Agent Collaboration
+- Personal Financial Office
+- Business Incubator
+- Operations & Integrations foundations
 
 ### v2.0 — Autonomous AI Enterprise
-Unified executive model, enterprise goals, department and agent governance, continuous operating cycles, cross-department orchestration, recurring monitoring, mobile task creation, Discord command and approval integration, enterprise reporting, and a unified control center.
+Unified executive orchestration, enterprise work items, department governance, cross-department planning, continuous operating concepts, and control-center architecture.
 
-## Post-v2.0 — Self-Hosting AI Office
-AI Office generates, validates, tests, packages, installs, documents, monitors, and rolls back its own approved upgrades.
+### v2.2 — Self-Hosted AI Office
+Local Ollama runtime, hybrid model routing, workload optimization, resilience, resource monitoring, failover, recovery, and self-hosting infrastructure.
+
+### v2.3 — Conversational AI Office
+Persistent conversation sessions, message history, turn records, Chief-of-Staff conversational intake, local inference, and an interactive PowerShell conversation interface.
+
+### v2.4 — Discord Mobile Operations
+Live remote conversational access through Discord, persistent Discord session mapping, commands, department routing, background worker, operations controls, safety/audit, and live certification.
+
+---
+
+## Active Roadmap
+
+### v2.5 — Intelligence Upgrade
+**Goal:** Make AI Office materially smarter.
+
+Planned focus:
+
+- Evaluate and benchmark stronger local models
+- Improve model selection
+- Improve task classification
+- Establish response-quality tests
+- Improve Chief of Staff behavior
+- Reduce unnecessary organizational roleplay
+- Improve creative, reasoning, coding, and drafting quality
+- Establish quality tiers and fallback behavior
+- Preserve efficient lightweight local inference for simple work
+
+### v2.6 — Memory & Context Integration
+**Goal:** Give AI Office durable useful context.
+
+Planned focus:
+
+- Conversation-to-memory integration
+- Project context retrieval
+- Organization and dealership context
+- User-approved personal context
+- Context relevance scoring
+- Memory freshness and conflict handling
+- Department-specific context packets
+- Controlled context injection
+
+### v2.7 — Data & Connector Layer
+**Goal:** Give AI Office access to real operational information.
+
+Planned focus:
+
+- Connector framework
+- Authentication boundaries
+- Read/write permission controls
+- Google ecosystem integrations
+- Reporting/data sources
+- CRM and dealership-system integration patterns
+- Web/API access patterns
+- Data validation and provenance
+- Connector health monitoring
+
+### v2.8 — First Production Department
+**Goal:** Make one department genuinely useful end-to-end.
+
+Expected characteristics:
+
+- Real context
+- Real tools
+- Repeatable workflows
+- Structured outputs
+- Approval gates
+- Monitoring
+- Production-quality responses
+
+### v2.9 — Department Expansion
+**Goal:** Scale the production framework across AI Office.
+
+Target departments include:
+
+- Marketing
+- Analytics
+- Creative
+- Web Development
+- Personal Finance
+- Side Hustles
+- Business Incubator
+- YouTube Studio
+- Personal Assistant
+- Reporting and operational support functions
+
+### v3.0 — Autonomous Operational AI Office
+**Goal:** Mature AI Office into a dependable autonomous operational system.
+
+Target capabilities:
+
+- Intelligent intake and routing
+- Durable contextual memory
+- Connected operational data
+- Production departments
+- Multi-step task execution
+- Human approval gates
+- Recurring work and monitoring
+- Failure recovery
+- Remote operations
+- Executive reporting
+- Controlled self-maintenance and self-improvement
+
+---
+
+## North-Star Outcome
+
+AI Office should be able to receive a goal from a phone or computer, understand the relevant context, select the right model and department, retrieve approved knowledge, use connected tools, execute or coordinate multi-step work, request approval where required, recover from interruptions, and report useful results through one control center.

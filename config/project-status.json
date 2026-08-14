@@ -1,13 +1,26 @@
-﻿{
-    "schema_version":  "1.0.0",
-    "product":  "AI Office",
-    "version":  "1.7.0",
-    "current_phase":  "Preparing Business Incubator",
-    "current_milestone":  "Personal Financial Office Certified",
-    "release_status":  "operational",
-    "next_release":  "1.8.0",
-    "next_milestone":  "Business Incubator",
-    "resume_component":  "v1.5 Part A",
-    "discord_integration_planned":  true,
-    "self_hosting_after":  "2.0.0"
+{
+  "schema_version": "1.0.0",
+  "product": "AI Office",
+  "version": "2.4.0",
+  "current_phase": "Discord Mobile Operations Complete",
+  "current_milestone": "Remote Conversational AI Office Certified and Operational",
+  "release_status": "operational",
+  "operational_state": {
+    "self_hosted_runtime": "operational",
+    "conversational_runtime": "operational",
+    "discord_remote_interface": "operational",
+    "discord_worker": "operational",
+    "ollama_local_inference": "operational",
+    "openclaw_gateway": "operational",
+    "dashboard": "operational"
+  },
+  "next_release": "2.5.0",
+  "next_milestone": "Intelligence Upgrade",
+  "resume_component": "v2.5 Part A",
+  "roadmap_target": "3.0.0",
+  "roadmap_target_name": "Autonomous Operational AI Office",
+  "discord_integration_planned": false,
+  "discord_integration_status": "live",
+  "self_hosting_status": "operational",
+  "updated_at": "2026-08-14"
 }
