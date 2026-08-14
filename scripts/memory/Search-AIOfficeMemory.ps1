@@ -1,108 +1,123 @@
 ﻿param(
-    [string]$Query = "",
+    [Parameter(Mandatory=$true)][string]$Query,
     [string]$Scope = "",
-    [string]$Department = "",
-    [string]$MemoryType = "",
-    [string]$Project = "",
-    [string]$Entity = "",
-    [string]$Status = "active",
-    [double]$MinimumConfidence = 0.0,
-    [int]$Limit = 25,
-    [switch]$TrackAccess
+    [ValidateSet("project","dealership","organization","workflow","user_approved")]
+    [string[]]$MemoryTypes = @(),
+    [int]$MaxItems = 0
 )
 
 $ErrorActionPreference = "Stop"
+Set-Location "E:\AI\AI-Office"
 
-. (Join-Path $PSScriptRoot "AIOfficeMemoryRecall.Common.ps1")
+$Policy = Get-Content ".\config\memory\retrieval-policy.json" -Raw | ConvertFrom-Json
+$MemoryPolicy = Get-Content ".\config\memory\memory-policy.json" -Raw | ConvertFrom-Json
 
-$Root = Get-AIOfficeMemoryRoot
-Set-Location $Root
-
-$Policy = Get-AIOfficeMemoryCaptureRecallPolicy
-
-if ($Limit -lt 1) {
-    $Limit = 1
+if (-not [bool]$Policy.enabled) {
+    throw "Memory retrieval is disabled."
 }
 
-if ($Limit -gt [int]$Policy.search.maximum_limit) {
-    $Limit = [int]$Policy.search.maximum_limit
+if ($MaxItems -le 0) {
+    $MaxItems = [int]$Policy.default_max_items
+}
+
+if ($MaxItems -gt [int]$Policy.maximum_max_items) {
+    $MaxItems = [int]$Policy.maximum_max_items
+}
+
+$Tokens = @(
+    & ".\scripts\memory\Get-AIOfficeMemorySearchTokens.ps1" -Text $Query
+)
+
+$Index = Get-Content ".\workspace\memory\indexes\memory-index.json" -Raw | ConvertFrom-Json
+$Candidates = @($Index.records)
+
+if ([bool]$Policy.safety.exclude_disabled_records) {
+    $Candidates = @(
+        $Candidates |
+        Where-Object {
+            $_.enabled -eq $true -or
+            [string]$_.enabled -eq "True"
+        }
+    )
+}
+
+if (@($MemoryTypes).Count -gt 0) {
+    $Candidates = @(
+        $Candidates |
+        Where-Object {
+            $CandidateType = [string]$_.memory_type
+            @(
+                $MemoryTypes |
+                Where-Object { [string]$_ -eq $CandidateType }
+            ).Count -gt 0
+        }
+    )
 }
 
 $Results = New-Object System.Collections.Generic.List[object]
 
-foreach ($File in @(Get-AIOfficeAllMemoryFiles)) {
-    $Record = Read-AIOfficeMemoryJson -Path $File.FullName
+foreach ($Entry in $Candidates) {
+    $Path = Join-Path "E:\AI\AI-Office" ([string]$Entry.path)
 
-    if ($null -eq $Record) {
+    if (-not (Test-Path -LiteralPath $Path)) {
         continue
     }
 
-    if ($Scope -and [string]$Record.scope -ne $Scope) {
+    $Record = Get-Content $Path -Raw | ConvertFrom-Json
+
+    $RecordEnabled = (
+        $Record.enabled -eq $true -or
+        [string]$Record.enabled -eq "True"
+    )
+
+    if (-not $RecordEnabled) {
         continue
     }
 
-    if ($Department -and [string]$Record.department -ne $Department) {
+    if (
+        -not [string]::IsNullOrWhiteSpace($Scope) -and
+        -not [bool]$Policy.safety.cross_project_retrieval -and
+        [string]$Record.scope -ne $Scope
+    ) {
         continue
     }
 
-    if ($MemoryType -and [string]$Record.memory_type -ne $MemoryType) {
+    $Relevance = & ".\scripts\memory\Get-AIOfficeMemoryRelevanceScore.ps1" `
+        -Record $Record `
+        -QueryTokens $Tokens `
+        -Scope $Scope `
+        -MemoryTypes $MemoryTypes
+
+    # Scope, type, and recency are ranking bonuses only.
+    # At least one title/content/tag query match is required.
+    if (-not [bool]$Relevance.has_query_match) {
         continue
     }
 
-    if ($Status -and [string]$Record.status -ne $Status) {
+    if ([double]$Relevance.score -lt [double]$Policy.minimum_score) {
         continue
-    }
-
-    if ([double]$Record.confidence -lt $MinimumConfidence) {
-        continue
-    }
-
-    if ($Project -and @($Record.projects) -notcontains $Project) {
-        continue
-    }
-
-    if ($Entity -and @($Record.entities) -notcontains $Entity) {
-        continue
-    }
-
-    if ($Query) {
-        $SearchText = Get-AIOfficeMemorySearchText -Record $Record
-
-        if (-not $SearchText.Contains($Query.ToLowerInvariant())) {
-            continue
-        }
-    }
-
-    if ($TrackAccess -or [bool]$Policy.search.track_access) {
-        $Record.access_count = [int]$Record.access_count + 1
-        $Record.last_accessed_at = (Get-Date).ToString("o")
-        $Record.updated_at = (Get-Date).ToString("o")
-
-        Write-AIOfficeMemoryJson `
-            -Value $Record `
-            -Path $File.FullName
     }
 
     $Results.Add([pscustomobject]@{
         memory_id = [string]$Record.memory_id
-        scope = [string]$Record.scope
-        department = [string]$Record.department
         memory_type = [string]$Record.memory_type
         title = [string]$Record.title
-        summary = [string]$Record.summary
-        confidence = [double]$Record.confidence
-        status = [string]$Record.status
+        content = [string]$Record.content
+        scope = [string]$Record.scope
+        source = [string]$Record.source
         tags = @($Record.tags)
-        entities = @($Record.entities)
-        projects = @($Record.projects)
-        access_count = [int]$Record.access_count
+        score = [double]$Relevance.score
+        reasons = @($Relevance.reasons)
         updated_at = [string]$Record.updated_at
-        source_path = $File.FullName
     })
 }
 
 return @(
     $Results |
-        Sort-Object confidence, access_count, updated_at -Descending |
-        Select-Object -First $Limit
+    Sort-Object `
+        @{Expression={ [double]$_.score };Descending=$true},
+        @{Expression={ [datetime]$_.updated_at };Descending=$true} |
+    Select-Object -First $MaxItems
 )
+
+

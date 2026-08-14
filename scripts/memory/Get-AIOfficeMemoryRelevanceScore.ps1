@@ -1,0 +1,74 @@
+﻿param(
+    [Parameter(Mandatory=$true)]$Record,
+    [Parameter(Mandatory=$true)][string[]]$QueryTokens,
+    [string]$Scope = "",
+    [string[]]$MemoryTypes = @()
+)
+
+$ErrorActionPreference = "Stop"
+
+$Policy = Get-Content `
+    "E:\AI\AI-Office\config\memory\retrieval-policy.json" `
+    -Raw | ConvertFrom-Json
+
+$Score = 0.0
+$QueryMatchCount = 0
+$Reasons = New-Object System.Collections.Generic.List[string]
+
+$Title = ([string]$Record.title).ToLowerInvariant()
+$Content = ([string]$Record.content).ToLowerInvariant()
+$Tags = @($Record.tags | ForEach-Object { ([string]$_).ToLowerInvariant() })
+
+foreach ($Token in $QueryTokens) {
+    if ($Title.Contains($Token)) {
+        $Score += [double]$Policy.weights.title_match
+        $QueryMatchCount++
+        $Reasons.Add("title:$Token")
+    }
+
+    if ($Content.Contains($Token)) {
+        $Score += [double]$Policy.weights.content_match
+        $QueryMatchCount++
+        $Reasons.Add("content:$Token")
+    }
+
+    if (@($Tags | Where-Object { $_ -eq $Token }).Count -gt 0) {
+        $Score += [double]$Policy.weights.tag_match
+        $QueryMatchCount++
+        $Reasons.Add("tag:$Token")
+    }
+}
+
+if (-not [string]::IsNullOrWhiteSpace($Scope)) {
+    if ([string]$Record.scope -eq $Scope) {
+        $Score += [double]$Policy.weights.scope_match
+        $Reasons.Add("scope")
+    }
+}
+
+if (@($MemoryTypes).Count -gt 0) {
+    if (@($MemoryTypes | Where-Object { $_ -eq [string]$Record.memory_type }).Count -gt 0) {
+        $Score += [double]$Policy.weights.memory_type_match
+        $Reasons.Add("memory_type")
+    }
+}
+
+try {
+    $Updated = [datetime]$Record.updated_at
+    $AgeDays = ((Get-Date) - $Updated).TotalDays
+
+    if ($AgeDays -le 30) {
+        $Score += [double]$Policy.weights.recency_bonus
+        $Reasons.Add("recent")
+    }
+}
+catch {}
+
+return [pscustomobject]@{
+    memory_id = [string]$Record.memory_id
+    score = [math]::Round($Score,3)
+    query_match_count = $QueryMatchCount
+    has_query_match = ($QueryMatchCount -gt 0)
+    reasons = $Reasons.ToArray()
+}
+

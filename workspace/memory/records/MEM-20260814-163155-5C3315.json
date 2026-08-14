@@ -1,0 +1,17 @@
+﻿{
+    "memory_id":  "MEM-20260814-163155-5C3315",
+    "memory_type":  "project",
+    "title":  "Isolated Disabled Search Fixture",
+    "content":  "isolatedtest65dcbf99ed isolated disabled retrieval fixture",
+    "source":  "certification-debug",
+    "scope":  "CERT-MEMORY-C",
+    "tags":  [
+
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:31:55.1519470-05:00",
+    "updated_at":  "2026-08-14T16:31:55.2340480-05:00"
+}

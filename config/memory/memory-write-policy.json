@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "B",
+  "release_name": "Memory & Context Integration",
+  "enabled": true,
+  "allowed_memory_types": [
+    "project",
+    "dealership",
+    "organization",
+    "workflow",
+    "user_approved"
+  ],
+  "default_scope": "global",
+  "require_nonempty_title": true,
+  "require_nonempty_content": true,
+  "reject_secret_like_content": true,
+  "secret_patterns": [
+    "api_key",
+    "authorization: bearer",
+    "bot token",
+    "client_secret",
+    "private key"
+  ],
+  "indexing": {
+    "persist_record_summary": true,
+    "persist_tags": true,
+    "persist_scope": true,
+    "persist_source": true,
+    "deduplicate_exact_content": true
+  }
+}

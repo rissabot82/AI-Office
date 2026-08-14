@@ -1,0 +1,19 @@
+﻿{
+    "memory_id":  "MEM-20260814-163512-20AD90",
+    "memory_type":  "dealership",
+    "title":  "Elite Auto Sales Wichita",
+    "content":  "elitecertac27df7c28 Elite Auto Sales Wichita dealership automotive marketing",
+    "source":  "certification",
+    "scope":  "CERT-MEMORY-C",
+    "tags":  [
+                 "elite",
+                 "wichita",
+                 "dealership"
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:35:12.4981145-05:00",
+    "updated_at":  "2026-08-14T16:35:12.9880165-05:00"
+}

@@ -1,27 +1,612 @@
 ﻿{
     "schema_version":  "1.0.0",
-    "version":  "1.3.0",
-    "updated_at":  "2026-07-31T14:58:14.5466883-05:00",
-    "status":  "ready",
-    "total_memory_count":  0,
-    "active_memory_count":  0,
-    "archived_memory_count":  0,
-    "scope_counts":  {
-
-                     },
-    "type_counts":  {
-
+    "version":  "2.6.0",
+    "record_count":  41,
+    "records":  [
+                    {
+                        "memory_id":  "MEM-20260814-153710-583AB0",
+                        "memory_type":  "project",
+                        "title":  "v2.6 Part B Certification Memory",
+                        "scope":  "AI-Office",
+                        "source":  "certification",
+                        "tags":  [
+                                     "certification",
+                                     "temporary"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-153710-583AB0.json",
+                        "created_at":  "2026-08-14T15:37:10.3070329-05:00",
+                        "updated_at":  "2026-08-14T15:37:10.6295992-05:00"
                     },
-    "department_counts":  {
-                              "marketing":  0,
-                              "creative":  0,
-                              "website":  0,
-                              "analytics":  0,
-                              "finance":  0,
-                              "business":  0,
-                              "side-hustles":  0,
-                              "youtube":  0,
-                              "personal-assistant":  0
-                          },
-    "latest_memory_id":  ""
+                    {
+                        "memory_id":  "MEM-20260814-161507-61CF30",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-161507-61CF30.json",
+                        "created_at":  "2026-08-14T16:15:07.5550498-05:00",
+                        "updated_at":  "2026-08-14T16:15:08.2603726-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-161507-35F056",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-161507-35F056.json",
+                        "created_at":  "2026-08-14T16:15:07.6452944-05:00",
+                        "updated_at":  "2026-08-14T16:15:08.2880827-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-161508-1A27E4",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-161508-1A27E4.json",
+                        "created_at":  "2026-08-14T16:15:08.1379700-05:00",
+                        "updated_at":  "2026-08-14T16:19:28.7948150-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-161928-4B7206",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-161928-4B7206.json",
+                        "created_at":  "2026-08-14T16:19:28.4549317-05:00",
+                        "updated_at":  "2026-08-14T16:19:28.8392287-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-161928-037F3D",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-161928-037F3D.json",
+                        "created_at":  "2026-08-14T16:19:28.5499462-05:00",
+                        "updated_at":  "2026-08-14T16:19:28.8924876-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162151-90EB3D",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162151-90EB3D.json",
+                        "created_at":  "2026-08-14T16:21:51.4875968-05:00",
+                        "updated_at":  "2026-08-14T16:21:51.8750808-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162151-3B2172",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162151-3B2172.json",
+                        "created_at":  "2026-08-14T16:21:51.5603026-05:00",
+                        "updated_at":  "2026-08-14T16:21:51.9345389-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162151-5FA50F",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162151-5FA50F.json",
+                        "created_at":  "2026-08-14T16:21:51.7880068-05:00",
+                        "updated_at":  "2026-08-14T16:21:51.9599267-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162816-796B87",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162816-796B87.json",
+                        "created_at":  "2026-08-14T16:28:16.4745470-05:00",
+                        "updated_at":  "2026-08-14T16:28:16.8652465-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162816-A07F19",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162816-A07F19.json",
+                        "created_at":  "2026-08-14T16:28:16.5640585-05:00",
+                        "updated_at":  "2026-08-14T16:28:16.9132175-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162816-001B49",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162816-001B49.json",
+                        "created_at":  "2026-08-14T16:28:16.7976711-05:00",
+                        "updated_at":  "2026-08-14T16:28:16.9406975-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162934-42D5BC",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162934-42D5BC.json",
+                        "created_at":  "2026-08-14T16:29:34.9982391-05:00",
+                        "updated_at":  "2026-08-14T16:29:35.4186734-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162935-150EEA",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162935-150EEA.json",
+                        "created_at":  "2026-08-14T16:29:35.0725013-05:00",
+                        "updated_at":  "2026-08-14T16:29:35.4493345-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-162935-28DFE1",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-162935-28DFE1.json",
+                        "created_at":  "2026-08-14T16:29:35.3027470-05:00",
+                        "updated_at":  "2026-08-14T16:29:35.4750096-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163155-5C3315",
+                        "memory_type":  "project",
+                        "title":  "Isolated Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification-debug",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163155-5C3315.json",
+                        "created_at":  "2026-08-14T16:31:55.1519470-05:00",
+                        "updated_at":  "2026-08-14T16:31:55.2340480-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163512-20AD90",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163512-20AD90.json",
+                        "created_at":  "2026-08-14T16:35:12.4981145-05:00",
+                        "updated_at":  "2026-08-14T16:35:12.9880165-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163512-74F41E",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163512-74F41E.json",
+                        "created_at":  "2026-08-14T16:35:12.5874774-05:00",
+                        "updated_at":  "2026-08-14T16:35:13.0160546-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163512-69B616",
+                        "memory_type":  "project",
+                        "title":  "Scope Isolation Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163512-69B616.json",
+                        "created_at":  "2026-08-14T16:35:12.8005144-05:00",
+                        "updated_at":  "2026-08-14T16:35:13.0434808-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163512-F833E6",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163512-F833E6.json",
+                        "created_at":  "2026-08-14T16:35:12.8428694-05:00",
+                        "updated_at":  "2026-08-14T16:35:13.0691279-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163626-60AD6C",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Auto Sales Wichita",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "elite",
+                                     "wichita",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163626-60AD6C.json",
+                        "created_at":  "2026-08-14T16:36:26.8854383-05:00",
+                        "updated_at":  "2026-08-14T16:36:27.3797301-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163626-0B4DC1",
+                        "memory_type":  "dealership",
+                        "title":  "Kia of Manhattan",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+                                     "kia",
+                                     "manhattan",
+                                     "dealership"
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163626-0B4DC1.json",
+                        "created_at":  "2026-08-14T16:36:26.9572261-05:00",
+                        "updated_at":  "2026-08-14T16:36:27.4100673-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163627-B69BC5",
+                        "memory_type":  "project",
+                        "title":  "Scope Isolation Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163627-B69BC5.json",
+                        "created_at":  "2026-08-14T16:36:27.2253225-05:00",
+                        "updated_at":  "2026-08-14T16:36:27.4361578-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163627-A851BE",
+                        "memory_type":  "project",
+                        "title":  "Disabled Search Fixture",
+                        "scope":  "CERT-MEMORY-C",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163627-A851BE.json",
+                        "created_at":  "2026-08-14T16:36:27.2706729-05:00",
+                        "updated_at":  "2026-08-14T16:36:27.4600992-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163926-541D80",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Context Fixture",
+                        "scope":  "CERT-MEMORY-D",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163926-541D80.json",
+                        "created_at":  "2026-08-14T16:39:26.0247884-05:00",
+                        "updated_at":  "2026-08-14T16:39:26.5139468-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163926-C8AD87",
+                        "memory_type":  "workflow",
+                        "title":  "Elite Workflow Fixture",
+                        "scope":  "CERT-MEMORY-D",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163926-C8AD87.json",
+                        "created_at":  "2026-08-14T16:39:26.1103382-05:00",
+                        "updated_at":  "2026-08-14T16:39:26.5480310-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-163926-65DA08",
+                        "memory_type":  "project",
+                        "title":  "Long Context Fixture",
+                        "scope":  "CERT-MEMORY-D-LONG",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-163926-65DA08.json",
+                        "created_at":  "2026-08-14T16:39:26.4117610-05:00",
+                        "updated_at":  "2026-08-14T16:39:26.5815816-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164048-63BF6D",
+                        "memory_type":  "project",
+                        "title":  "Part D Debug Fixture",
+                        "scope":  "CERT-MEMORY-D-DEBUG",
+                        "source":  "debug",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164048-63BF6D.json",
+                        "created_at":  "2026-08-14T16:40:48.5541920-05:00",
+                        "updated_at":  "2026-08-14T16:40:48.9008976-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164213-270B77",
+                        "memory_type":  "dealership",
+                        "title":  "Elite Context Fixture",
+                        "scope":  "CERT-MEMORY-D",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164213-270B77.json",
+                        "created_at":  "2026-08-14T16:42:13.7357227-05:00",
+                        "updated_at":  "2026-08-14T16:42:14.2293460-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164213-4F16D7",
+                        "memory_type":  "workflow",
+                        "title":  "Elite Workflow Fixture",
+                        "scope":  "CERT-MEMORY-D",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164213-4F16D7.json",
+                        "created_at":  "2026-08-14T16:42:13.8035693-05:00",
+                        "updated_at":  "2026-08-14T16:42:14.2678396-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164214-F1DE92",
+                        "memory_type":  "project",
+                        "title":  "Long Context Fixture",
+                        "scope":  "CERT-MEMORY-D-LONG",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164214-F1DE92.json",
+                        "created_at":  "2026-08-14T16:42:14.1258408-05:00",
+                        "updated_at":  "2026-08-14T16:42:14.3024640-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164409-36A801",
+                        "memory_type":  "project",
+                        "title":  "Live Memory Integration Fixture",
+                        "scope":  "CERT-MEMORY-E",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164409-36A801.json",
+                        "created_at":  "2026-08-14T16:44:09.4005125-05:00",
+                        "updated_at":  "2026-08-14T16:44:09.8438261-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-164539-2BA31B",
+                        "memory_type":  "project",
+                        "title":  "Live Discord Memory Test",
+                        "scope":  "global",
+                        "source":  "live-test",
+                        "tags":  [
+                                     "memory",
+                                     "live-test"
+                                 ],
+                        "enabled":  true,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-164539-2BA31B.json",
+                        "created_at":  "2026-08-14T16:45:39.2020943-05:00",
+                        "updated_at":  "2026-08-14T16:45:39.2020943-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165039-06889F",
+                        "memory_type":  "project",
+                        "title":  "Live Memory Integration Fixture",
+                        "scope":  "CERT-MEMORY-E",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165039-06889F.json",
+                        "created_at":  "2026-08-14T16:50:39.1072412-05:00",
+                        "updated_at":  "2026-08-14T16:50:39.4785315-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165327-F88CDB",
+                        "memory_type":  "project",
+                        "title":  "Operations Fixture",
+                        "scope":  "CERT-MEMORY-F",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165327-F88CDB.json",
+                        "created_at":  "2026-08-14T16:53:27.8987710-05:00",
+                        "updated_at":  "2026-08-14T16:53:28.2208854-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165519-4A8187",
+                        "memory_type":  "user_approved",
+                        "title":  "Part G Explicit Capture Fixture",
+                        "scope":  "CERT-MEMORY-G",
+                        "source":  "live-conversation-explicit",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165519-4A8187.json",
+                        "created_at":  "2026-08-14T16:55:19.5064678-05:00",
+                        "updated_at":  "2026-08-14T16:55:19.8067146-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165716-3ABABB",
+                        "memory_type":  "user_approved",
+                        "title":  "User-approved conversation memory",
+                        "scope":  "CERT-MEMORY-H",
+                        "source":  "live-conversation-explicit",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165716-3ABABB.json",
+                        "created_at":  "2026-08-14T16:57:16.6675485-05:00",
+                        "updated_at":  "2026-08-14T16:57:16.9400831-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165716-C6EA9A",
+                        "memory_type":  "project",
+                        "title":  "v2.6 Final Context Fixture",
+                        "scope":  "CERT-MEMORY-H-CONTEXT",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165716-C6EA9A.json",
+                        "created_at":  "2026-08-14T16:57:16.9690818-05:00",
+                        "updated_at":  "2026-08-14T16:57:17.1032639-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165819-762356",
+                        "memory_type":  "user_approved",
+                        "title":  "User-approved conversation memory",
+                        "scope":  "CERT-MEMORY-H",
+                        "source":  "live-conversation-explicit",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165819-762356.json",
+                        "created_at":  "2026-08-14T16:58:19.2670869-05:00",
+                        "updated_at":  "2026-08-14T16:58:19.5175339-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165819-19BFCB",
+                        "memory_type":  "project",
+                        "title":  "v2.6 Final Context Fixture",
+                        "scope":  "CERT-MEMORY-H-CONTEXT",
+                        "source":  "certification",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  false,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165819-19BFCB.json",
+                        "created_at":  "2026-08-14T16:58:19.5520921-05:00",
+                        "updated_at":  "2026-08-14T16:58:19.6728394-05:00"
+                    },
+                    {
+                        "memory_id":  "MEM-20260814-165931-96AECA",
+                        "memory_type":  "user_approved",
+                        "title":  "User-approved conversation memory",
+                        "scope":  "global",
+                        "source":  "live-conversation-explicit",
+                        "tags":  [
+
+                                 ],
+                        "enabled":  true,
+                        "path":  "workspace\\memory\\records\\MEM-20260814-165931-96AECA.json",
+                        "created_at":  "2026-08-14T16:59:31.4542043-05:00",
+                        "updated_at":  "2026-08-14T16:59:31.4542043-05:00"
+                    }
+                ],
+    "updated_at":  "2026-08-14T16:59:31.4542043-05:00"
 }

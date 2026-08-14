@@ -1,72 +1,36 @@
-﻿{
+{
   "schema_version": "1.0.0",
-  "version": "1.3.0",
+  "version": "2.6.0",
   "part": "A",
-  "memory_scopes": [
-    "global",
-    "chief-of-staff",
-    "department",
-    "personal",
-    "business",
-    "shared"
-  ],
+  "release_name": "Memory & Context Integration",
+  "mode": "architecture_only",
+  "enabled": false,
   "memory_types": [
-    "fact",
-    "preference",
-    "decision",
-    "goal",
     "project",
-    "relationship",
-    "procedure",
-    "lesson",
-    "event",
-    "metric",
-    "constraint",
-    "reference"
+    "dealership",
+    "organization",
+    "workflow",
+    "user_approved"
   ],
-  "governance": {
-    "require_source": true,
-    "require_scope": true,
-    "require_memory_type": true,
-    "require_confidence": true,
-    "require_created_at": true,
-    "require_updated_at": true,
-    "preserve_history": true,
-    "allow_cross_scope_recall": true,
-    "allow_department_recall": true,
-    "allow_chief_of_staff_recall": true
+  "retrieval": {
+    "max_context_items": 12,
+    "max_context_characters": 12000,
+    "prefer_recent": true,
+    "prefer_high_relevance": true,
+    "allow_cross_project_context": false
   },
-  "privacy": {
-    "separate_personal_and_business": true,
-    "allow_shared_scope": true,
-    "default_scope": "shared",
-    "restricted_types": [
-      "credential",
-      "secret",
-      "authentication_token"
-    ],
-    "store_secrets": false
+  "safety": {
+    "require_explicit_user_approval_for_sensitive_memory": true,
+    "do_not_store_secrets": true,
+    "do_not_store_api_keys": true,
+    "do_not_store_tokens": true,
+    "allow_manual_delete": true,
+    "allow_manual_disable": true
   },
-  "confidence": {
-    "minimum": 0.0,
-    "maximum": 1.0,
-    "default": 0.75,
-    "promote_threshold": 0.90,
-    "review_threshold": 0.50
-  },
-  "retention": {
-    "archive_instead_of_delete": true,
-    "stale_after_days": 365,
-    "review_after_days": 180,
-    "retain_history": true
-  },
-  "indexing": {
-    "enabled": true,
-    "index_by_scope": true,
-    "index_by_type": true,
-    "index_by_department": true,
-    "index_by_project": true,
-    "index_by_entity": true
-  },
-  "updated_at": "2026-07-31T14:41:55.4965305-05:00"
+  "persistence": {
+    "root": "workspace/memory",
+    "index": "workspace/memory/indexes/memory-index.json",
+    "records": "workspace/memory/records",
+    "context_snapshots": "workspace/memory/context-snapshots"
+  }
 }

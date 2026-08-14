@@ -1,0 +1,116 @@
+﻿param(
+    [Parameter(Mandatory=$true)][string]$Query,
+    [string]$Scope = "",
+    [ValidateSet("project","dealership","organization","workflow","user_approved")]
+    [string[]]$MemoryTypes = @(),
+    [int]$MaxItems = 0
+)
+
+$ErrorActionPreference = "Stop"
+Set-Location "E:\AI\AI-Office"
+
+$Policy = Get-Content ".\config\memory\retrieval-policy.json" -Raw | ConvertFrom-Json
+$MemoryPolicy = Get-Content ".\config\memory\memory-policy.json" -Raw | ConvertFrom-Json
+
+if (-not [bool]$Policy.enabled) {
+    throw "Memory retrieval is disabled."
+}
+
+if ($MaxItems -le 0) {
+    $MaxItems = [int]$Policy.default_max_items
+}
+
+if ($MaxItems -gt [int]$Policy.maximum_max_items) {
+    $MaxItems = [int]$Policy.maximum_max_items
+}
+
+$Tokens = @(
+    & ".\scripts\memory\Get-AIOfficeMemorySearchTokens.ps1" -Text $Query
+)
+
+$Index = Get-Content ".\workspace\memory\indexes\memory-index.json" -Raw | ConvertFrom-Json
+$Candidates = @($Index.records)
+
+if ([bool]$Policy.safety.exclude_disabled_records) {
+    $Candidates = @(
+        $Candidates |
+        Where-Object {
+            $_.enabled -eq $true -or
+            [string]$_.enabled -eq "True"
+        }
+    )
+}
+
+if (@($MemoryTypes).Count -gt 0) {
+    $Candidates = @(
+        $Candidates |
+        Where-Object {
+            $CandidateType = [string]$_.memory_type
+            @(
+                $MemoryTypes |
+                Where-Object { [string]$_ -eq $CandidateType }
+            ).Count -gt 0
+        }
+    )
+}
+
+$Results = New-Object System.Collections.Generic.List[object]
+
+foreach ($Entry in $Candidates) {
+    $Path = Join-Path "E:\AI\AI-Office" ([string]$Entry.path)
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        continue
+    }
+
+    $Record = Get-Content $Path -Raw | ConvertFrom-Json
+
+    $RecordEnabled = (
+        $Record.enabled -eq $true -or
+        [string]$Record.enabled -eq "True"
+    )
+
+    if (-not $RecordEnabled) {
+        continue
+    }
+
+    if (
+        -not [string]::IsNullOrWhiteSpace($Scope) -and
+        -not [bool]$Policy.safety.cross_project_retrieval -and
+        [string]$Record.scope -ne $Scope
+    ) {
+        continue
+    }
+
+    $Relevance = & ".\scripts\memory\Get-AIOfficeMemoryRelevanceScore.ps1" `
+        -Record $Record `
+        -QueryTokens $Tokens `
+        -Scope $Scope `
+        -MemoryTypes $MemoryTypes
+
+    if ([double]$Relevance.score -lt [double]$Policy.minimum_score) {
+        continue
+    }
+
+    $Results.Add([pscustomobject]@{
+        memory_id = [string]$Record.memory_id
+        memory_type = [string]$Record.memory_type
+        title = [string]$Record.title
+        content = [string]$Record.content
+        scope = [string]$Record.scope
+        source = [string]$Record.source
+        tags = @($Record.tags)
+        score = [double]$Relevance.score
+        reasons = @($Relevance.reasons)
+        updated_at = [string]$Record.updated_at
+    })
+}
+
+return @(
+    $Results |
+    Sort-Object `
+        @{Expression={ [double]$_.score };Descending=$true},
+        @{Expression={ [datetime]$_.updated_at };Descending=$true} |
+    Select-Object -First $MaxItems
+)
+

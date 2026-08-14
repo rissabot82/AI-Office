@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "E",
+  "release_name": "Memory & Context Integration",
+  "enabled": true,
+  "fallback_to_memory_free_runtime_on_failure": true,
+  "persist_context_snapshots": true,
+  "default_scope": "global",
+  "max_items": 8,
+  "max_characters": 8000,
+  "inject_only_when_results_exist": true,
+  "preserve_v2_5_1_quality_control": true,
+  "response_safety": {
+    "do_not_expose_memory_wrapper": true,
+    "do_not_expose_memory_ids": true,
+    "memory_is_reference_only": true
+  }
+}

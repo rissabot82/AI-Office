@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "C",
+  "release_name": "Memory & Context Integration",
+  "enabled": true,
+  "default_max_items": 8,
+  "maximum_max_items": 20,
+  "weights": {
+    "title_match": 3.0,
+    "content_match": 2.0,
+    "tag_match": 2.5,
+    "scope_match": 4.0,
+    "memory_type_match": 1.5,
+    "recency_bonus": 0.5
+  },
+  "minimum_score": 1.0,
+  "tokenization": {
+    "minimum_token_length": 3,
+    "case_insensitive": true,
+    "deduplicate_tokens": true
+  },
+  "safety": {
+    "exclude_disabled_records": true,
+    "require_scope_match_when_scope_supplied": false,
+    "cross_project_retrieval": false
+  }
+}

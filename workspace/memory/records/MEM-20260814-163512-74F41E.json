@@ -1,0 +1,19 @@
+﻿{
+    "memory_id":  "MEM-20260814-163512-74F41E",
+    "memory_type":  "dealership",
+    "title":  "Kia of Manhattan",
+    "content":  "kiacertac27df7c28 Kia of Manhattan dealership Kia marketing",
+    "source":  "certification",
+    "scope":  "CERT-MEMORY-C",
+    "tags":  [
+                 "kia",
+                 "manhattan",
+                 "dealership"
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:35:12.5874774-05:00",
+    "updated_at":  "2026-08-14T16:35:13.0160546-05:00"
+}

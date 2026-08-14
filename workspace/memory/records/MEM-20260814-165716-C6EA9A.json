@@ -1,0 +1,17 @@
+﻿{
+    "memory_id":  "MEM-20260814-165716-C6EA9A",
+    "memory_type":  "project",
+    "title":  "v2.6 Final Context Fixture",
+    "content":  "contextfinal4932aca7e1 bounded context certification memory",
+    "source":  "certification",
+    "scope":  "CERT-MEMORY-H-CONTEXT",
+    "tags":  [
+
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:57:16.9690818-05:00",
+    "updated_at":  "2026-08-14T16:57:17.1032639-05:00"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "G",
+  "enabled": true,
+  "mode": "explicit_only",
+  "explicit_phrases": [
+    "remember that",
+    "remember this",
+    "save this to memory",
+    "save that to memory",
+    "store this in memory",
+    "store that in memory"
+  ],
+  "default_memory_type": "user_approved",
+  "default_scope": "global",
+  "source": "live-conversation-explicit",
+  "allow_automatic_inference": false,
+  "require_explicit_user_intent": true
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "F",
+  "release_name": "Memory & Context Integration",
+  "enabled": true,
+  "health": {
+    "warn_search_ms": 1000,
+    "warn_context_ms": 1500
+  },
+  "display": {
+    "recent_memories": 10,
+    "recent_context_snapshots": 5
+  },
+  "safety": {
+    "show_memory_content_by_default": false,
+    "show_memory_ids": true
+  }
+}

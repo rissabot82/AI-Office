@@ -1,0 +1,17 @@
+﻿{
+    "memory_id":  "MEM-20260814-165039-06889F",
+    "memory_type":  "project",
+    "title":  "Live Memory Integration Fixture",
+    "content":  "livecontext37664e8a3c certification context for live conversational memory integration",
+    "source":  "certification",
+    "scope":  "CERT-MEMORY-E",
+    "tags":  [
+
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:50:39.1072412-05:00",
+    "updated_at":  "2026-08-14T16:50:39.4785315-05:00"
+}

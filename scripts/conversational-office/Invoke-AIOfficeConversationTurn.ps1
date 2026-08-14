@@ -1,7 +1,8 @@
 ﻿param(
     [Parameter(Mandatory=$true)][string]$SessionId,
     [Parameter(Mandatory=$true)][string]$Content,
-    [ValidateSet("private","sensitive","normal","public")][string]$Sensitivity = "normal"
+    [ValidateSet("private","sensitive","normal","public")][string]$Sensitivity = "normal",
+    [string]$MemoryScope = "global"
 )
 
 $ErrorActionPreference = "Stop"
@@ -27,11 +28,55 @@ $Turn = & "E:\AI\AI-Office\scripts\conversational-office\New-AIOfficeConversatio
 $TurnPath = "E:\AI\AI-Office\workspace\conversational-office\turns\$($Turn.turn_id).json"
 
 try {
-    $TaskProfile = Get-AIOfficeConversationTaskProfile -Content $Content
+    # v2.6 Part H explicit durable-memory capture. Failure is non-fatal.
+    $MemoryCapture = & "E:\AI\AI-Office\scripts\memory\Invoke-AIOfficeExplicitMemoryCaptureForTurn.ps1" `
+        -Content $Content `
+        -Scope $MemoryScope
 
-    $Prompt = New-AIOfficeConversationPrompt `
+    $TaskProfile = Get-AIOfficeConversationTaskProfile -Content $Content
+    $BasePrompt = New-AIOfficeConversationPrompt `
         -SessionId $SessionId `
         -CurrentUserContent $Content
+
+    $Prompt = $BasePrompt
+    $MemoryContext = $null
+    $MemoryUsed = $false
+    $MemoryContextId = ""
+    $MemoryResultCount = 0
+    $MemoryFailure = ""
+
+    $MemoryIntegrationPolicy = Get-Content `
+        "E:\AI\AI-Office\config\memory\live-integration-policy.json" `
+        -Raw | ConvertFrom-Json
+
+    if ([bool]$MemoryIntegrationPolicy.enabled) {
+        try {
+            $MemoryContext = & "E:\AI\AI-Office\scripts\memory\Get-AIOfficeConversationMemoryContext.ps1" `
+                -Content $Content `
+                -Scope $MemoryScope
+
+            if ([bool]$MemoryContext.used) {
+                $Prompt = & "E:\AI\AI-Office\scripts\memory\Add-AIOfficeMemoryContextToPrompt.ps1" `
+                    -BasePrompt $BasePrompt `
+                    -MemoryContext ([string]$MemoryContext.context_text)
+
+                $MemoryUsed = $true
+                $MemoryContextId = [string]$MemoryContext.context_id
+                $MemoryResultCount = [int]$MemoryContext.result_count
+            }
+        }
+        catch {
+            $MemoryFailure = $_.Exception.Message
+
+            if (-not [bool]$MemoryIntegrationPolicy.fallback_to_memory_free_runtime_on_failure) {
+                throw
+            }
+
+            # fallback_to_memory_free_runtime_on_failure
+            $Prompt = $BasePrompt
+            $MemoryUsed = $false
+        }
+    }
 
     $IntelligencePolicy = Get-Content `
         -LiteralPath "E:\AI\AI-Office\config\intelligence\live-integration-policy.json" `
@@ -90,13 +135,13 @@ try {
         complexity = [string]$TaskProfile.complexity
         workload_profile = [string]$TaskProfile.workload_profile
         optimized_execution_id = [string]$Execution.optimized_execution_id
-        intelligence_v25_enabled = [bool]$IntelligencePolicy.live_integration.enabled
-        intelligent_task_family = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.task_family } else { "" }
-        intelligent_quality_tier = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.quality_tier } else { "" }
-        intelligent_selected_model = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.selected_model } else { "" }
-        intelligent_requires_escalation = if ($null -ne $IntelligentSelection) { [bool]$IntelligentSelection.requires_escalation } else { $false }
-        intelligence_fallback_used = $IntelligenceFallbackUsed
-        intelligence_fallback_reason = $IntelligenceFallbackReason
+        memory_used = $MemoryUsed
+        memory_context_id = $MemoryContextId
+        memory_result_count = $MemoryResultCount
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($MemoryFailure)) {
+        $Metadata.memory_failure = $MemoryFailure
     }
 
     $AssistantMessage = & "E:\AI\AI-Office\scripts\conversational-office\New-AIOfficeConversationMessage.ps1" `
@@ -112,17 +157,14 @@ try {
         provider = [string]$Execution.provider
         model = [string]$Execution.model
         task_type = [string]$TaskProfile.task_type
-        intelligent_task_family = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.task_family } else { "" }
-        intelligent_quality_tier = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.quality_tier } else { "" }
-        intelligent_requires_escalation = if ($null -ne $IntelligentSelection) { [bool]$IntelligentSelection.requires_escalation } else { $false }
-        intelligence_fallback_used = $IntelligenceFallbackUsed
     }
     $StoredTurn.execution = [ordered]@{
         optimized_execution_id = [string]$Execution.optimized_execution_id
         elapsed_ms = [double]$Execution.elapsed_ms
         workload_profile = [string]$TaskProfile.workload_profile
-        intelligence_source = if ($IntelligenceFallbackUsed) { "v2.4-fallback" } else { [string]$Execution.source }
-        fallback_reason = $IntelligenceFallbackReason
+        memory_used = $MemoryUsed
+        memory_context_id = $MemoryContextId
+        memory_result_count = $MemoryResultCount
     }
     $StoredTurn.completed_at = (Get-Date).ToString("o")
 
@@ -135,10 +177,9 @@ try {
         assistant_message_id = [string]$AssistantMessage.message_id
         provider = [string]$Execution.provider
         model = [string]$Execution.model
-        task_family = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.task_family } else { "" }
-        quality_tier = if ($null -ne $IntelligentSelection) { [string]$IntelligentSelection.quality_tier } else { "" }
-        requires_escalation = if ($null -ne $IntelligentSelection) { [bool]$IntelligentSelection.requires_escalation } else { $false }
-        intelligence_fallback_used = $IntelligenceFallbackUsed
+        memory_used = $MemoryUsed
+        memory_context_id = $MemoryContextId
+        memory_result_count = $MemoryResultCount
         status = "completed"
         response = $ResponseText
         created_at = (Get-Date).ToString("o")
@@ -151,8 +192,8 @@ try {
         $Execution.provider +
         " | " +
         $Execution.model +
-        $(if ($null -ne $IntelligentSelection) { " | family=" + $IntelligentSelection.task_family } else { "" }) +
-        $(if ($IntelligenceFallbackUsed) { " | v2.4-fallback" } else { "" })
+        " | memory=" +
+        $MemoryUsed
     ) -ForegroundColor Green
 
     return [pscustomobject]$Result
@@ -170,4 +211,5 @@ catch {
 
     throw
 }
+
 

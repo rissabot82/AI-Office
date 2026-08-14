@@ -1,0 +1,172 @@
+﻿param()
+
+$ErrorActionPreference = "Stop"
+Set-Location "E:\AI\AI-Office"
+
+Write-Host ""
+Write-Host "Testing AI Office v2.6 Part C Memory Retrieval & Relevance..." -ForegroundColor Cyan
+Write-Host ""
+
+$Errors = New-Object System.Collections.Generic.List[string]
+$CreatedIds = New-Object System.Collections.Generic.List[string]
+
+foreach ($Path in @(
+    ".\config\memory\retrieval-policy.json",
+    ".\scripts\memory\Get-AIOfficeMemorySearchTokens.ps1",
+    ".\scripts\memory\Get-AIOfficeMemoryRelevanceScore.ps1",
+    ".\scripts\memory\Search-AIOfficeMemory.ps1",
+    ".\scripts\memory\Show-AIOfficeMemorySearch.ps1",
+    ".\scripts\memory\Test-AIOfficeMemoryRetrievalRelevance.ps1"
+)) {
+    if (Test-Path -LiteralPath $Path) {
+        Write-Host "[FOUND] $Path" -ForegroundColor Green
+    }
+    else {
+        $Errors.Add("Missing Part C artifact: $Path")
+    }
+}
+
+try {
+    Get-Content ".\config\memory\retrieval-policy.json" -Raw | ConvertFrom-Json | Out-Null
+    Write-Host "[VALID JSON] retrieval-policy.json" -ForegroundColor Green
+}
+catch {
+    $Errors.Add("Invalid retrieval-policy.json")
+}
+
+try {
+    $A = & ".\scripts\memory\Save-AIOfficeMemoryRecord.ps1" `
+        -MemoryType "dealership" `
+        -Title "Elite Auto Sales Wichita" `
+        -Content "Elite Auto Sales is a Wichita dealership used for automotive marketing work." `
+        -Source "certification" `
+        -Scope "CERT-MEMORY-C" `
+        -Tags @("elite","wichita","dealership") -AllowDuplicate
+
+    $B = & ".\scripts\memory\Save-AIOfficeMemoryRecord.ps1" `
+        -MemoryType "dealership" `
+        -Title "Kia of Manhattan" `
+        -Content "Kia of Manhattan is a dealership used for Kia marketing workflows." `
+        -Source "certification" `
+        -Scope "CERT-MEMORY-C" `
+        -Tags @("kia","manhattan","dealership") -AllowDuplicate
+
+    if ([bool]$A.created) { $CreatedIds.Add([string]$A.memory_id) }
+    if ([bool]$B.created) { $CreatedIds.Add([string]$B.memory_id) }
+
+    Write-Host "[FIXTURES OK] Certification memories created." -ForegroundColor Green
+}
+catch {
+    $Errors.Add($_.Exception.Message)
+}
+
+try {
+    $Results = @(
+        & ".\scripts\memory\Search-AIOfficeMemory.ps1" `
+            -Query "Elite Wichita dealership" `
+            -Scope "CERT-MEMORY-C" `
+            -MemoryTypes @("dealership") `
+            -MaxItems 5
+    )
+
+    if ($Results.Count -lt 1) {
+        throw "Retrieval returned no results."
+    }
+
+    if ([string]$Results[0].title -ne "Elite Auto Sales Wichita") {
+        throw "Expected Elite Auto Sales to rank first."
+    }
+
+    Write-Host "[RANKING OK] Relevant dealership ranked first." -ForegroundColor Green
+}
+catch {
+    $Errors.Add($_.Exception.Message)
+}
+
+try {
+    $CrossScope = @(
+        & ".\scripts\memory\Search-AIOfficeMemory.ps1" `
+            -Query "Elite Wichita" `
+            -Scope "OTHER-SCOPE" `
+            -MemoryTypes @("dealership") `
+            -MaxItems 5
+    )
+
+    if ($CrossScope.Count -ne 0) {
+        throw "Cross-scope retrieval returned records while cross-project retrieval is disabled."
+    }
+
+    Write-Host "[SCOPE SAFETY OK] Cross-scope retrieval blocked." -ForegroundColor Green
+}
+catch {
+    $Errors.Add($_.Exception.Message)
+}
+
+try {
+    $UniqueToken = "disabledfixture" + [guid]::NewGuid().ToString("N").Substring(0,10)
+
+    $Disabled = & ".\scripts\memory\Save-AIOfficeMemoryRecord.ps1" `
+        -MemoryType "project" `
+        -Title "Disabled Search Fixture" `
+        -Content ($UniqueToken + " unique disabled retrieval fixture") `
+        -Source "certification" `
+        -Scope "CERT-MEMORY-C" `
+        -AllowDuplicate
+
+    if ([bool]$Disabled.created) {
+        $CreatedIds.Add([string]$Disabled.memory_id)
+    }
+
+    & ".\scripts\memory\Disable-AIOfficeMemoryRecord.ps1" -MemoryId ([string]$Disabled.memory_id)
+
+    $Results = @(
+        & ".\scripts\memory\Search-AIOfficeMemory.ps1" `
+            -Query $UniqueToken `
+            -Scope "CERT-MEMORY-C" `
+            -MaxItems 5
+    )
+
+    if ($Results.Count -ne 0) {
+        throw "Disabled memory was returned by search."
+    }
+
+    Write-Host "[DISABLED FILTER OK] Disabled memory excluded." -ForegroundColor Green
+}
+catch {
+    $Errors.Add($_.Exception.Message)
+}
+
+foreach ($MemoryId in $CreatedIds) {
+    try {
+        & ".\scripts\memory\Disable-AIOfficeMemoryRecord.ps1" -MemoryId $MemoryId
+    }
+    catch {}
+}
+
+try {
+    $Runtime = Get-Content ".\scripts\conversational-office\Invoke-AIOfficeConversationTurn.ps1" -Raw
+
+    if ($Runtime.Contains("Search-AIOfficeMemory.ps1")) {
+        throw "Part C must not wire memory into live conversations yet."
+    }
+
+    Write-Host "[PRODUCTION SAFETY OK] Live conversation runtime remains memory-free." -ForegroundColor Green
+}
+catch {
+    $Errors.Add($_.Exception.Message)
+}
+
+if ($Errors.Count -gt 0) {
+    Write-Host ""
+    foreach ($Item in $Errors) {
+        Write-Host "[MEMORY ERR] $Item" -ForegroundColor Red
+    }
+
+    throw "$($Errors.Count) Memory Retrieval & Relevance error(s) found."
+}
+
+Write-Host ""
+Write-Host "All AI Office v2.6 Part C Memory Retrieval & Relevance checks passed." -ForegroundColor Green
+
+
+

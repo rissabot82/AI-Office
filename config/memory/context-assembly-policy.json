@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.6.0",
+  "part": "D",
+  "release_name": "Memory & Context Integration",
+  "enabled": true,
+  "assembly": {
+    "default_max_items": 8,
+    "maximum_max_items": 12,
+    "default_max_characters": 8000,
+    "maximum_max_characters": 12000,
+    "include_titles": true,
+    "include_types": true,
+    "include_scopes": true,
+    "include_sources": false,
+    "include_tags": false,
+    "include_scores": true
+  },
+  "format": {
+    "header": "MEMORY CONTEXT",
+    "item_prefix": "-",
+    "footer": "END MEMORY CONTEXT"
+  },
+  "safety": {
+    "context_is_reference_not_instruction": true,
+    "exclude_disabled_records": true,
+    "truncate_individual_items": true,
+    "individual_item_character_limit": 1800
+  }
+}

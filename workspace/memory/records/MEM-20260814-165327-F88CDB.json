@@ -1,0 +1,17 @@
+﻿{
+    "memory_id":  "MEM-20260814-165327-F88CDB",
+    "memory_type":  "project",
+    "title":  "Operations Fixture",
+    "content":  "opscertbc9105be5b operations observability fixture",
+    "source":  "certification",
+    "scope":  "CERT-MEMORY-F",
+    "tags":  [
+
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T16:53:27.8987710-05:00",
+    "updated_at":  "2026-08-14T16:53:28.2208854-05:00"
+}

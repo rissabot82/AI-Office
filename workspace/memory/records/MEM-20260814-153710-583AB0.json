@@ -1,0 +1,18 @@
+﻿{
+    "memory_id":  "MEM-20260814-153710-583AB0",
+    "memory_type":  "project",
+    "title":  "v2.6 Part B Certification Memory",
+    "content":  "Temporary certification memory for durable-record validation.",
+    "source":  "certification",
+    "scope":  "AI-Office",
+    "tags":  [
+                 "certification",
+                 "temporary"
+             ],
+    "metadata":  {
+
+                 },
+    "enabled":  false,
+    "created_at":  "2026-08-14T15:37:10.3070329-05:00",
+    "updated_at":  "2026-08-14T15:37:10.6295992-05:00"
+}
